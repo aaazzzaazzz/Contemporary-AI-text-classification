@@ -4,8 +4,8 @@
 
 ## 运行环境
 
-- Python 3.11 及以上（本机验证 3.12）
-- 依赖见 `requirements.txt`
+Python 3.11 及以上（本机验证 3.12）  
+依赖见 `requirements.txt`
 
 ## 安装
 
@@ -31,11 +31,11 @@ python plot_results.py
 python -u draft_main.py predict
 ```
 
-- `selftest`：程序自检，预期输出 `SELFTEST PASSED: 10 checks`
-- `audit`：核对数据，预期输出 7368 条带标签数据，划分为训练 5894 / 验证 1474
-- `all`：完整训练（16 组参数调参、4 组消融、3 个划分种子的稳定性分析），结束时输出 `[方案已锁定]`
-- `plot_results.py`：绘制图表，保存到 `outputs/figures/`
-- `predict`：生成最终预测，必须在 `all` 完成后执行
+`selftest`：程序自检，预期输出 `SELFTEST PASSED: 10 checks`  
+`audit`：核对数据，预期输出 7368 条带标签数据，划分为训练 5894 / 1474  
+`all`：完整训练（16 组参数调参、4 组消融、3 个划分种子的稳定性分析），结束时输出 `[方案已锁定]`  
+`plot_results.py`：绘制图表，保存到 `outputs/figures/`  
+`predict`：生成最终预测，必须在 `all` 完成后执行
 
 可选用 `python -u draft_main.py smoke` 先做 1200 条数据的小规模试跑，确认环境正常后再跑 `all`。
 
