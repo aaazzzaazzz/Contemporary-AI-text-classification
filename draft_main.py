@@ -1,20 +1,20 @@
 # -*- coding: utf-8 -*-
-"""实验一：新闻文本分类。基于老师 draft_main.py 补全，不在训练时读取测试文件。
+"""实验一：新闻文本分类。训练与调参全程不读取测试文件。
 
 建议阅读顺序：main -> Study -> read_training / split_rows -> features
               -> run_one / train_mlp -> tune / ablation / stability -> predict。
 
 常用命令（在本文件所在文件夹运行）：
-    python draft_main.py audit       # 检查真实数据与主划分，无拟合
+    python draft_main.py audit       # 检查数据与主划分，无拟合
     python draft_main.py selftest    # 小型自动测试，不读取正式测试集
-    python draft_main.py smoke      # 1200 条训练文件样本，4 模型，MLP 3 轮；仅检查程序
-    python draft_main.py baseline   # 完整训练文件的 80/20 划分，4 个基础模型
-    python draft_main.py all        # 16 组调参 + 4 组消融 + 3 个划分种子；不读取测试集
-    python plot_results.py          # 将真实 CSV 结果绘制成图
-    python draft_main.py predict    # 完整实验结束后，加载已锁定模型；只预测，不拟合
+    python draft_main.py smoke       # 1200 条样本试跑，仅检查程序
+    python draft_main.py baseline    # 80/20 划分，4 个基础模型
+    python draft_main.py all         # 16 组调参 + 4 组消融 + 3 个划分种子；不读取测试集
+    python plot_results.py           # 将真实 CSV 结果绘制成图
+    python draft_main.py predict     # 完整实验结束后，加载已锁定模型；只预测，不拟合
 
-算法约定：NB/LR 拟合后输出交叉熵；SVC 输出单独命名的间隔评价损失；
-MLP 每轮输出内部优化损失及同一定义的训练/验证交叉熵，不伪造其他模型的 epoch。
+损失口径：NB/LR 拟合后输出交叉熵；SVC 输出单独命名的间隔评价损失；
+MLP 每轮输出内部优化损失及同一定义的训练/验证交叉熵。
 """
 from __future__ import annotations
 
@@ -65,7 +65,7 @@ BASE_PARAMS = {
     "SVM": {"C": 1.0},
     "MLP": {"hidden_layer_sizes": [100], "alpha": 0.0001},
 }
-# 沿用已约定的 16 组起步搜索；并未穷尽老师 TUNING.md 中全部候选值。
+# 16 组起步搜索；并未穷尽 TUNING.md 中的全部候选值。
 GRID = {
     "NB": [{"alpha": x} for x in (0.1, 0.5, 1.0, 2.0)],
     "LR": [{"C": x} for x in (0.1, 1.0, 10.0)],
@@ -154,7 +154,7 @@ def read_training(data_dir: Path) -> pd.DataFrame:
 
 
 def split_rows(df: pd.DataFrame, seed: int, ratio: float) -> tuple[np.ndarray, np.ndarray]:
-    """只在老师训练文件的行号内分层划分，测试行不可能进入这里。"""
+    """只在训练文件的行号内分层划分，测试行不会进入这里。"""
     tr, va = train_test_split(df["row_id"].to_numpy(), test_size=ratio,
                               random_state=seed, stratify=df["target"].to_numpy())
     assert len(set(tr) & set(va)) == 0
@@ -623,7 +623,7 @@ class Study:
                  f"主训练/验证：{selected['n_train']} / {selected['n_validation']}；标签 0..9。",
                  f"主选择：{selected['model']}，特征 {selected['feature']}，参数 {selected['params_json']}。",
                  f"验证 Accuracy = {selected['val_accuracy']:.6f}，Macro-F1 = {selected['val_macro_f1']:.6f}。",
-                 "测试集无标签；上述不是测试准确率，也不是课程评分。", "",
+                 "测试集无标签；上述为验证集指标，不是测试准确率。", "",
                  "## 四种模型各自最优基础特征配置", "",
                  "|模型|参数|验证 Accuracy|验证 Macro-F1|拟合秒数|",
                  "|---|---|---:|---:|---:|"]
@@ -636,7 +636,7 @@ class Study:
                   "3. 未提供类别名称/线程分组；不能自行猜测名称，随机分层不能排除相关讨论串。",
                   "4. 词表上限始终为同一预算；bigram 与 unigram 会竞争词表名额。",
                   "5. SVM 间隔评价损失不与交叉熵比大小。MLP 图用同一定义的训练/验证交叉熵。",
-                  "6. 没有为了提高数字把验证集或测试集加入最终拟合。",
+                  "6. 验证集只用于选择与评价，测试集从未加入拟合。",
                   "7. 训练耗时与逐轮评价耗时分开；单次预测耗时受机器与缓存影响。",
                   "8. 清洗后的重复、零向量记录保留；不自动删验证样本。", "",
                   "## 下一步", "",
