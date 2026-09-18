@@ -1,0 +1,10 @@
+# Python >= 3.11；建议按照 README 新建 Python 3.11 的独立环境。
+# 下列库版本在 Linux / Python 3.13.5 中通过自测与小规模试跑。
+# 不宣称已在用户的 Windows 电脑安装或完整训练。
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+scikit-learn==1.8.0
+joblib==1.5.3
+threadpoolctl==3.6.0
+matplotlib==3.10.8

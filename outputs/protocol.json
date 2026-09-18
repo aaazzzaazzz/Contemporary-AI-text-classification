@@ -1,0 +1,176 @@
+{
+  "created_utc": "2026-09-18T10:49:14+00:00",
+  "identity": {
+    "code_sha256": "12bf64f241af76b66bf406d64b5bd828229380523172ac16115d4d93e3d2b1aa",
+    "train_sha256": "484667d165458da7f73ba36d172d67e14864e1aa5ab1ee6262e2966dd295c863",
+    "sample_mode": "full_training_file",
+    "split_seed": 42,
+    "model_seed": 42,
+    "val_ratio": 0.2,
+    "max_features": 5000,
+    "max_epochs": 300,
+    "patience": 15,
+    "threads": 1,
+    "versions": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scipy": "1.17.0",
+      "scikit-learn": "1.8.0",
+      "joblib": "1.5.3",
+      "threadpoolctl": "3.6.0",
+      "matplotlib": "3.10.8"
+    },
+    "selection": "main_accuracy_then_macro_f1_then_run_id",
+    "mlp_checkpoint": "val_accuracy_then_lower_val_ce; patience_on_accuracy_only"
+  },
+  "grid": {
+    "NB": [
+      {
+        "alpha": 0.1
+      },
+      {
+        "alpha": 0.5
+      },
+      {
+        "alpha": 1.0
+      },
+      {
+        "alpha": 2.0
+      }
+    ],
+    "LR": [
+      {
+        "C": 0.1
+      },
+      {
+        "C": 1.0
+      },
+      {
+        "C": 10.0
+      }
+    ],
+    "SVM": [
+      {
+        "C": 0.1
+      },
+      {
+        "C": 1.0
+      },
+      {
+        "C": 10.0
+      }
+    ],
+    "MLP": [
+      {
+        "hidden_layer_sizes": [
+          100
+        ],
+        "alpha": 0.0001
+      },
+      {
+        "hidden_layer_sizes": [
+          100
+        ],
+        "alpha": 0.001
+      },
+      {
+        "hidden_layer_sizes": [
+          200
+        ],
+        "alpha": 0.0001
+      },
+      {
+        "hidden_layer_sizes": [
+          200
+        ],
+        "alpha": 0.001
+      },
+      {
+        "hidden_layer_sizes": [
+          100,
+          50
+        ],
+        "alpha": 0.0001
+      },
+      {
+        "hidden_layer_sizes": [
+          100,
+          50
+        ],
+        "alpha": 0.001
+      }
+    ]
+  },
+  "features": {
+    "raw_uni": {
+      "clean": false,
+      "ngram_range": [
+        1,
+        1
+      ]
+    },
+    "clean_uni": {
+      "clean": true,
+      "ngram_range": [
+        1,
+        1
+      ]
+    },
+    "raw_unibi": {
+      "clean": false,
+      "ngram_range": [
+        1,
+        2
+      ]
+    },
+    "clean_unibi": {
+      "clean": true,
+      "ngram_range": [
+        1,
+        2
+      ]
+    }
+  },
+  "additional_split_seeds": [
+    2024,
+    2025
+  ],
+  "test_access_during_training": false,
+  "test_example_is_ground_truth": false,
+  "hardware": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "logical_cpus": 4,
+    "threadpools": [
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "D:\\jupyter notebook\\envs\\project1_local\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-9e3e5a4229c1ca39f10dc82bba9e2b2b.dll",
+        "version": "0.3.30",
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      },
+      {
+        "user_api": "openmp",
+        "internal_api": "openmp",
+        "num_threads": 1,
+        "prefix": "vcomp",
+        "filepath": "D:\\jupyter notebook\\envs\\project1_local\\Lib\\site-packages\\sklearn\\.libs\\vcomp140.dll",
+        "version": null
+      },
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "D:\\jupyter notebook\\envs\\project1_local\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+        "version": "0.3.30",
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      }
+    ]
+  }
+}

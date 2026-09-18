@@ -1,0 +1,4809 @@
+﻿row_id,true_target,predicted_target,correct,text
+6049,2,7,False,"From: kjetilk@stud.cs.uit.no (Kjetil Kolin)
+Subject: Protected Mode ?
+Organization: University of Tromsoe
+Lines: 6
+
+Is there anybody who has (or can point me in the right direction) any
+information about protected mode? Also interested in protected mode viewed from
+a OS point of view.
+
+	Thanks in advance
+		Kjetil Kolin
+"
+2305,7,2,False,"From: adler@netcom.com (Bruce Adler)
+Subject: Re: IBM-PC XT switch settings
+Organization: Netcom Online Communications Services (408-241-9760 login: guest)
+Lines: 26
+
+In article <1qk158$kcp@bigbird.hri.com> obrien@bigbird.hri.com writes:
+>I just got an IBM-PC XT with no documents. Its a true
+>IBM, and I was wondering if anyone had the definitions
+>of the 2 8 position dip switches? 
+
+SW8,SW7	number of 5.25"" drives
+0,0	1 drive
+0,1	2 drives
+1,0	3 drives
+1,1	4 drives
+
+SW6,SW5	type of display
+0,0	reserved
+0,1	40x25 color (mono mode)
+1,0	80x25 color (mono mode)
+1,1	mono 80x25
+
+SW4,SW3	amount of memory on system board
+	64k chips	256k chips
+0,0	64k		256k
+0,1	128k		512k
+1,0	192k		576k
+1,1	256k		640k
+
+SW2	co-processor installed
+SW1	loop on POST
+"
+4592,3,8,False,"From: swdwan@napier.uwaterloo.ca (Donald Wan)
+Subject: just testing
+Organization: University of Waterloo
+Lines: 3
+
+hello testing
+
+
+"
+3470,2,7,False,"From: marka@hcx1.ssd.csd.harris.com (Mark Ashley)
+Subject: Everex Cubes
+Organization: Ft. Lauderdale, FL
+Lines: 11
+Distribution: usa
+NNTP-Posting-Host: hcx1.ssd.csd.harris.com
+
+Has anybody seen empty Everex's being sold ?
+I want the cube. Not the computer inards.
+Will it take standard AT-size motherboards ?
+
+Thanks. e-mail please.
+
+-- 
+-------------------------------------------------------------------------
+Mark Ashley                        |DISCLAIMER: My opinions. Not Harris'
+marka@gcx1.ssd.csd.harris.com      |
+The Lost Los Angelino              |
+"
+7076,1,0,False,"From: chrisa@hpwarr.hp.com ( Chris Almy)
+Subject: Re: WinFax files in ASCII format?
+Organization: none
+Reply-To: chrisa@hpwarr.hp.com ( Chris )
+Lines: 11
+
+
+
+	WinFax Pro provides you with OCR. It is the OCR from OmniPage.
+	Although it is not as customizable it does the job and is auto
+	matic (if you want) and much cheaper than the same package
+	(Omni Page Professional = $700) sold separatly.
+
+	Last time I check WinFax Pro was only $100 ??
+
+
+
+"
+7171,4,5,False,"From: rbp@netcom.com (Bob Pasker)
+Subject: Re: A Kinder, Gentler BMW Mailing List
+Organization: NETCOM On-line Communication Services (408 241-9760 guest)
+Lines: 10
+
+joe, i'm sorry you felt i was pissing on your list.  no disparagement
+was intended and i would be most interested to know what i said that
+made you feel that way.  i am not suggesting that your list is
+superflous nor that it will not serve a need.  i just would like not
+to see the boxer contingent split, but there is certainly enough net
+for more than one list.
+-- 
+-- bob pasker
+-- rbp@netcom.com
+--
+"
+3089,4,5,False,"From: mjs@sys.uea.ac.uk (Mike Sixsmith)
+Subject: Cager antics on the football field...
+Organization: University of East Anglia
+Lines: 13
+
+
+There was an article in one of the U.K. dailies this week
+about a soccer goalkeeper who had to be carried off the
+field after a collision with a Ford Sierra cage.
+
+Seems the cage driver wanted to turn around, but needed to
+drive onto the pitch to do this, so he waited till the ball
+and most of the players were up the other end. Unfortunately,
+as soon as he started his manouvre someone booted the ball back down
+the pitch, the goalkeeper ran backwards towards his goal, straight
+into the cage!
+
+
+"
+5552,0,7,False,"From: omar@godzilla.osf.org (Mark Marino)
+Subject: WANTED: Playmation Info
+Organization: Open Software Foundation
+Lines: 21
+
+Hi Folks,
+
+   Does anyone have a copy of Playmation they'd be willing to sell me.  I'd 
+love to try it out, but not for the retail $$$.  If you have moved onto 
+something bigger (3DS) or better (Imagine), I'd love to buy your table scraps.
+
+   If noone is selling, can anyone recommend a place to buy Playmation 
+mail-order for cheap?  
+
+   Thanks in advance,
+
+   Mark
+
+
+
+-- 
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+| Mark Marino              | omar@osf.org           |  uunet!osf!omar         |
+| Open Software Foundation | 11 Cambridge Center    |  Cambridge, MA 02142    |
+|_____________________________________________________________________________|
+"
+2666,8,3,False,"From: egb7390@ucs.usl.edu (Boutte Erika G)
+Subject: M. contagiosem
+Organization: The Wild Wacky World of Dolly Parton Clones in Zero Gravity 
+Lines: 16
+
+
+I was wondering if anyone had any information about Molluscous contagiosem.
+I acquired it, and fortunately got rid of it, but the question still lingers
+in my mind: Where did it come from?  The little bit of info that I have 
+received about it in the past states that it can be transmitted sexually, but
+also occurs in small children on the hands, feet and genitalia.
+
+Any information will be greatly appreciated.
+
+
+
+""I grow old, I grow old;
+I shall wear my trousers rolled.""
+
+               -T. S. Eliot
+
+"
+524,6,0,False,"From: mrr@scss3.cl.msu.edu (Mark Riordan)
+Subject: List of large integer arithmetic packages
+Organization: Michigan State University
+Lines: 285
+NNTP-Posting-Host: scss3.cl.msu.edu
+Summary: C functions to do arbitrary-precision arith
+X-Newsreader: TIN [version 1.1 PL8]
+
+This is the file BIGNUMS.TXT from ripem.msu.edu, last updated April 1993.
+
+In response to Email requests, I have assembled this list of
+large-integer arithmetic packages of which I have heard.
+Most of these are C function libraries, available in source form.
+
+For your convenience, I have placed copies of
+some of these on ripem.msu.edu (35.8.1.178).  They are
+available for anonymous FTP in the directory ""pub/bignum"".
+However, what I have may not be the most current version in all cases.
+
+Here they are, in no particular order:
+
+mp
+    Multiple Precision package that comes with some Unixes
+    
+    Multiple precision package accessed via -lmp flag on your
+    compiler.  Provides +, -, *, /, gcd, exponentiation,
+    sqrt.  Comes with SunOS, NeXT Mach, BBN Mach 1000, 
+    and probably a few others.  See ""man mp"".  
+    Object code only, of course.
+
+PARI
+    Henri Cohen, et al., Universite Bordeaux I, Paris, FRANCE
+    
+    Multiple precision desk calculator and library routines.
+    Contains optimized assembly code for Motorola 68020, 
+    semi-optimized code for SPARC, and apparently rather slow
+    generic C version.  Does both integers and reals.
+    Does vectors and matrices as well as scalars.
+    Contains a number of advanced functions, some of which I've
+    never heard of.  (""Weber's function""?)
+    Has a factorization function, primality test, & other related stuff.
+    Plenty of TEX documentation.
+    Public domain, but you can't distribute modified versions.
+    Available via anonymous FTP from math.ucla.edu.  There seem to
+    be Mac- and NeXT-specific versions there in addition to:
+    Filename:  pari-1.35a.tar.Z
+    
+Arithmetic in Global Fields  (Arith)
+    Kevin R. Coombes, David R. Grant
+    
+    Package of routines for arbitrary precision integers or
+    polynomials over finite fields.  Includes basic +, -, *, /
+    and a few others like gcd.  Source code in C.
+    Distributed under the terms of the GNU public license.
+    Includes man pages and TEX documentation.
+    Filename:  arith.tar.Z
+
+Arbitrary Precision Math Library
+    Lloyd Zusman   Los Gatos, CA
+    
+    C package which supports basic +, -, *, /.  Provides for radix
+    points (i.e., non-integers).  Not as polished as the others here.
+    Posted to comp.sources.misc in October 1988.
+    Filename:  apml.tar.Z
+    
+BigNum
+    J. Vuillemin, INRIA, FRANCE, and others.
+    Distributed by Digital Equipment Paris Research Lab (DECPRL)
+    
+    A ""portable and efficient arbitrary-precision integer"" package.
+    C code, with generic C ""kernel"", plus assembly ""kernels"" for
+    MC680x0, Intel i960, MIPS, NS32032, Pyramid, and of course VAX.
+    This is probably one of the better-known packages of this type.
+    Implements +, -, *, /, mod, plus logical operations OR, AND, XOR.
+    Both signed and unsigned arithmetic available.
+    Available via email from librarian@decprl.dec.com.
+    You will receive 5 shell archives.  Give your postal address
+    and you will also receive printed documentation from France.
+    Package includes TEX documentation.
+    Publicly available for non-commercial use.
+    I removed this from my archive when I heard a rumor that PRL
+    doesn't like others to distribute it.  However, BIGNUM *is*
+    distributed as part of ecpp (see below).
+
+Lenstra's package
+    Arjen Lenstra   Bellcore
+    
+    Portable unsigned integer package written entirely in C.
+    Includes +, -, *, /, exponentiation, mod, primality testing,
+    sqrt, random number generator, and a few others.  The package
+    was uncommented and undocumented; I have tried to add enough
+    comments to get by.  This is the only of these packages that I
+    have actually used.  It works well and is very portable.  
+    I haven't done any benchmarks against the others, but the code 
+    looks clever & Lenstra is an accomplished number theorist.
+    Unlike the other packages here, this one requires you to allocate
+    storage statically--only a problem if your numbers are really huge.
+    Arjen has placed the code in the public domain.  
+    Filename:  lenstra.tar.Z
+
+lenstra_3.1
+    Arjen Lenstra,  Bellcore
+
+    An improved version of Arjen's package above.  This one
+    does signed arithmetic and dynamic allocation (which can be turned
+    off as an option). Has a few new routines, too.  ""lenstra_3.1"" contains
+    minor bugfixes to the previously-available ""lenstra_2"" and ""lenstra_3"".
+    Filename:  lenstra_3.1.c
+
+bmp  (Brent's Multiple Precision?)
+    R. P. Brent
+
+    1981 vintage FORTRAN code to do extended precision floating &
+    fixed point arithmetic.  Includes most of the mathematical
+    functions you'd find in a FORTRAN run-time library.
+    This code is an ACM algorithm, number 524.
+    To obtain, send a mail message to  netlib@ornl.gov
+    containing the line ""send mp.f from bmp"" or better yet, perhaps
+    just start with ""help"".
+
+SPX
+    Kannan Alagappan & Joseph Tardo, DEC
+    
+    This is a huge prototype public key authentication system
+    based on RSA.  I mention it here because those who have heard
+    of SPX have probably correctly guessed that it contains a large
+    integer package and I want to inform you that the large integer
+    package it contains is indeed DEC's BigNum from France.
+    You can get a beta test copy of SPX from crl.dec.com (192.58.206.2). 
+    Use it only for testing, as it ""may"" expire on a certain date.
+    (I don't know whether this has expired yet.)
+
+amp  (Antti's Multiple Precision?)
+    Antti Louko   alo@kampi.hut.fi
+
+    Multiple precision integer package in C.  Includes +, -, *, /, %,
+    pow, mod, 1/x mod y, random, sqrt, gcd.  Available for non-commercial
+    use.  The package includes ""share-secret"", a public key system based
+    on the Diffie-Hellman algorithm.
+    This is normally part of the well-known ""des-dist.tar.Z"",
+    but I have removed the DES part to avoid having to deal with 
+    cryptographic export laws, and have named the result:
+    Filename:  amp.tar.Z
+
+gennum  
+    Per Bothner   U of Wisconsin-Madison
+
+    C++ routines and classes to do generic arithmetic, both
+    integer and rational.  
+    Formerly available on sevenlayer.cs.wis.edu.  However, it
+    seems to have disappeared.  Sorry.
+
+MIRACL
+    (By someone in Dublin, Ireland)
+
+    Integer and fractional multiple precision package.
+    Includes factorization, primality testing, encryption.
+    Not public domain, apparently.  It is available from the Austin
+    Code Works.  (See ads in Byte Magazine or Dr. Dobbs.)
+
+precision
+    Dave Barrett  barrettd@tigger.colorado.edu
+
+    Multiple precision integer package in C with +,-,*,/, sqrt, rand,
+    mod, pow, log.  Simple vector support.  Does dynamic allocation of memory.
+    Free as long as you don't sell it or any program that uses it.
+    Filename:  precision.tar.Z
+
+UBASIC
+    Prof. Yuji Kida, Rikkyo University, Nishi-Ikebukuro 3, Tokyo 171, Japan
+    kida@rkmath.rikkyo.ac.jp
+
+    Multiple-precision version of the BASIC programming language,
+    for MS-DOS.  Includes floating point.  Said (by Keith Briggs)
+    to be pretty fast.  Object only, I think.  ervin@morekypr.bitnet
+    says:  ""This is the best package that I know of for
+    fast arithmetic.  Has a version optimized for 386 machines.  Includes
+    routines to do MPQS, the fastest currently known general factoring
+    algorithm.  An additional file is at both sites to allow MPQS to use
+    hard drives so that it can factor up to 80 digits.  Many number
+    theoretical functions are included in UBASIC.  It allows over 2500
+    digits of precision.""
+    Available via anonymous FTP from shape.mps.ohio-state.edu,
+    or simtel20.army.mil, or wuarchive.wustl.edu.
+
+calc_v22
+    Unknown
+
+    MS-DOS C-like language that allows ""infinite"" precision.
+    Nice intrinsic functions.  ervin@morekypr.bitnet reports problems
+    when changing precision on the fly.
+    See simtel20 or wuarchive.
+
+briggs_arith
+    Keith Briggs (kbriggs@mundoe.maths.mu.oz.au)
+
+    Turbo Pascal 5 source for routines that do multiple-precision
+    +, -, *, /, sqrt, gcd, factoring, rand for integers; also includes
+    +, -, *, / and rand for rational numbers.
+    Filename:  briggs_arith.pas
+
+Institute fur Experimentelle Mathematik
+    Dr Gerhard Schneider (?)
+
+    Fast C multiple-precision subroutine library.
+    I don't know anything about it; sl25@ely.cl.cam.ac.uk says
+    to contact MAT420@DE0HRZ1A.BITNET for more info.
+    Postal Address:
+    Institute fur Experimentelle Mathematik
+    EllernStr 29
+    D4300 Essen-12    GERMANY
+
+LongInt
+    Markus Mueller (mueller@komsys.tik.ethz.ch)
+
+    ""Multi precision arithmetic written in MODULA-2, with the most time critical
+    parts written in Assembler. Includes basic arithmetics (+, -, *, /, %) as
+    well as arithmetics MODULO a number. An additional module provides a
+    collection of procedures for primality testing, gcd, multiplicative
+    inverse and more. The package is part of a Privacy Enhanced Mail (PEM)
+    package which includes a PEM mailer, RSA key generator and Certificate
+    generation tools.""
+
+    Source is in Modula-2, C, and assembler for Sun 3.  LongInt has
+    also been ported to MS-DOS under Logitech Modula-2 and Turbo
+    Assembler.  Availability:  free for university use (research and
+    education); otherwise, a source license is required.  To obtain,
+    write or email to:
+
+        Markus Mueller
+        Bertastrasse 7
+        CH-8953 Dietikon
+        Switzerland
+        email:  mueller@komsys.tik.ethz.ch
+
+bignum-1.2
+    Henrik.Johansson@Nexus.Comm.SE
+
+    Bignum package written in portable C.  Will in the future
+    conform to the Common Lisp functions that handles integers.
+    Currently includes +, -, *, /, exponentiation, ""exptmod"",
+    comparison, random numbers, and gcd.
+    Filename: bignum-1.2
+
+GNU Multiple Precision
+    GNU (Free Software Foundation) multiple precision package.
+    I haven't looked at it yet.  This is current as of April 1992,
+    but there may be a more recent version by the time you read 
+    this.  This package is very widely available on FTP sites.
+    Filename: gmp-1.2.tar.Z
+
+Elliptic Curve Primality Proving 
+    Francois Morian, France.
+
+    Large package to prove the primality of any prime.
+    Includes Inria's BIGNUM package. 
+    Obtained from ftp.inria.fr (128.93.1.26).
+    Filename: ecpp.V3.4.1.tar.Z
+
+PGP (Pretty Good Privacy)
+    Philip Zimmermann   prz@sage.cgd.ucar.EDU
+
+    Intel-based crypto package that includes bignum routines in C,
+    said to be quite fast for Intel processors.  Unix and Mac
+    versions also available.
+    The crypto package violates RSA patents, but the bignum routines
+    can be used without fear of legal repercussions.
+
+Bell's Arbitrary Precision Calculator
+    David I. Bell, Australia  (dbell@pdact.pd.necisa.oz.au)
+
+    Arbitrary-precision calculator with good online help, C-like
+    language, many builtin functions, support for integers,
+    rational numbers (they work like floating point), complex numbers,
+    matrices, strings, lists, files, ""objects"".  Includes 
+    gcd, primality testing, even trig functions.  Recommended.
+    (Large package, though.)  Obtained from comp.sources.unix.
+    Filename: calc-1.24.7.tar.Z
+
+Built-in support in other languages
+    Various
+
+    Multiple precision arithmetic is available in a number of 
+    programming languages, such as Lisp and ABC (cf. mcsun.eu.net).
+    Perl (by Larry Wall, available from devvax.jpl.nasa.gov)
+    includes source, in Perl, for such a package, but it's probably
+    not suitable for serious use.
+    For some of these, source code may be available.  This list is
+    long enough, so I'm not going to pursue it aggressively.
+
+Thanks to Ed Vielmetti and several others who contributed to this list.
+
+Mark Riordan   mrr@ripem.msu.edu
+"
+1603,5,0,False,"From: thagerma@magnus.acs.ohio-state.edu (Teresa D Hagerman)
+Subject: Chicago visit
+Nntp-Posting-Host: top.magnus.acs.ohio-state.edu
+Organization: The Ohio State University
+Lines: 12
+
+
+I am planning a weekend in Chicago next month for my first live-and-in-person 
+Cubs game (!!!) I would appreciate any advice from locals or used-to-be locals 
+on where to stay, what to see, where to dine, etc.
+
+E-mail replies are fine...
+
+Thanks in advance!
+Teresa
+-- 
+Teresa Hagerman
+Ohio State University
+"
+6607,0,3,False,"From: lioness@maple.circa.ufl.edu
+Subject: Re: SGI sales practices (Was: Crimson (Was: Kubota Announcement?))
+Organization: Center for Instructional and Research Computing Activities
+Lines: 26
+Reply-To: LIONESS@ufcc.ufl.edu
+NNTP-Posting-Host: maple.circa.ufl.edu
+
+In article <1rr6c3$9u3@calvin.NYU.EDU>, roy@mchip00.med.nyu.edu (Roy Smith) writes:
+|>	What's really interesting is that from what I can tell, the MIS
+|>folks in the basement with their ES/9000 don't seem to be pissed at IBM.
+|>Why?  I have no idea.  Either IBM really does take care of their customers
+|>better, or they just have their customers brainwashed better than the
+|>smaller vendors do.
+
+No, MIS folks have infinite budgets of death, and they also get parts
+of their budget allocated ""upgrades"", ""maintenance"", and ""new purchases"",
+and a lot of IBM mainframe purchases are actually ""leases"" and so
+is the software.
+
+Basically, the engineers who have tight budgets, i.e. the coders and
+designers of a company, bitch and moan when they drop 15,000 on a 
+Sparc 1 only to see a faster machine appear a year later.  MIS types
+upgrade once every 5-10 years, and their costs are amortized and
+depreciated over a longer period, and the budget office justifies
+the expense because they actually use the machines for accounting,
+payroll, etc.
+
+Now, if the budget office was dependant on the engineers for some
+reason like payroll and accounts, you'd sure as hell see every
+engineer with a new Cray on his desktop every year. :-)
+
+Brian
+
+"
+6490,7,3,False,"From: jmichael@vnet.IBM.COM
+Subject: Radar Detector DETECTORS?
+Article-I.D.: almaden.19930406.131941.134
+Lines: 3
+
+
+They detect the oscillator operating in the detector. Saw a story about
+their use in Canada. Now don't go putting oscillators in your cars... :-)
+"
+4864,0,1,False,"From: jroberts@ux4.cso.uiuc.edu (Robertson)
+Subject: ATI GUP and Graphics Wkshop/Win
+Organization: University of Illinois at Urbana
+Lines: 11
+
+I have an ATI Graph. Ultra Pro VLB w/2 megs, and have a small question
+about Graphics Workshop for Windows.  When I exit from it it says my
+current driver can handle on 32768 colors when I am actually in 
+1024x768x65000 color mode.  Is this a driver problem, a GWS error, or
+what?  I am using the 1.5(59) driver under Win 3.1.  It correctly
+states that I can display 16M colors when I switch to 800x600x24bit,
+though.
+Another question- Anybody know of any Viewers that support this card
+other than Windows viewers?
+Any help would be appreciated.
+
+"
+1117,6,2,False,"From: ninassup@athena.mit.edu (Nikos I Nassuphis)
+Subject: LGA ncrypt source
+Organization: Massachusetts Institute of Technology
+Lines: 1135
+NNTP-Posting-Host: w20-575-104.mit.edu
+
+I got a number of requests for code.
+So, here it is.
+Its written in 80x86 ASM. 
+Borland TASM will do.
+
+TASM LGA.ASM
+TLINK /t LGA.ASM
+
+
+The code:
+
+;----------------------------------------------------------------------
+; LGA ncryption
+; (C) by Nick Nassuphis
+;----------------------------------------------------------------------
+
+CODE	SEGMENT
+	ASSUME	CS:CODE, DS:CODE
+	
+	ORG	100h
+
+Start:
+	JMP	Begin
+
+;----------------------------------------------------------------------
+;
+; Gas particle assigment:
+;
+; BIT 0    particle moving EAST
+; BIT 1    particle moving WEST
+; BIT 2    particle moving NORTH
+; BIT 3    particle moving SOUTH
+;
+; BIT 4    particle moving EAST
+; BIT 5    particle moving WEST
+; BIT 6    particle moving NORTH
+; BIT 7    particle moving SOUTH
+;
+;
+; Collisiong Rules:
+;
+; 1. Gas Rules
+;
+; IF (E & W) AND !(N & S) THEN (E,W)->(N,S)
+; IF (N & S) AND !(E & W) THEN (N,S)->(E,W)
+;
+; for nibbles:
+;
+; 1100 -> 0011
+; 0011 -> 0011
+;
+; and for bytes:
+;
+; 11000000 -> 00110000
+; 00110000 -> 11000000
+; 00001100 -> 00000011
+; 00000011 -> 00001100
+; 00110011 -> 11001100
+; 00111100 -> 11000011
+; 11000011 -> 00111100
+; 11001100 -> 00110011
+;
+;
+; 2. Reflection Rules
+;
+; just swap bits along directions
+;
+;----------------------------------------------------------------------
+
+;
+; This look-up table implements two particle collisions
+; for the HPP lattice gas
+;
+HPPRule:
+DB   00000000B   ;00000000
+DB   00000001B   ;00000001
+DB   00000010B   ;00000010
+DB   00001100B   ;00000011
+DB   00000100B   ;00000100
+DB   00000101B   ;00000101
+DB   00000110B   ;00000110
+DB   00000111B   ;00000111
+DB   00001000B   ;00001000
+DB   00001001B   ;00001001
+DB   00001010B   ;00001010
+DB   00001011B   ;00001011
+DB   00000011B   ;00001100
+DB   00001101B   ;00001101
+DB   00001110B   ;00001110
+DB   00001111B   ;00001111
+DB   00010000B   ;00010000
+DB   00010001B   ;00010001
+DB   00010010B   ;00010010
+DB   00011100B   ;00010011
+DB   00010100B   ;00010100
+DB   00010101B   ;00010101
+DB   00010110B   ;00010110
+DB   00010111B   ;00010111
+DB   00011000B   ;00011000
+DB   00011001B   ;00011001
+DB   00011010B   ;00011010
+DB   00011011B   ;00011011
+DB   00010011B   ;00011100
+DB   00011101B   ;00011101
+DB   00011110B   ;00011110
+DB   00011111B   ;00011111
+DB   00100000B   ;00100000
+DB   00100001B   ;00100001
+DB   00100010B   ;00100010
+DB   00101100B   ;00100011
+DB   00100100B   ;00100100
+DB   00100101B   ;00100101
+DB   00100110B   ;00100110
+DB   00100111B   ;00100111
+DB   00101000B   ;00101000
+DB   00101001B   ;00101001
+DB   00101010B   ;00101010
+DB   00101011B   ;00101011
+DB   00100011B   ;00101100
+DB   00101101B   ;00101101
+DB   00101110B   ;00101110
+DB   00101111B   ;00101111
+DB   11000000B   ;00110000
+DB   11000001B   ;00110001
+DB   11000010B   ;00110010
+DB   11001100B   ;00110011
+DB   11000100B   ;00110100
+DB   11000101B   ;00110101
+DB   11000110B   ;00110110
+DB   11000111B   ;00110111
+DB   11001000B   ;00111000
+DB   11001001B   ;00111001
+DB   11001010B   ;00111010
+DB   11001011B   ;00111011
+DB   11000011B   ;00111100
+DB   11001101B   ;00111101
+DB   11001110B   ;00111110
+DB   11001111B   ;00111111
+DB   01000000B   ;01000000
+DB   01000001B   ;01000001
+DB   01000010B   ;01000010
+DB   01001100B   ;01000011
+DB   01000100B   ;01000100
+DB   01000101B   ;01000101
+DB   01000110B   ;01000110
+DB   01000111B   ;01000111
+DB   01001000B   ;01001000
+DB   01001001B   ;01001001
+DB   01001010B   ;01001010
+DB   01001011B   ;01001011
+DB   01000011B   ;01001100
+DB   01001101B   ;01001101
+DB   01001110B   ;01001110
+DB   01001111B   ;01001111
+DB   01010000B   ;01010000
+DB   01010001B   ;01010001
+DB   01010010B   ;01010010
+DB   01011100B   ;01010011
+DB   01010100B   ;01010100
+DB   01010101B   ;01010101
+DB   01010110B   ;01010110
+DB   01010111B   ;01010111
+DB   01011000B   ;01011000
+DB   01011001B   ;01011001
+DB   01011010B   ;01011010
+DB   01011011B   ;01011011
+DB   01010011B   ;01011100
+DB   01011101B   ;01011101
+DB   01011110B   ;01011110
+DB   01011111B   ;01011111
+DB   01100000B   ;01100000
+DB   01100001B   ;01100001
+DB   01100010B   ;01100010
+DB   01101100B   ;01100011
+DB   01100100B   ;01100100
+DB   01100101B   ;01100101
+DB   01100110B   ;01100110
+DB   01100111B   ;01100111
+DB   01101000B   ;01101000
+DB   01101001B   ;01101001
+DB   01101010B   ;01101010
+DB   01101011B   ;01101011
+DB   01100011B   ;01101100
+DB   01101101B   ;01101101
+DB   01101110B   ;01101110
+DB   01101111B   ;01101111
+DB   01110000B   ;01110000
+DB   01110001B   ;01110001
+DB   01110010B   ;01110010
+DB   01111100B   ;01110011
+DB   01110100B   ;01110100
+DB   01110101B   ;01110101
+DB   01110110B   ;01110110
+DB   01110111B   ;01110111
+DB   01111000B   ;01111000
+DB   01111001B   ;01111001
+DB   01111010B   ;01111010
+DB   01111011B   ;01111011
+DB   01110011B   ;01111100
+DB   01111101B   ;01111101
+DB   01111110B   ;01111110
+DB   01111111B   ;01111111
+DB   10000000B   ;10000000
+DB   10000001B   ;10000001
+DB   10000010B   ;10000010
+DB   10001100B   ;10000011
+DB   10000100B   ;10000100
+DB   10000101B   ;10000101
+DB   10000110B   ;10000110
+DB   10000111B   ;10000111
+DB   10001000B   ;10001000
+DB   10001001B   ;10001001
+DB   10001010B   ;10001010
+DB   10001011B   ;10001011
+DB   10000011B   ;10001100
+DB   10001101B   ;10001101
+DB   10001110B   ;10001110
+DB   10001111B   ;10001111
+DB   10010000B   ;10010000
+DB   10010001B   ;10010001
+DB   10010010B   ;10010010
+DB   10011100B   ;10010011
+DB   10010100B   ;10010100
+DB   10010101B   ;10010101
+DB   10010110B   ;10010110
+DB   10010111B   ;10010111
+DB   10011000B   ;10011000
+DB   10011001B   ;10011001
+DB   10011010B   ;10011010
+DB   10011011B   ;10011011
+DB   10010011B   ;10011100
+DB   10011101B   ;10011101
+DB   10011110B   ;10011110
+DB   10011111B   ;10011111
+DB   10100000B   ;10100000
+DB   10100001B   ;10100001
+DB   10100010B   ;10100010
+DB   10101100B   ;10100011
+DB   10100100B   ;10100100
+DB   10100101B   ;10100101
+DB   10100110B   ;10100110
+DB   10100111B   ;10100111
+DB   10101000B   ;10101000
+DB   10101001B   ;10101001
+DB   10101010B   ;10101010
+DB   10101011B   ;10101011
+DB   10100011B   ;10101100
+DB   10101101B   ;10101101
+DB   10101110B   ;10101110
+DB   10101111B   ;10101111
+DB   10110000B   ;10110000
+DB   10110001B   ;10110001
+DB   10110010B   ;10110010
+DB   10111100B   ;10110011
+DB   10110100B   ;10110100
+DB   10110101B   ;10110101
+DB   10110110B   ;10110110
+DB   10110111B   ;10110111
+DB   10111000B   ;10111000
+DB   10111001B   ;10111001
+DB   10111010B   ;10111010
+DB   10111011B   ;10111011
+DB   10110011B   ;10111100
+DB   10111101B   ;10111101
+DB   10111110B   ;10111110
+DB   10111111B   ;10111111
+DB   00110000B   ;11000000
+DB   00110001B   ;11000001
+DB   00110010B   ;11000010
+DB   00111100B   ;11000011
+DB   00110100B   ;11000100
+DB   00110101B   ;11000101
+DB   00110110B   ;11000110
+DB   00110111B   ;11000111
+DB   00111000B   ;11001000
+DB   00111001B   ;11001001
+DB   00111010B   ;11001010
+DB   00111011B   ;11001011
+DB   00110011B   ;11001100
+DB   00111101B   ;11001101
+DB   00111110B   ;11001110
+DB   00111111B   ;11001111
+DB   11010000B   ;11010000
+DB   11010001B   ;11010001
+DB   11010010B   ;11010010
+DB   11011100B   ;11010011
+DB   11010100B   ;11010100
+DB   11010101B   ;11010101
+DB   11010110B   ;11010110
+DB   11010111B   ;11010111
+DB   11011000B   ;11011000
+DB   11011001B   ;11011001
+DB   11011010B   ;11011010
+DB   11011011B   ;11011011
+DB   11010011B   ;11011100
+DB   11011101B   ;11011101
+DB   11011110B   ;11011110
+DB   11011111B   ;11011111
+DB   11100000B   ;11100000
+DB   11100001B   ;11100001
+DB   11100010B   ;11100010
+DB   11101100B   ;11100011
+DB   11100100B   ;11100100
+DB   11100101B   ;11100101
+DB   11100110B   ;11100110
+DB   11100111B   ;11100111
+DB   11101000B   ;11101000
+DB   11101001B   ;11101001
+DB   11101010B   ;11101010
+DB   11101011B   ;11101011
+DB   11100011B   ;11101100
+DB   11101101B   ;11101101
+DB   11101110B   ;11101110
+DB   11101111B   ;11101111
+DB   11110000B   ;11110000
+DB   11110001B   ;11110001
+DB   11110010B   ;11110010
+DB   11111100B   ;11110011
+DB   11110100B   ;11110100
+DB   11110101B   ;11110101
+DB   11110110B   ;11110110
+DB   11110111B   ;11110111
+DB   11111000B   ;11111000
+DB   11111001B   ;11111001
+DB   11111010B   ;11111010
+DB   11111011B   ;11111011
+DB   11110011B   ;11111100
+DB   11111101B   ;11111101
+DB   11111110B   ;11111110
+DB   11111111B   ;11111111
+
+;
+; This rule implements the velocity-reversal needed to
+; run the gas evolution in reverse. Its called a WallRule
+; because its the same as is all particles hit a wall
+; head on.
+;
+WallRule:
+DB   00000000B   ;00000000
+DB   00000010B   ;00000001
+DB   00000001B   ;00000010
+DB   00001100B   ;00000011
+DB   00001000B   ;00000100
+DB   00001010B   ;00000101
+DB   00001001B   ;00000110
+DB   00001011B   ;00000111
+DB   00000100B   ;00001000
+DB   00000110B   ;00001001
+DB   00000101B   ;00001010
+DB   00000111B   ;00001011
+DB   00000011B   ;00001100
+DB   00001110B   ;00001101
+DB   00001101B   ;00001110
+DB   00001111B   ;00001111
+DB   00100000B   ;00010000
+DB   00100010B   ;00010001
+DB   00100001B   ;00010010
+DB   00101100B   ;00010011
+DB   00101000B   ;00010100
+DB   00101010B   ;00010101
+DB   00101001B   ;00010110
+DB   00101011B   ;00010111
+DB   00100100B   ;00011000
+DB   00100110B   ;00011001
+DB   00100101B   ;00011010
+DB   00100111B   ;00011011
+DB   00100011B   ;00011100
+DB   00101110B   ;00011101
+DB   00101101B   ;00011110
+DB   00101111B   ;00011111
+DB   00010000B   ;00100000
+DB   00010010B   ;00100001
+DB   00010001B   ;00100010
+DB   00011100B   ;00100011
+DB   00011000B   ;00100100
+DB   00011010B   ;00100101
+DB   00011001B   ;00100110
+DB   00011011B   ;00100111
+DB   00010100B   ;00101000
+DB   00010110B   ;00101001
+DB   00010101B   ;00101010
+DB   00010111B   ;00101011
+DB   00010011B   ;00101100
+DB   00011110B   ;00101101
+DB   00011101B   ;00101110
+DB   00011111B   ;00101111
+DB   11000000B   ;00110000
+DB   11000010B   ;00110001
+DB   11000001B   ;00110010
+DB   11001100B   ;00110011
+DB   11001000B   ;00110100
+DB   11001010B   ;00110101
+DB   11001001B   ;00110110
+DB   11001011B   ;00110111
+DB   11000100B   ;00111000
+DB   11000110B   ;00111001
+DB   11000101B   ;00111010
+DB   11000111B   ;00111011
+DB   11000011B   ;00111100
+DB   11001110B   ;00111101
+DB   11001101B   ;00111110
+DB   11001111B   ;00111111
+DB   10000000B   ;01000000
+DB   10000010B   ;01000001
+DB   10000001B   ;01000010
+DB   10001100B   ;01000011
+DB   10001000B   ;01000100
+DB   10001010B   ;01000101
+DB   10001001B   ;01000110
+DB   10001011B   ;01000111
+DB   10000100B   ;01001000
+DB   10000110B   ;01001001
+DB   10000101B   ;01001010
+DB   10000111B   ;01001011
+DB   10000011B   ;01001100
+DB   10001110B   ;01001101
+DB   10001101B   ;01001110
+DB   10001111B   ;01001111
+DB   10100000B   ;01010000
+DB   10100010B   ;01010001
+DB   10100001B   ;01010010
+DB   10101100B   ;01010011
+DB   10101000B   ;01010100
+DB   10101010B   ;01010101
+DB   10101001B   ;01010110
+DB   10101011B   ;01010111
+DB   10100100B   ;01011000
+DB   10100110B   ;01011001
+DB   10100101B   ;01011010
+DB   10100111B   ;01011011
+DB   10100011B   ;01011100
+DB   10101110B   ;01011101
+DB   10101101B   ;01011110
+DB   10101111B   ;01011111
+DB   10010000B   ;01100000
+DB   10010010B   ;01100001
+DB   10010001B   ;01100010
+DB   10011100B   ;01100011
+DB   10011000B   ;01100100
+DB   10011010B   ;01100101
+DB   10011001B   ;01100110
+DB   10011011B   ;01100111
+DB   10010100B   ;01101000
+DB   10010110B   ;01101001
+DB   10010101B   ;01101010
+DB   10010111B   ;01101011
+DB   10010011B   ;01101100
+DB   10011110B   ;01101101
+DB   10011101B   ;01101110
+DB   10011111B   ;01101111
+DB   10110000B   ;01110000
+DB   10110010B   ;01110001
+DB   10110001B   ;01110010
+DB   10111100B   ;01110011
+DB   10111000B   ;01110100
+DB   10111010B   ;01110101
+DB   10111001B   ;01110110
+DB   10111011B   ;01110111
+DB   10110100B   ;01111000
+DB   10110110B   ;01111001
+DB   10110101B   ;01111010
+DB   10110111B   ;01111011
+DB   10110011B   ;01111100
+DB   10111110B   ;01111101
+DB   10111101B   ;01111110
+DB   10111111B   ;01111111
+DB   01000000B   ;10000000
+DB   01000010B   ;10000001
+DB   01000001B   ;10000010
+DB   01001100B   ;10000011
+DB   01001000B   ;10000100
+DB   01001010B   ;10000101
+DB   01001001B   ;10000110
+DB   01001011B   ;10000111
+DB   01000100B   ;10001000
+DB   01000110B   ;10001001
+DB   01000101B   ;10001010
+DB   01000111B   ;10001011
+DB   01000011B   ;10001100
+DB   01001110B   ;10001101
+DB   01001101B   ;10001110
+DB   01001111B   ;10001111
+DB   01100000B   ;10010000
+DB   01100010B   ;10010001
+DB   01100001B   ;10010010
+DB   01101100B   ;10010011
+DB   01101000B   ;10010100
+DB   01101010B   ;10010101
+DB   01101001B   ;10010110
+DB   01101011B   ;10010111
+DB   01100100B   ;10011000
+DB   01100110B   ;10011001
+DB   01100101B   ;10011010
+DB   01100111B   ;10011011
+DB   01100011B   ;10011100
+DB   01101110B   ;10011101
+DB   01101101B   ;10011110
+DB   01101111B   ;10011111
+DB   01010000B   ;10100000
+DB   01010010B   ;10100001
+DB   01010001B   ;10100010
+DB   01011100B   ;10100011
+DB   01011000B   ;10100100
+DB   01011010B   ;10100101
+DB   01011001B   ;10100110
+DB   01011011B   ;10100111
+DB   01010100B   ;10101000
+DB   01010110B   ;10101001
+DB   01010101B   ;10101010
+DB   01010111B   ;10101011
+DB   01010011B   ;10101100
+DB   01011110B   ;10101101
+DB   01011101B   ;10101110
+DB   01011111B   ;10101111
+DB   01110000B   ;10110000
+DB   01110010B   ;10110001
+DB   01110001B   ;10110010
+DB   01111100B   ;10110011
+DB   01111000B   ;10110100
+DB   01111010B   ;10110101
+DB   01111001B   ;10110110
+DB   01111011B   ;10110111
+DB   01110100B   ;10111000
+DB   01110110B   ;10111001
+DB   01110101B   ;10111010
+DB   01110111B   ;10111011
+DB   01110011B   ;10111100
+DB   01111110B   ;10111101
+DB   01111101B   ;10111110
+DB   01111111B   ;10111111
+DB   00110000B   ;11000000
+DB   00110010B   ;11000001
+DB   00110001B   ;11000010
+DB   00111100B   ;11000011
+DB   00111000B   ;11000100
+DB   00111010B   ;11000101
+DB   00111001B   ;11000110
+DB   00111011B   ;11000111
+DB   00110100B   ;11001000
+DB   00110110B   ;11001001
+DB   00110101B   ;11001010
+DB   00110111B   ;11001011
+DB   00110011B   ;11001100
+DB   00111110B   ;11001101
+DB   00111101B   ;11001110
+DB   00111111B   ;11001111
+DB   11100000B   ;11010000
+DB   11100010B   ;11010001
+DB   11100001B   ;11010010
+DB   11101100B   ;11010011
+DB   11101000B   ;11010100
+DB   11101010B   ;11010101
+DB   11101001B   ;11010110
+DB   11101011B   ;11010111
+DB   11100100B   ;11011000
+DB   11100110B   ;11011001
+DB   11100101B   ;11011010
+DB   11100111B   ;11011011
+DB   11100011B   ;11011100
+DB   11101110B   ;11011101
+DB   11101101B   ;11011110
+DB   11101111B   ;11011111
+DB   11010000B   ;11100000
+DB   11010010B   ;11100001
+DB   11010001B   ;11100010
+DB   11011100B   ;11100011
+DB   11011000B   ;11100100
+DB   11011010B   ;11100101
+DB   11011001B   ;11100110
+DB   11011011B   ;11100111
+DB   11010100B   ;11101000
+DB   11010110B   ;11101001
+DB   11010101B   ;11101010
+DB   11010111B   ;11101011
+DB   11010011B   ;11101100
+DB   11011110B   ;11101101
+DB   11011101B   ;11101110
+DB   11011111B   ;11101111
+DB   11110000B   ;11110000
+DB   11110010B   ;11110001
+DB   11110001B   ;11110010
+DB   11111100B   ;11110011
+DB   11111000B   ;11110100
+DB   11111010B   ;11110101
+DB   11111001B   ;11110110
+DB   11111011B   ;11110111
+DB   11110100B   ;11111000
+DB   11110110B   ;11111001
+DB   11110101B   ;11111010
+DB   11110111B   ;11111011
+DB   11110011B   ;11111100
+DB   11111110B   ;11111101
+DB   11111101B   ;11111110
+DB   11111111B   ;11111111
+
+
+MAXBYTE	EQU	55
+LINENO	EQU	23
+
+SrcPtr	DW	OFFSET Buffer1
+DesPtr	DW	OFFSET Buffer2
+
+SaveBuff:
+	DB	MAXBYTE*(LINENO+1) DUP(0)
+	
+Buffer1:
+	DB	MAXBYTE*(LINENO+1) DUP(0)
+	DB	256 DUP(0)
+
+Buffer2:
+	DB	MAXBYTE*(LINENO+1) DUP(0)
+	DB	256 DUP(0)
+
+;----------------------------------------------------------------------
+;
+;
+;
+;----------------------------------------------------------------------
+
+Data:
+DB	""                                                       ""
+DB	""                                                       ""
+DB	""                                                       ""
+DB	"" This is a test for a Lattice Gas based encryption     ""
+DB	"" algorithm. The data is encoded as particles of a      ""
+DB	"" digital gas, whose time evolution is then simulated   ""
+DB	"" with a cellular-automaton type algorithm. Decryption  ""
+DB	"" can be achieved by running the simulation in reverse. ""
+DB	"" A thermodynamic argument ensures that even if a single""
+DB	"" bit is flipped, no decryption of the data is possible ""
+DB	""                                                       ""
+DB	"" After the gas is let to evolve for 256 timesteps,     ""
+DB	"" one can either run the reverse evolution by pressing  ""
+DB	"" space, or flip a bit and then run by pressing '0'     ""
+DB	""                                                       ""
+DB	"" For a cryptographic application, the key would consist""
+DB	"" of the number of time steps and the time and location ""
+DB	"" of specific bit inversions.                           ""
+DB	""                                                       ""
+DB	""                                                       ""
+DB	""                                                       ""
+DB	""                                                       ""
+DB	""                                                       ""
+
+;
+; Fill the gas with a piece of code
+;
+InitGas:
+	MOV	DI,CS:SrcPtr
+	MOV	SI,OFFSET Data
+
+	MOV	CX,LINENO
+IG0:
+	PUSH	DI
+	PUSH	CX
+	MOV	CX,MAXBYTE
+IG1:
+	MOV	AL,CS:[SI]
+	MOV	CS:[DI],AL
+	INC	SI
+	INC	DI
+	LOOP	IG1
+	POP	CX
+	POP	DI
+	ADD	DI,MAXBYTE
+	LOOP	IG0
+	MOV	SI,CS:SrcPtr
+	MOV	DI,OFFSET InitGas
+	MOV	CX,MAXBYTE*3
+	MOV	AL,0
+LG2:
+	MOV	BYTE PTR CS:[SI],AL
+	NOT	AL
+	INC	SI
+	LOOP	LG2
+	RET
+
+;----------------------------------------------------------------------
+;
+; Display gas molecules bouncing around
+;
+ShowGas:
+	PUSH	ES
+	PUSH	SI
+	PUSH	DI
+	PUSH	CX
+	PUSH	BX
+
+	MOV	AX,0B800h
+	MOV	ES,AX
+	MOV	SI,CS:SrcPtr
+	MOV	DI,160*2+10*2
+	MOV	CX,LINENO-3
+	ADD	SI,MAXBYTE*3
+SG1:
+	PUSH	CX
+	PUSH	DI
+
+	MOV	CX,MAXBYTE
+SG2:
+	MOV	AL,CS:[SI]
+	MOV	BYTE PTR ES:[DI],AL
+	INC	SI
+	ADD	DI,2
+	DEC	CX
+	JNZ	SG2
+
+	POP	DI
+	POP	CX
+	ADD	DI,160
+	LOOP	SG1
+	
+	POP	BX
+	POP	CX
+	POP	DI
+	POP	SI
+	POP	ES
+	RET
+
+;----------------------------------------------------------------------
+;
+; CS:SI 	->	Sourse of Data
+; CS:DI		->	Destination of Data
+;
+ScanOneMiddleLine:
+;
+; first byte is a special case because of warparound
+;
+	MOV	BL,0			; AL is the ""assembled"" byte.
+	MOV	BH,CS:[SI-MAXBYTE]	; NORTH is one line ""up"" (lower)
+	AND	BH,10001000B		; and at bits 7 and 3
+	OR	BL,BH			; OR them into the assembled byte
+	MOV	BH,CS:[SI+MAXBYTE]	; SOUTH is one line ""down"" (higher)
+	AND	BH,01000100B		; and at bits 6 and 2
+	OR	BL,BH			; place the stuff into AL
+	MOV	BH,CS:[SI+(MAXBYTE-1)]	; WEST is one byte ""left"" (lower)
+	AND	BH,00100010B		; and at bits 5 and 1
+	OR	BL,BH
+	MOV	BH,CS:[SI+1]		; EAST is one byte ""right"" (higher)
+	AND	BH,00010001B		; and at bits 4 and 0
+	OR	BL,BH
+	MOV	BH,0
+	MOV	AL,BYTE PTR CS:[BX + OFFSET HPPRule]
+	MOV	CS:[DI],AL
+	INC	SI
+	INC	DI
+;
+; middle bytes can be handled in a loop 
+;
+	MOV	CX,MAXBYTE-2
+SOL1:
+	MOV	BL,0			; AL is the ""assembled"" byte.
+	MOV	BH,CS:[SI-MAXBYTE]	; NORTH is one line ""up"" (lower)
+	AND	BH,10001000B		; and at bits 7 and 3
+	OR	BL,BH			; OR them into the assembled byte
+	MOV	BH,CS:[SI+MAXBYTE]	; SOUTH is one line ""down"" (higher)
+	AND	BH,01000100B		; and at bits 6 and 2
+	OR	BL,BH			; place the stuff into AL
+	MOV	BH,CS:[SI-1]		; WEST is one byte ""left"" (lower)
+	AND	BH,00100010B		; and at bits 5 and 1
+	OR	BL,BH
+	MOV	BH,CS:[SI+1]		; EAST is one byte ""right"" (higher)
+	AND	BH,00010001B		; and at bits 4 and 0
+	OR	BL,BH
+	MOV	BH,0
+	MOV	AL,BYTE PTR CS:[BX + OFFSET HPPRule]
+	MOV	CS:[DI],AL
+	INC	SI
+	INC	DI
+	LOOP	SOL1
+;
+; last byte is also special
+;
+	MOV	BL,0			; AL is the ""assembled"" byte.
+	MOV	BH,CS:[SI-MAXBYTE]	; NORTH is one line ""up"" (lower)
+	AND	BH,10001000B		; and at bits 7 and 3
+	OR	BL,BH			; OR them into the assembled byte
+	MOV	BH,CS:[SI+MAXBYTE]	; SOUTH is one line ""down"" (higher)
+	AND	BH,01000100B		; and at bits 6 and 2
+	OR	BL,BH			; place the stuff into AL
+	MOV	BH,CS:[SI-1]		; WEST is one byte ""left"" (lower)
+	AND	BH,00100010B		; and at bits 5 and 1
+	OR	BL,BH
+	MOV	BH,CS:[SI-(MAXBYTE-1)]	; EAST is one byte ""right"" (higher)
+	AND	BH,00010001B		; and at bits 4 and 0
+	OR	BL,BH
+	MOV	BH,0
+	MOV	AL,BYTE PTR CS:[BX + OFFSET HPPRule]
+	MOV	CS:[DI],AL
+	INC	SI
+	INC	DI
+	RET
+
+
+;----------------------------------------------------------------------
+;
+; CS:SI 	->	Sourse of Data
+; CS:DI		->	Destination of Data
+;
+ScanFirstLine:
+;
+; first byte is a special case because of warparound
+;
+	MOV	BL,0				
+	MOV	BH,CS:[SI+MAXBYTE*(LINENO-1)]	
+	AND	BH,10001000B		; and at bits 7 and 3
+	OR	BL,BH			; OR them into the assembled byte
+	MOV	BH,CS:[SI+MAXBYTE]
+	AND	BH,01000100B		; and at bits 6 and 2
+	OR	BL,BH			; place the stuff into AL
+	MOV	BH,CS:[SI+MAXBYTE-1]	; WEST is one byte ""left"" (lower)
+	AND	BH,00100010B		; and at bits 5 and 1
+	OR	BL,BH
+	MOV	BH,CS:[SI+1]		; EAST is one byte ""right"" (higher)
+	AND	BH,00010001B		; and at bits 4 and 0
+	OR	BL,BH
+	MOV	BH,0
+	MOV	AL,BYTE PTR CS:[BX + OFFSET HPPRule]
+	MOV	CS:[DI],AL
+	INC	SI
+	INC	DI
+;
+; middle bytes can be handled in a loop 
+;
+	MOV	CX,MAXBYTE-2
+SFL1:
+	MOV	BL,0			; AL is the ""assembled"" byte.
+	MOV	BH,CS:[SI+MAXBYTE*(LINENO-1)]
+	AND	BH,10001000B		; and at bits 7 and 3
+	OR	BL,BH			; OR them into the assembled byte
+	MOV	BH,CS:[SI+MAXBYTE]
+	AND	BH,01000100B		; and at bits 6 and 2
+	OR	BL,BH			; place the stuff into AL
+	MOV	BH,CS:[SI-1]		; WEST is one byte ""left"" (lower)
+	AND	BH,00100010B		; and at bits 5 and 1
+	OR	BL,BH
+	MOV	BH,CS:[SI+1]		; EAST is one byte ""right"" (higher)
+	AND	BH,00010001B		; and at bits 4 and 0
+	OR	BL,BH
+	MOV	BH,0
+	MOV	AL,BYTE PTR CS:[BX + OFFSET HPPRule]
+	MOV	CS:[DI],AL
+	INC	SI
+	INC	DI
+	LOOP	SFL1
+;
+; last byte is also special
+;
+	MOV	BL,0			; AL is the ""assembled"" byte.
+	MOV	BH,CS:[SI+MAXBYTE*(LINENO-1)]
+	AND	BH,10001000B		; and at bits 7 and 3
+	OR	BL,BH			; OR them into the assembled byte
+	MOV	BH,CS:[SI+MAXBYTE]
+	AND	BH,01000100B		; and at bits 6 and 2
+	OR	BL,BH			; place the stuff into AL
+	MOV	BH,CS:[SI-1]		; WEST is one byte ""left"" (lower)
+	AND	BH,00100010B		; and at bits 5 and 1
+	OR	BL,BH
+	MOV	BH,CS:[SI-(MAXBYTE-1)]	; EAST is one byte ""right"" (higher)
+	AND	BH,00010001B		; and at bits 4 and 0
+	OR	BL,BH
+	MOV	BH,0
+	MOV	AL,BYTE PTR CS:[BX + OFFSET HPPRule]
+	MOV	CS:[DI],AL
+	RET
+
+
+;----------------------------------------------------------------------
+;
+; CS:SI 	->	Sourse of Data
+; CS:DI		->	Destination of Data
+;
+ScanLastLine:
+;
+; first byte is a special case because of warparound
+;
+	MOV	BL,0			; AL is the ""assembled"" byte.
+	MOV	BH,CS:[SI-MAXBYTE]
+	AND	BH,10001000B		; and at bits 7 and 3
+	OR	BL,BH			; OR them into the assembled byte
+	MOV	BH,CS:[SI-MAXBYTE*(LINENO-1)]
+	AND	BH,01000100B		; and at bits 6 and 2
+	OR	BL,BH			; place the stuff into AL
+	MOV	BH,CS:[SI+(MAXBYTE-1)]	; WEST is one byte ""left"" (lower)
+	AND	BH,00100010B		; and at bits 5 and 1
+	OR	BL,BH
+	MOV	BH,CS:[SI+1]		; EAST is one byte ""right"" (higher)
+	AND	BH,00010001B		; and at bits 4 and 0
+	OR	BL,BH
+	MOV	BH,0
+	MOV	AL,BYTE PTR CS:[BX + OFFSET HPPRule]
+	MOV	CS:[DI],AL
+	INC	SI
+	INC	DI
+;
+; middle bytes can be handled in a loop 
+;
+	MOV	CX,MAXBYTE-2
+SLL1:
+	MOV	BL,0			; AL is the ""assembled"" byte.
+	MOV	BH,CS:[SI-MAXBYTE]
+	AND	BH,10001000B		; and at bits 7 and 3
+	OR	BL,BH			; OR them into the assembled byte
+	MOV	BH,CS:[SI-MAXBYTE*(LINENO-1)]
+	AND	BH,01000100B		; and at bits 6 and 2
+	OR	BL,BH			; place the stuff into AL
+	MOV	BH,CS:[SI-1]		; WEST is one byte ""left"" (lower)
+	AND	BH,00100010B		; and at bits 5 and 1
+	OR	BL,BH
+	MOV	BH,CS:[SI+1]		; EAST is one byte ""right"" (higher)
+	AND	BH,00010001B		; and at bits 4 and 0
+	OR	BL,BH
+	MOV	BH,0
+	MOV	AL,BYTE PTR CS:[BX + OFFSET HPPRule]
+	MOV	CS:[DI],AL
+	INC	SI
+	INC	DI
+	LOOP	SLL1
+;
+; last byte is also special
+;
+	MOV	BL,0			; AL is the ""assembled"" byte.
+	MOV	BH,CS:[SI-MAXBYTE]
+	AND	BH,10001000B		; and at bits 7 and 3
+	OR	BL,BH			; OR them into the assembled byte
+	MOV	BH,CS:[SI-MAXBYTE*(LINENO-1)]
+	AND	BH,01000100B		; and at bits 6 and 2
+	OR	BL,BH			; place the stuff into AL
+	MOV	BH,CS:[SI-1]		; WEST is one byte ""left"" (lower)
+	AND	BH,00100010B		; and at bits 5 and 1
+	OR	BL,BH
+	MOV	BH,CS:[SI-(MAXBYTE-1)]	; EAST is one byte ""right"" (higher)
+	AND	BH,00010001B		; and at bits 4 and 0
+	OR	BL,BH
+	MOV	BH,0
+	MOV	AL,BYTE PTR CS:[BX + OFFSET HPPRule]
+	MOV	CS:[DI],AL
+	INC	SI
+	INC	DI
+	RET
+
+
+
+;----------------------------------------------------------------------
+;
+; Invert all velocities in the gas
+;
+InvertAll:
+	PUSH	BX
+	PUSH	CX
+	PUSH	SI
+	MOV	SI,CS:SrcPtr
+	MOV	BX,0
+	MOV	CX,LINENO
+IA1:
+	PUSH	CX
+	MOV	CX,MAXBYTE
+IA2:
+	MOV	BL,CS:[SI]
+	MOV	AL,BYTE PTR CS:[BX + (OFFSET WallRule)]
+	MOV	CS:[SI],AL
+	INC	SI
+	LOOP	IA2
+	POP	CX
+	LOOP	IA1
+	POP	SI
+	POP	CX
+	POP	BX
+	RET
+
+;----------------------------------------------------------------------
+; 
+;
+IterateOnce:
+	MOV	SI,CS:SrcPtr
+	MOV	DI,CS:DesPtr
+	MOV	CS:SrcPtr,DI
+	MOV	CS:DesPtr,SI
+
+	PUSH	SI
+	PUSH	DI
+	CALL	ScanFirstLine
+	POP	DI
+	POP	SI
+	ADD	SI,MAXBYTE
+	ADD	DI,MAXBYTE	
+	MOV	CX,LINENO-2		; dont scan first and last
+L1:
+	PUSH	SI
+	PUSH	DI
+	PUSH	CX
+	CALL	ScanOneMiddleLine
+	POP	CX
+	POP	DI
+	POP	SI
+	ADD	SI,MAXBYTE
+	ADD	DI,MAXBYTE
+	LOOP	L1
+
+	PUSH	SI
+	PUSH	DI
+	CALL	ScanLastLine
+	POP	SI
+	POP	DI
+L3:
+	RET
+
+;----------------------------------------------------------------------
+;
+; Iterate HPP rule CX times
+;
+Iterate:
+	PUSH	CX
+	CALL	IterateOnce
+	POP	CX
+	CALL	ShowGas
+	LOOP	Iterate
+	RET
+
+;----------------------------------------------------------------------
+;
+; Iterate HPP rule CX times
+;
+IterateUntil:	
+	MOV	SI,0
+	MOV	CX,OFFSET IU4 - OFFSET IU3
+IU00:
+	MOV	AL,BYTE PTR CS:[SI + OFFSET IU3]
+	XOR	BYTE PTR CS:[SI + OFFSET IU4],AL
+	INC	SI
+	LOOP	IU00
+IU0:
+	CALL	IterateOnce
+	CALL	ShowGas
+	MOV	SI,CS:SrcPtr
+	MOV	CX,MAXBYTE*3
+	MOV	BX,0
+	MOV	AH,0
+	MOV	AL,255
+IU1:
+	MOV	BL,BYTE PTR CS:[SI]
+	MOV	DL,BYTE PTR CS:[BX+WallRule]
+	NOT	AH
+	XOR	DL,AH
+	AND	AL,DL
+	INC	SI
+	LOOP	IU1
+	MOV	SI,0
+	MOV	CX,OFFSET IU4 - OFFSET IU3
+IU2:
+	MOV	AH,BYTE PTR CS:[SI+OFFSET IU4]
+	AND	AH,AL
+	XOR	BYTE PTR CS:[SI+OFFSET IU3],AH
+	INC	SI
+	LOOP	IU2
+	JMP	IU3
+IU3:
+	MOV	AX,OFFSET IU0
+	PUSH	AX
+	RET
+	DB	256 DUP(90h)
+IU4:
+	PUSH	AX
+	PUSH	BX
+	PUSH	CX
+	PUSH	DX
+	PUSH	DS
+
+	MOV	AH,9
+	MOV	DX,CS:MsgPtr
+	INT	21H
+
+	POP	DS
+	POP	DX
+	POP	CX
+	POP	BX
+	POP	AX
+	RET
+
+	DB	512 DUP(90h)
+
+MsgPtr	DW	OFFSET Msg
+Msg	DB	""This message is printed out by"",10,13
+	DB	""code decrypted using data from the lattice"",10,13
+	DB	""which was applied to the decoding routine"",10,13
+	DB	""after every time step"",10,13
+	DB	""The decoding function left the code unchanged"",10,13
+	DB	""except after the gas evolution had completelly"",10,13
+	DB	""reversed the thermalization"",10,13,""$""
+
+
+TIMES	EQU	16		; 256 repetitions are enough to
+				; ""equilibrate"" the gas
+
+Begin:
+	MOV	AX,0600h
+	MOV	BH,7
+	MOV	DH,25
+	MOV	DL,80
+	MOV	CX,0
+	INT	10h
+
+	MOV	AH,2
+	MOV	BH,0
+	MOV	DH,24
+	MOV	DL,0
+	INT	10h
+
+	CALL	InitGas
+	CALL	ShowGas
+	MOV	AH,0
+	INT	16h
+	PUSH	CX
+	MOV	CX,TIMES
+	CALL	Iterate
+	CALL	InvertAll
+	CALL	ShowGas
+	MOV	AH,0
+	INT	16h
+	CMP	AL,""0""
+	JNE	Begin0
+	MOV	SI,CS:SrcPtr
+	XOR	BYTE PTR CS:[SI],10000001B
+Begin0:
+	MOV	CX,TIMES
+	CALL	IterateUntil
+	CALL	InvertAll
+	CALL	ShowGas
+	MOV	AX,4C00h
+	INT	21h
+	
+
+CODE	ENDS
+	END	Start
+
+"
+4476,0,1,False,"From: rcomg@melomys.co.rmit.oz.AU (Mark Gregory)
+Subject: AVI file format?
+Summary: AVI file format?
+Keywords: AVI file format?
+Organization: Royal Melbourne Institute of Technology
+Lines: 18
+NNTP-Posting-Host: melomys.cse.rmit.edu.au
+
+
+Hi,
+	would someone please email the new AVI file
+	format.  I'm sure that many people would 
+like to know what it is exactly.
+
+Thank you
+
+
+Mark Gregory Lecturer m.gregory@rmit.edu.au PH(03)6603243 FAX(03)6621060
+Royal Melbourne Institute of Technology,
+Department of Communication and Electronic Engineering,
+P.O. Box 2476V, Melbourne, Victoria, 3001. AUSTRALIA.
+--
+Mark Gregory Lecturer m.gregory@rmit.edu.au PH(03)6603243 FAX(03)6621060
+Royal Melbourne Institute of Technology,
+Department of Communication and Electronic Engineering,
+P.O. Box 2476V, Melbourne, Victoria, 3001. AUSTRALIA.
+"
+3502,2,7,False,"From: jim@n5ial.mythical.com (Jim Graham)
+Subject: Re: HELP: Promplem with Panasonic kx-1124 printer
+Article-I.D.: n5ial.1993Apr22.143320.1308
+Organization: what, ME???  you must be joking.
+Lines: 42
+
+In article <21APR199314480846@vill.edu> 166728647@vill.edu
+(DHARMESH CHOVATIA) writes:
+
+>I have a Panasonic kx-1124 (just inherited with no documentation) which is 
+>giving me a problem that i cant resolve.
+
+is this the KX-P1124 you're talking about?  or is there a KX-1124, too?
+I'll assume you just forgot the P....
+
+>The paper out light refuses to go out .
+
+this light is also the power light.....  on (not blinking) just means that
+the power is turned on.  if you look at the panel, it should read
+
+      POWER
+      ---------
+      PAPER OUT
+
+right?
+
+>It starts to blink when ever i turn the power on which 2 beeps.
+
+don't know why it would do this, unless you're out of paper, that is.
+
+>It does allow be to go on line with green
+>light lit, simultanously the red paper out light also remains lit -but is
+>does not blink.
+
+when you power up the printer, assuming it does have paper, the red power
+light (which, when flashing, doubles as paper out) should light, and a few
+seconds later, the green ONLINE light should come on.
+
+hope this helps.....
+   --jim
+
+--
+#include <std_disclaimer.h>                                 73 DE N5IAL (/4)
+------------------------------------------------------------------------------
+INTERNET: jim@n5ial.mythical.com  |  j.graham@ieee.org     ICBM: 30.23N 86.32W
+AMATEUR RADIO: n5ial@w4zbb (Ft. Walton Beach, FL)          AMTOR SELCAL: NIAL
+------------------------------------------------------------------------------
+E-mail me for information about KAMterm (host mode for Kantronics TNCs).
+"
+2375,0,1,False,"From: pest@konech.UUCP (Wolfgang Pest)
+Subject: Speedstar 24 - how to program the TrueColor mode ?
+Distribution: world
+Organization: Kontron Elektronik GmbH Eching, Germany
+Lines: 17
+
+Hello,
+I purchased my new 486 with a NoName graphics card installed which is obviously 
+Speedstar 24 compatible. Its name is ""VGA 4000 TrueColor"".
+It is accompanied with some drivers and the utilities VMODE, XMODE and
+at least one more MODE, as well as some drivers for Lotus, Windows, etc.
+Only one of the drivers is told to provide the TrueColor mode, namely
+the Windows 3.1 driver.
+Nowhere else, except in the ad, is any pointer to the TrueColor mode.
+Some articles in this group about the Speedstar 24 and some other facts
+made me believe that my card is compatible to that one.
+
+Does anybody out there know how this mode can be adjusted? How can I write
+a driver which allows me to have 16.7 millions of colors with a resolution
+of 640 x 480 with 45 Hz interlaced ?
+
+Greetings,
+    Wolfgang
+"
+6751,9,0,False,"From: pgf5@cunixa.cc.columbia.edu (Peter Garfiel Freeman)
+Subject: Hamas methods of Murder
+Nntp-Posting-Host: cunixa.cc.columbia.edu
+Organization: Columbia University
+Lines: 9
+
+
+
+If anyone gets the New York Times, the Edit page has a transcript
+of a VHS from Hams describing their methods of torture and 
+execution. I will post it later on.
+
+
+
+
+"
+4982,7,1,False,"From: krouth@slee01.srl.ford.com (Kevin Routh)
+Subject: F.Y.I.: ImageWriter to Windows...
+Organization: Ford Motor Company Research Laboratory
+Lines: 53
+NNTP-Posting-Host: slee01.srl.ford.com
+X-Newsreader: Tin 1.1 PL5
+
+[ Article crossposted from comp.windows.ms ]
+[ Author was Kevin Routh ]
+[ Posted on 19 Apr 1993 12:35:55 GMT ]
+
+For your information:
+
+I hooked up my ImageWriter I to my COM1 serial port and used the C-Itoh
+8510 driver in Windows 3.1.  The cable I am using is a straight-thru
+cable connected to a Null Modem Adapter I got at Radio Shack (catalog
+#26-1496a) for $4.95.  It seems to work fine with both DOS and Windows.
+I used the following command in DOS
+
+	C:\DOS\mode COM1:9600,n,8,1,p
+
+and set up the port the same way in the Windows Ports setup.
+
+the Null Modem connections are as follows:
+
+	1	to	1
+	2	to	3
+	3	to	2
+	4	to	5
+	5	to	4
+	6+8	to	20
+	20	to	6+8
+	7	to	7
+
+I printed from several applications and all seems OK.  
+
+-- 
+Kevin C. Routh                     Internet:    krouth@slee01.srl.ford.com
+Ford Electronics                   IBMmail (PROFS):               USFMCTMF
+ELD IC Engineering
+17000 Rotunda Drive, B-121         Voice mail:              (313) 337-5136
+Dearborn, MI  48121-6010           Facsimile:               (313) 248-6244
+
+
+
+--
+Kevin C. Routh                     Internet:    krouth@slee01.srl.ford.com
+Ford Electronics                   IBMmail (PROFS):               USFMCTMF
+ELD IC Engineering
+17000 Rotunda Drive, B-121         Voice mail:              (313) 337-5136
+Dearborn, MI  48121-6010           Facsimile:               (313) 248-6244
+
+
+--
+Kevin C. Routh                     Internet:    krouth@slee01.srl.ford.com
+Ford Electronics                   IBMmail (PROFS):               USFMCTMF
+ELD IC Engineering
+17000 Rotunda Drive, B-121         Voice mail:              (313) 337-5136
+Dearborn, MI  48121-6010           Facsimile:               (313) 248-6244
+
+"
+6200,3,5,False,"From: mani@raunvis.hi.is (M'ani Thorsteinsson)
+Subject: Lois Chevrolet?
+Distribution: rec
+Lines: 7
+Nntp-Posting-Host: raunvis.hi.is
+
+
+        I was whatching The History Of The Indy 500 the other day,
+and early in the film, around the '10-'20's, a name, Lois Chevrolet,
+came out of the blue. I wanted to know if he is THE Chevrolet founder
+or mearly a driver who's name was called the same as the other guy's?:^)
+
+                                                KONI.
+"
+6265,6,1,False,"From: boucher@csl.sri.com (Peter K. Boucher)
+Subject: Pseudo-Random Character Generators (large state)
+Organization: UTexas Mail-to-News Gateway
+Lines: 171
+NNTP-Posting-Host: cs.utexas.edu
+
+Here are four pseudo-random character generators, based on
+irreducible trinomials.  Each contains 16 separate trinomials,
+one of which is selected on initialization (there are 64
+distinct trinomials between the 4 PRCGs).  The PRCGs are
+initialized with a 32-bit seed, and a 4-bit trinomial-
+selector.
+
+I would like to get comments on these by anyone who is
+interested enough to look them over.  Please email,
+because our news is on the fritz (Note that this was
+posted via email).
+
+Peter K. Boucher    <boucher@csl.sri.com>
+
+================ CLIP CLIP =================================
+
+begin 660 rnd.tar.Z
+M'YV0<MR0B>%B#(""#""!,J7,BPH<.'$""-*1 BBH@T;,$  J AB!@T:&D'$D!&C
+M!LB-'#G:N$$C1L4:,VS4B$$SI@R.-4C6V#BQI\^?0(,*'4JTJ-&C2),J71KQ
+MA0H0""D \#3BP((@6+:*JT,H1RIPR=<B\:2$GC, W;4"",01.F[!@Z9>2 .%/&
+M3=PP=-[(<5%12)BO9$""\<0,B#)LS>M/00=.&:\4Z@$&D(;RX# @A4XB J.(F
+M#1X0*.BT20&BK$""K<^B089-&#(@V;\C485/&A6,04.2\L9.&3)DY(FV H),'
+MSF_!9G!+<7($M&$V(""!//@,""SALV>=R@36,8^!LSMRN#,*,W+185*L* 6 'B
+MO K7[&.DL""V5ZY W</+(27,&#1V1.>0P VYEP""77$GP)\48=:\7%%11QM9'&
+M''.D,=AP;T3W%0MJX9<'A[""1D889'Q8F$ @BIK:?&'7 -1P:$W(UQW=TW-&6
+M968%IAAP8HU11QMUT8&7A821)Y=9>517AQS6?65B8'<HAL:""='!E1AF630@""
+M&G&5(4:29Y@&%QD<PJ$;;[X%MAA>+^(HQFZ6C>'A?OU5*14(VM&1QA@XPF%<
+M6Y(1]ER'<*3Q&WTJO*""  B/X9L9DEA%1Q!%?9!33#8PZ""BD(4Q0!1:4BW1##
+MHHV6\:A=($A*J4LTS#!JJ:=:UNFG+LD  PRD:HJJJE_<5 ,,,V1JZJ:S]@J""
+M##3@D.NPNT[ZQ8 TV! LK,1Z^NRQ,=""P;*RI.@L2#3#D(""RWQ8*$ Z;C;LIK
+M#2#8$ .FU*):++NVXIINLY0*)ZJX\<IJK7 EV=MOMY3>T*ZK]_K[J<$SP(#N
+MP+SB  (.,DRKJ\)?2""P##@)?3/ 7.4Q\;L*<6AOR##%MJZZS,634\@S\>EQL
+MRR""TI""S)O-(D4KCPRFRMSCC8H#*^7XPDD@PWQ,PLQD:3)#3.+ ](DX DSRSU
+M#<%""O2I(([U;]<\@P9PUQ""RS&P/,2I/[,[VV+IK:D&-4Q,9@9R20P-MPQ;#%
+MQR6!T,4.""N""]I]QTVZV""&7#0(4<,@ L>-PASNU%W BHPJ3CC@0NIY^.13ZY""
+M761\D?CB@""M0AQL5GF%78&NUI0!5,:""0@@)[*)"" '&6<,:&!T:'.W^J0%YX&
+MX+?GOGM<P4M.N1D!T=$#XI=S6'D9;?5@.>F+)I &""#U(Q;P;_[$W?5O$']X\
+M]Y(1/R(*%:VPPO?_@>!#]R"" +OKE%9$&0NT)I 0_^G@K ^;ZQQ'WX8Y\MNM#
+M_=C@I/W9+B7K:]\*#B@7^='/?J-S""0CT1T$ :DZ Q.N#[:""WN.<UCWC7BX'U
+MJ""<'%!9H26Y@'PI.ESK@M4X.*4#!]GS@@YV1)@6 $Z$""[/""&WH#@*W3X E6^
+M\)4R#(1]3233<(ICF=FE!'>Z2PWR:/@[)R:/.E$$7$JXJ#HO3B9^Q#%.Z?B'
+MQ>/)A8S ZYSV./2?[J6Q#""8HB0NSR#LX>E&.O@D3EDIWNPQZ$""\@M-T<HD2'
+MM;#O/Z2I74HFR9$Q_,4R,-""![1(02-Q9IGN\@@'Q$H!!_'4O@""YA3RA'24*7
+MG/*#J2S9IT2Y23$<< UBI.0D+>FD&&C2;IW$$OIR-LI2+NZ0>5L/WUAIR%<B
+M,I8S&Z4MJ8?+J.@R);RTC Q^R<G<>7*8SI)!,05ROV,Z,YFJ#""<S37E$6""JS
+M6.*LY2US><V*9+,CW SF)S\V@W&&KIGM?*8R>=7/3;82F0)\I[4*:K=IAJ&:
+M]:SD)6N63V\*$Y3>\F<Y71E0='Z,!NLT9T<3RIYR27.>UHSH/6M044'N<UT:
+M!2@J!^JL&H24HS,MJ;5L*D]JTK.>][1!2[^)T7S%E)TY_9@-;HI0:/[KI#Y-
+M*5 G>H.A7O1C-SBJ2)/*JZP:5*;NU.G""H/K0GU[SGCBPZDN=A0.MXC2L'VOK
+M5Y$*UV+)M:$HC:@])YH#M8*34CEP:U-I""EBFGI.DL@0962&JUWNVS*]%+1HM
+M[6;,MPHTG:N:; (.>EBGTDJS#F6L2B=*$\CR;8""D)""=8+WM:PX[4LT5#;6C-
+MJDO';G.3^OQKT>))6=72E;4YX^UF5^O1F0EWME(]*VEG8-J<,32U__RM1YWK
+MVJ1:;;&TI:1C:=!<EH%TDY4=+&:+]EV[<?:U""J55>1. 7+VJA;0LQ:U%U[HJ
+MGO8VNEN%:\[L.USI(G9F_$5N D1X-UCN+2-= """"6R$ \([%O>]UCG&1 P ,4
+MS7<'DG'?!BO""OY1$$7TH0.46TI#@""+]L)CFA00U4\.'X5$S%0$R@[7+;/12T
+M3 7Z) U[0KS@$N2XP7IY,/I$.>$*ZQ/#:= P!P42NQ@+D2D H(H,""@+E*D-9
+M)1@)244\<I*CE:3+E%P)N%X2DYG4Q 8W>8E.>&+E-KOYS7"".LYSG3&>B. 4J
+M=Y*R5;""BE=MX!2QB(4N.T*(6MKB%=W2Q2UGRLI>^7#(P%S(,8O:SF,;<Z3&1
+MF4R;+I.9S73F,Z$936ERA!K5L,8U(9I-;?Q\IMX<)P;""N:-WD@.%Y30'!8.2
+MCN2J<YWL;*<[R D/E\93GO:@1SWL<0]\1#*?/M_I/OFADW\ )"" ""\0Y!EUE0
+M@^3PH A-J$(7RHN&RL A.>4'1+$948ERA*+=K:A%EEE,C.XT(S/4Z$9/D@P=
+M>/0&'P$)?$.ZD)%,E""0X+*E).#H1(Z?4(BL)4TM<PMV7YB(F)Y:IU6EZ$9O$
+M$X8WV2%.<^*/?[B2ISWUZ4]RT?2@S&VH.2!*45H#U0QP8+&E)=9E,+@9V58%
+M@IR\RF>T""H[./<:KFV#DYS:'Y[%@((.A1<I9 [(!#7J6](6*Y%=._VB['/:U
+M3W%MZEE?%PAN,).N?X%=KNJ8S7DEG!S Q.S""D0&RPNXL@^7@!E17V\)JQC&Z
+M4TIB LI[M3XE,5<];><@VQG""!E:LD-'D\$1GF<M*@G2]2Q8$.5 [MW+FDI'@
+M(&V#C^VQ:-#TF!OM;$@SN]&B!?FU1TTD,R"")Z@>4$[^3%_;N4CU(:M#ZS9=-
+M). ""O;S6!B!M90YNA%->@1$I@[WMUV^-T]S@OF@X$L;3<<GWW/6N+WW.%8YR
+MQHRGZ7Q71M89^G4""D8'L:&>[-FKQC>2/H_#VZ$;JFP]\SQN=#*1'0>OIGY 0
+MYCWG(SX45#[_TSW#8SL1M![O<SX65!'AES\<]D <<8 CQ5LI84 L%$(+U$ =
+MQA$+J(& \H#UXUMRD&8<Q$((Q5L$9GTF!#XHI'\KA$#%0P<P)$-^9'YMD4,[
+MU$,V\$-!M""A$9$1(I$3D%$7J=T0+1D=4M$%2Y7Y]%']_1#=*Z$0_E8.!@D94
+MM$;M9SSOUSLU-(7*DP9TA#YWE$?V!85;)(6! 4@7ECW;MX+$LTB*X4C#L6&2
+MU%@3E4GRY5*ZI5D1>%@W,5Z:97TKF%Z5@EW)55NDU5V4(ER!>(&$530A=1.""
+MB(BRE5=ZZ""2W!4SSI5N0:(*6*(GC)5R&>(EBU2N*Z%[WQ%Q]2%3\I%6C&$""#
+M&(MS=8*'F(K/U5Z;:!G<]8I7Q2OK%8FT.(GK=8JDF%CKQ8NCY23QY8E^&%G\
+M18P?5(LP=8NS6(V(&&"":V(R6(53 2%]?L%3@)8JYJ%25>([%0HYX%56L2%6.
+M^ 5>=5_EE(W,-XGSV%^XB(J)E8_,.%5.DE;AJ%MW!5WU>(X1DX[\:%>KV(N8
+M%X^!58[X98]P88W.$I'FI7_J:#(-Z8T[$X\M(XL(*7D*F8PS UK="")""645H#
+M&5DT(9+\R'DE68RI^)(]55:+J%VDU8G=%(U\$XH3.9*K8HH:N9 _<UPIJ5R]
+MY(K0""(O4)9$'&9-1,Y/:6).[F)2,V$N_V)3!Z%TPF8PY<XQ%:9)@TY$J>74@
+M.8WF*)7U197W6)/<&%4#IDC5>&!^HV!6.$)!-F$1AF049F$NA61*-H$$5!$?
+M5F.T.&(E)A(G5A+(LF(M=C0>40,Q-I<]""8LV!@,X-E\Z!AI1Y&.<""61R(&3=
+M0V3;8V07EF'LL61DH'Y.MB@* &54,0-45F>VV1!8EA$HT1$?$1)=8Q):-DEB
+MEF8P(1,T<39HAA-R!P-L=IO.^9S0&9W2.9U'<6=<,9M[EA7U<6FX\15A,1:F
+M(19I<4-A\!;(DVAWP6A\<1F/)AB""<AB)46FW 1EF1!G#AAF:P1F> 1JB01KA
+M66JKT1JO$1NJABA=@7&O%FM4-&O*P1S.P0;0H6O481W8H1T2 FS?(6R6823F
+M<6S*I&S*)!^(8A\A5R?4-B 0<FT)HFT1UVUR(""$40B08,F[EYB'H)B(DPB'L
+MEB**TQKP]B+S]A3U=F^XDV\[@B+]]B-!$G!%HA<$IR1,\@9.PFX+1R4.ER7 
+M$7%> B85)T5FLANNIB9L\1\<YW$@%VTB9R=/47)\4AA^HH(J!Z&$TG(O9WL9
+M,77""AS$9(7?&AWBL C.J=W6]MS*/V',VD*>)=1,DH7F$>BTS\':,9W7O,C:1
+M1RD@<0.I%ZE>)Q)]%W/L<@.':G;T FNV)QPX@ .5%WIQES(Q9S TAZC%8C F
+M87N EP.I.GR$5S.8:GN.=RNP:C+ -W2NEUF,""2RJYS)29WLZ,Q(P<*M,XQ(S
+M)ZR^-Y1'<W>J=Q,QD /2VJAG WN9""G1%,R SL*NF]W7AHGLUDZRF9S;)\JNT
+M0B^U=WR;DWUV$T SX'R_]S?R.GURM#RC4U#81WV4<ST VWWT""GXF6%#C%X8Z
+MR&VSN7YLY(51R+#4EX#%PT?((T?WYSPD- /\QT+^IS@*JSWHL['*-#XM9#LF
+MBX#J8P;LPX#_0X+&-"" ;YD""%.1[G<U@,E8$3M($)U(&68;,0Y+(2U$$RF[ 2
+M6!HJJ+,A-$+_^H)T$(,B.X,I6X,W""!I8>$,\*#\]= - J !""-(2!481+%$4S
+M $5+.$7&X817)+%K2+&=4X4,)E58>$85<4=<>+'UAX5R1(9W:$=4A(;T]X5\
+M6SA'!H?_BE ,18>-A :/A(<YN4M[&(^ B+0Z.XF%F+B7FXHHZ8X.Z4LM:8OT
+MJ+DC-2#CA5H=J[B8:)9*J4WQ"")3E-"""";^S%$*;*JFXI(Z;D>R927V964\EPS
+M>[NBJX^R6[J(>)6Z>Y9;V;OB.(R6:[SC)9:V.[LF=9.B=9;/R+RZI9;X5;SV
+M.HG\E;K4NU.LFY7?&(_L:)""D^[WCE;[B""[V)E;[_V+IC%X_Y&+RSVU4AY;T?
+M9+K]6+XZ&9#Q6)#X""[\)>8O\BTC^RY#6FUV2ZR1]%;J\@I'J.[T&?)'[*[R-
+M!\ /O))\R)7B&))0N;[].XDBG)$6S+Z)=<+LA94!O)*@""\*Z99.CF\(E?+JH
+M2\(*C(F9F+ST.Q(@"";LZ#!?^&UP9/+ZTDKLX^8Y+""9+ ^[PJ_)0H+ <)3,28
+MB+Q+_+G+2V-\X[S=*[QA><3P.S/+Z,(=C)827#9:5<5E4,1JC, :O#:*:)GV
+M:I>+&49Z.9I\*1)^B9J!J9HU^X&&N6 @5L<DACXT 2PH]I@L1L@N-IF526!<
+MG)F;Z5*=R6-.!)J6+)JD""0*F^9='!LBL>;:O&9M+014T4)O426>Y&9Q<YILZ
+M 6;""R1+$66;':1/*21+-N<J\W,N^_,O C!36F6<""D<IQPV?;^105\6??*6AG
+M,9Z&5IZ(5A?IJ1?KZ1>1$6GP26F,,9^99I^6@9^>MI^AYI^D%C>I$:""H1J""T
+M8:#+C*#  6MJ>QS?T:""WEFL5LFL4ZFL7RD#!QIWBP:'&EAX?BA[+)J+.]A30
+MIA]I>J+6ACS8IB ,TJ)W B$O^FTR*F[T6:/G-J XNFXGPJ/OYB+R-@<R0B,V
+M4J3L=J0]HJ0 IR<""YZ1( J4(EV]5VG!W<B58NB5=,G%A8A9C<G%@FG%K0J;#
+MUG%P0B@,72<D]P:;<W)P^I[0P7*'HA4PAWAWVJQFYS(WP*A$\Z<U9WF=%P/;
+M2C0WD2R""AZO&D@-]6JG7LA)A'7H#(@/QBG@@(77.JHP=,:A$PRX<XZYGAWFE
+MAWBF6@-IC3'"" 2Z#[=9VMQ)F9S""+2JN*%]=J+3$TH*V\NC/28G8A8RME_73$
+M2A,R -@TX]G*.M:0""JXZ(P,V\-D_>305<ZT]=ZK**C7(0MIS/:[*RC67@JYG
+MT];#6C3L&MN:*MS'LC%N8[ ""&T T@*_U!7W[ZGW*=SBC\UT!VZ^54]W1AWP""
+M^SDF^%T+VT4-BWYD0 ,0VX48""W]P.W_H77\:""S_YIS@T\+'5<SW@3;+=8[($
+MZ+/+D[/IHX!$""[,..#\0^-U)*\@X""SX(55X\6X _6P8,%+0('H(].X($7H+X
+M!1(UVT&'55XM6-U0*[5R0 -4ZT(V&! XR(:%MH,ZQ+7',@-?&[9%-+8%8H2A
+M$T7F+;=,N+96Q!%JJ-[B_45R>X4J;K?SG+<_#H9!WK=E""+C&(;CM3;@J[H:!
+MB;CRO>!SR$AV""$D.Q,281+E:!1(=CKDA)>8C!1*<R\'8U(AI;*EAON F7.9P
+M7I-J+E&<^+IO/N:E*.=ZGJAUOE=.PKM<3%!Y?N:3^%PD9.;,?;Q__EY.LL6?
+M&%E>7$Z*_D%H_E%\;NBI6,8^;+X]%X_<2^ES_C'A6]VC/B^-'E3H6^B+WKZ9
+MWNKQF^KPV.;RR.J6CH^O?NNIZ(]FO.8""3.L$;.!]?L!37.F(=.D,W(Y9[)$1
+M+,.11<'&9.QP<>D3G.O'CH@4/+^>_EBTSL+1/NHYD[E7WN<G*>N]%,/:ZY*H
+M]>W#SC(Y/.Z:OL(]O.QG""<3=+L3P#NM&?(O27@;(?I3FOI*""'NE\\\09#NY3
+MR>^G_C-8?+T_#.D^&<8CG.^ZWL76/NV8R.GT_L/9.^AO7,,CCO!MJ?#D+L<-
+M+&/+-^UVC)=SNUE[&8 2=IJ Z4F""N9J$Z6&$C)B6KIB(W)@I!IF.+)DPUK3I
+M#AHWEF/*A,EDH,F>5)D.ML>?[,<T+\H5@<JR$X2F',Q:O_5<W_5>__5@'_9B
+M/_9D7_9F?_9HGQ!^6C. 6MR=QWNVYRNA6MR*VC*V)ZZI776?<C64&MR7^JUZ
+M_P5<TZF(]ZES#ZZCRM>@/8XBD]?K^.**CU43T_;@*JO /:T9@WFV:G:63:Z(
+MUZOG6MR.ERS*.GG&ZO;(>OG<VGFVXO@_ ZVT;7K8.MJ'O<+8BMFF)S6Q5_M6
+MTQ&>[];9 GRAK]K?HJY^RJZ?IWKP6GK7_7UUS#?LHJ_-/]T=N]WSVMT$:_W\
+M^GW>W;VED[7G][""S$['IK>3E5[&#RSOOW3SQ3<7T+0<A2\4 6++_L]\TN++_
+MK3T![CXQ>^'!&\@4J"")8('M%/!H<?U,@$,X#!4#)L/\J7 7Q?TAKPRVMTD7T
+M.E:(:S]/R\%9+12'M52<UFIQ/&3LQ#@A-..44!(I6POF;.FX><:V?)S; G+G
+M+V[AL3%2Y!3<D5L4Y&]O33GAT>3F&9336U)NO2F/PX4!;9@""RW)UR''=H4@2
+MN7S=EZ-UE>N+Y2]G(>ZH6!R;)0%/),0C@Q>[P!C+$&,J+)J</""]W+/#<Q+.""
+M4_ 1@<$;YN?&H$,:>!$/ZJPQ+_B[UN .TT59$.(YI8QR!MF8&W-S< R)"";XL
+MV/$(WC4"">7X0?-E!*Y:*XM+&\W3@R-FAHSY(!\?1(FQCB$A^]3H[9QFJ""JV[
+M7U"",#>JO0#C&K 6OZW0O;&(,L#F8!C/&)5Q@UJ(@:;M4V.R*7K6CA*V0@KVO
+M,,B1W*!'XG:2,-RQP@N665XA)NI<CS 5LJ1@Z.Z&811KAJ20%]**>>?PMAU/
+M\GA#R1F*0I91N]!@*4QB6?!L.#%M> <+GC&T2N%0#_HN\D(.&:'%BX9LD(R%
+MPT(8!T<>(JR$>@0>ED, ,\<(S/-#,""R/D^VQF ?*4E.2L7E""BR,<)L_4OWB>
+MB5%DCDG%-#(O\LB&'LJ;9$>/,R6]S_1C\E@GBWHS;Y!0O=(@$$@9UF,*J$R5
+MI;V?T,IVTRO;""+])EJ6$X41FC-.923,]1^[$@%VV$GNB3_R)SVF8385BEIT2
+M6E?P3H$F/!$:\F2>Y )Z6C36S-%DL_<T::2$I5%FXT9'@#-.DY\^#7\2-?\)
+MG9D: 95JVAFK&6H):IXQJ%KCH'""-G))0O*9""_1I_EJ$ VK 1:.X!V0RT@]9L
+MDAD(6&C2YC]DJVJ3HB#:BIIH#J*B>9L8%6XRQ$93:C=*W>BHD.9N?!1)@Q$F
+MC=Z@-'RSTO8-DO(W2PJF-:DCX08*SL&14@D'2D@)*Y73'DZ6ZFE<""JA9G.J 
+MH,34QCEJ9DJI!<:F]M3<%,H)%(5!3E$UEV/5[%3-T&K%C:MYM<4'U@(537!M
+M18?O\#YK<1/8VMUK%UC#[,RUNN;6[EI+,#MA(_*)G;\FJ@1;J9H8A@WN',?%
+M%MP:VW3<.Y$MYDB,ET'9,(9EPWV?3[/5Q\32V7).Z6-,H^U8+1WHZ.X84]X3
+M:[6BM2FKV4?<5)NOB'U^RK9=MMGSXAX&\.-MCLWM\3;5]]6&VWX$,,?M9DR_
+MR<'<G)MQDW[*#;LE.NTGW;2/=HMN!ZO[4;KOYP'#7S$[;T!P8BTY]I8C,U;A
+MV%CM;[Y)A?YCW^9??JM_0Y*_X3^+1>'ZWP4Q< #P9@U 2U< ""X@#Y$ )4,(M
+M0 IGM""#@P9. @*+#54 0!S]$'(G3@+CCQ,60#DBQ/F />G$C<(B40+)UA!9,
+MCHLB.ZZ*/*$7:/[DSZZ9@1RA;ME O(4#HYR.C($\\&_YP'S8(V&@GZP;1+""0
+M4+QCAP0;U^-B@F3P@]E""*FCKKATANGC^#A$APVJH#./1I#-U[6Y5@,I_1RNR
+MX#4TA.KD#/8[:A<KB]W""^Q1*C%2>,3BX!^N@K!1YSV)5,CI?J+Q,9:?$>-%+
+M6&XZ0@CJCF6H'""^E;E(BR\3B""'6E$VP7J^Y7IDI+2/+BW3K*@IZ0&18,9TDK
+MQV6WA'6Q*@L*)''I""K5EO""-V^FA6(B)9N D!G66HA=A0L;A+?8?!SF7%VV#$
+M\H=IRGSI[83=NR1)_M)3KK!1Z<""NY3+<E*MBW1E,?ADQE:6\""X>OLA[N%G)I
+MPKJAO*Q)N;)A<D+8,P[W9<638O'R5H:K= B23J6T?);OT%:6//4R#],2QSQ=
+MT3+DS4SAU@_ITK%;>:=DP0A$F-?'0F(9J'E1$N=Y$9WW,P_90WQ4$1'H442A
+=1YF('D;43$AOQW#$T.01H5[1#&4'<</=R%+&% !Y
+ 
+end
+"
+3474,1,0,False,"From: pjsinc@phoenix.oulu.fi (Petri Salonen)
+Subject: Re: What does the .bmp format mean?
+Organization: University of Oulu, Finland
+X-Newsreader: TIN [version 1.1 PL9]
+Lines: 30
+
+Michael Panayiotakis (louray@seas.gwu.edu) wrote:
+: In article <robertsa.735922084@unix2.tcd.ie> robertsa@unix2.tcd.ie (Andrew L. Roberts) writes:
+: >What exactly does the windows bitmap format look like? I mean, how is
+: >the data stored: width, height, no. of colours, bitmap data? I couldn't
+: >find anything in ths user manual, is there any other reference material
+: >which would give me this information?
+
+: Well, this is *only* a guess:  If it goes by the ""true"" meaning of ""bit
+: map"", then it holds (x,y,c) where x pixel number in th ex-direction, y:
+: pixel-number in the y-dir, c: colour.
+
+Come on fellows! The format is quite plainly explained in the manuals.
+It's in the ""Programmer's Reference, Volume 3: Messages, Structures,
+and Macros"" (MSC-Dev.kit for 3.1, should be also in the Borland's
+manuals) pages 232-241 (depending what you need).
+
+First there is the BITMAPFILEHEADER-struct then the BITMAPINFO which
+contains the BITMAPINFOHEADER and the RGBQUAD and then the bitmap
+data. AND there is also a example among the example files (MS_SDK).
+Hope this helps....
+
+-----------------------------------------------------------------------------
+    ########################## | Yes, I do have some prior knowledge in this.
+   ##########################  | There is nothing dangerous in these dragons,
+  ####   / ///   /             | they are totally harmless... But my opinion
+ ####   /  /    / /// ///      | is that kicking them might not be the right
+#### /// ///   / / / /// /     | way to test it. So shut up and RUN!
+-----------------------------------------------------------------------------
+pjsinc@sunrise.oulu.fi  pjsinc@phoenix.oulu.fi  pjsinc@tolsun.oulu.fi
+If it's possible that there are some opinions above, they must be all MINE.
+"
+4280,4,7,False,"From: asalerno@cbnewsm.cb.att.com (antonio.j.salerno..jr)
+Subject: DoD Books
+Organization: AT&T
+Distribution: na
+Lines: 18
+
+Anyone around here read this yet?
+Does Anita have a number?
+
+>>   Title: Software measurement for DoD systems : recommendations for initial 
+>>          core measures / Anita D. Carleton, ... [et al.].
+>> Subject: Software engineering.; Computer programming management.
+>>  Author: Carleton, Anita D.
+>>  Author: Carnegie-Mellon University. Software Engineering Institute.
+>>    Publ: Pittsburgh, Pa. : Carnegie Mellon University, Software Engineering 
+>>          Institute, 1992. 53 p.
+
+
+Tony
+-- 
+=-=-= These opinions are nothing but my own, and I may not even want them =-=-=
+Antonio Salerno            ""The heart, the liver, the spleen, the pancreas. All
+antonio.j.salerno@att.com   these miraculous organs work in _total_darkness_!""
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- - David Letterman -=-=-=-=-=
+"
+6910,2,1,False,"From: philc@hobbit.corp.sgi.com (Phil Culver)
+Subject: Re: DOS 6.0
+Nntp-Posting-Host: hobbit.corp.sgi.com
+Organization: Silicon Graphics, Inc.
+Lines: 32
+
+   I have a 386DX clone, with a DTC ESDI controller and Toshiba 660
+mbyte
+drive. Since installing DOS 6.0, when I tried to re-install software
+from
+5 1/4 or 3 1/2 disks, when I mount the second..third..fourth disks, DOS
+6
+doesn't recognize that I have changed floppies. If I do a ""DIR"", I see
+the
+contents of the previous diskette. The only way to get DOS to recognize
+that
+diskettes have changed, is to do a ""label"", and then to not label them.
+
+   Buying DOS 6.0 has been a colossal mistake. DOS 5.0 was stable, and
+worked
+well with my equipment. I have Superstor Pro, and DESQVIEW/X ( with
+QEMM, 
+Manifest, etc), so there aren't any features of DOS 6 that I am using. I
+guess
+I should roll back to DOS 5.0 but I am wary of what will happen when I
+do it.
+
+   Besides, like a fool, I don't have a DOS 5. bootable disk anymore.
+I've
+made the same mistakes I caution my users not to make. Like sheep, I
+joined 
+the crowd flocking to DOS 6. Baaa Baaad system administrator.
+
+Phillip Culver
+Silicon Graphics Inc
+Mtn. View, CA
+
+
+"
+4844,0,2,False,"From: tpehrson@slack.sim.es.com (tim clinkenpeel)
+Subject: [PC] oak77 vga driver available via ftp?
+Organization: Evans & Sutherland Computer Corporation
+Lines: 9
+Reply-To: tpehrson@slack.sim.es.com
+NNTP-Posting-Host: slack
+
+a user on my bbs ""accidentally"" deleted his vga driver for his oak77 card and
+has no backup.  i was wondering if someone knew of an ftp site (and path,
+please!) where such a thing might be obtained.  thanks.
+
+-- 
+	       there is no religion when a man has  good curry
+  call the Lizard's Den bbs (801) IT'S-YODA - usenet, nethack, XiX, pc/amiga
+      tim clinkenpeel: aberrant analytical skeptical agnostic idealist.
+		     -- i exclusively represent myself --
+"
+5631,2,7,False,"From: jim@n5ial.mythical.com (Jim Graham)
+Subject: Re: Modems and UARTs
+Keywords: modem, UART
+Organization: what, ME???  you must be joking.
+Lines: 26
+
+In article <1993Apr20.054225.24299@ncsu.edu> rjbaucom@eos.ncsu.edu
+(RYAN JEFFREY BAUCOM) writes:
+
+>I have a couple of questions:
+>
+>1) What is a 16550 UART?
+
+and so on.
+
+see my response in comp.dcom.modems.....all of your answers are there.
+
+btw, next time, if you must cross-post into other groups, CROSS-POST
+instead of posting multiple copies.  that way, only one copy of your
+article must be transmitted by the network, and only one copy is stored
+on people's disks (except in the case of brain-damaged news software).
+
+   --jim
+
+--
+#include <std_disclaimer.h>                                 73 DE N5IAL (/4)
+------------------------------------------------------------------------------
+INTERNET: jim@n5ial.mythical.com  |  j.graham@ieee.org     ICBM: 30.23N 86.32W
+AMATEUR RADIO: n5ial@w4zbb (Ft. Walton Beach, FL)          AMTOR SELCAL: NIAL
+------------------------------------------------------------------------------
+E-mail me for information about KAMterm (host mode for Kantronics TNCs).
+
+"
+6437,1,0,False,"From: jloong@dnbf01.bram.cdx.mot.com (Jackson Loong)
+Subject: Looking for Medical ClipArts
+Keywords: medical cliparts
+Nntp-Posting-Host: dnbt01.bram.cdx.mot.com
+Reply-To: jloong@dnbf01.bram.cdx.mot.com (Jackson Loong)
+Organization: Motorola Codex, Canada
+Lines: 30
+
+
+--
+
+
+My wife is a physiotherapist and she is looking for some cliparts of
+skeleton and male/female body.  We're currently using Windows Draw 
+which can import all kind of graphic formats.  Therefore, anything
+will do.
+
+Please advise of the existance of any freeware or commerical source
+that we can turn to.  Since I don't normally read this newsgroup,
+please responds via e-mail.
+
+
+Thanks in advance.
+
+
+
++----------------------------------------------------------------------------+
+|  Jackson Loong                                                             | 
+|  Feeder Networking Engineering   Internet:  jloong@dnbf01.bram.cdx.mot.com |
+|  Motorola Codex, Canada          Macintosh: LJL004@email.mot.com           |
+|  400 Matheson Blvd.              Voice:     (416) 507-7200x6681            |
+|  Mississauga, Ont., L5R 3M1      Fax:       (416) 507-7236                 |
+|                                                                            |
+|  Disclaimer:    My opinions are My Own, not Motorola's .....               |
++----------------------------------------------------------------------------+
+
+
+
+"
+208,7,0,False,"From: rgvander@apgea.army.mil (Richard G. Vanderbeek <rgvander>)
+Subject: MAGIC layout editor
+Organization: APG-Edgewood, MD, USA
+Lines: 7
+Nntp-Posting-Host: cbda6.apgea.army.mil
+
+I heard that MAGIC has been transported to the Macintosh environment.  Does
+anybody know where I can get a hold of this?  Thanks in advance for any
+responses.
+
+Rich Vanderbeek
+Dept of the Army
+Aberdeen Proving Ground, MD   
+"
+4103,2,7,False,"Subject: Looking for replacement for a JVC-disk
+From: michael@pcmith.rks.se (Michael Thurbin)
+Organization: Sommarvagen 1, S-352 37 Vaxjoe, SWEDEN
+Lines: 22
+
+Hi!
+I got hold of an old Zenith 286 Laptop with model# ZWL-183-45
+
+The hard-disk is dead but the rest seems to work. I took the Zenith apart and found a very strange
+disk for wich I now try to replace.
+
+The disk is marked JVC, model JD3824R00-1.
+Has anyone any specs. on this disk or suggestion where i can find it or a cheap replacement for it.
+
+Thanks for your help.
+
+-- Michael
+
+Michael Thurbin (michael@pcmith.rks.se)
+
+-- 
+**************************************************************************************************
+Michael Thurbin
+Sommarvagen 1		Phone: +46 (0)47021340
+S-352 37 Vaxjoe		Fax:   +46 (0)47048978
+SWEDEN
+**************************************************************************************************
+"
+3376,2,7,False,"From: wyman@rtsg.mot.com (Mark S. Wyman)
+Subject: Re: AMD i486 clones: Now legal in US?!?!?!
+Nntp-Posting-Host: lead17
+Organization: Motorola Inc., Cellular Infrastructure Group
+Distribution: na
+Lines: 12
+
+poe@wharton.upenn.edu writes:
+
+>A friend of mine called me on the phone and told me he was wathcing CNN
+>and saw a report that the ruling prohibiting AMD from selling their i486
+>clones has been thrown out, making it legal for AMD to ship in the US.
+>Can anyone out there verify this?
+
+>Thanks in advance
+>Phil
+
+Yep, this was on the news.  Great news for consumers.  Bad news
+for Intel.  
+"
+4922,7,2,False,"From: ray@ole.cdac.com (Ray Berry)
+Subject: Re: $25 network
+Organization: Cascade Design Automation
+Lines: 11
+
+zjoc01@hou.amoco.com (Jack O. Coats) writes:
+
+>The same folks now have out LBL (Little Big Lan) for $75.  I think you
+>get it for $50 if you already own $25 Network.  LBL works with Arcnet,
+>parallel ports, and serial ports in any combination for up to 250 or so
+>nodes.
+
+    LBL now offers ethernet support also, although presently it is limited
+to NE1000/NE2000 style boards.  LBL owners can get an update for $8.50.
+-- 
+Ray Berry kb7ht ray@ole.cdac.com  rjberry@eskimo.com  73407.3152@compuserve.com
+"
+7309,7,2,False,"From: ebraeden@magnus.acs.ohio-state.edu (Eric W Braeden)
+Subject: What exactly is an IBM 486SLC processor?
+Nntp-Posting-Host: photon.magnus.acs.ohio-state.edu
+Organization: The Ohio State University
+Distribution: na
+Lines: 11
+
+Could someone please tell me if the 486SLC and 486SLC2 processors
+IBM is putting in their Thinkpad 700's and other PC's is a REAL
+486 with a math coprocessor or if it is really some Kludge that
+should not be called a 486 at all?
+
+Thanks,
+Eric
+-- 
+Eric W. Braeden                    | ""Der Verstand war zwar praechtig
+Ohio State University              | doch das Nuetzte am Ende nicht viel""
+ebraeden@magnus.acs.ohio-state.edu | Peter Schilling   120 Grad    1983
+"
+1616,1,7,False,"From: jwjohn@ecst.csuchico.edu (Jerry W. Johnson)
+Subject: How to Transfer to Video Tape?
+Organization: California State University, Chico
+Lines: 11
+NNTP-Posting-Host: corpse.ecst.csuchico.edu
+
+Hi All,
+  I'm asking for info on behalf of a friend. Is there, what would
+be, the best way to copy the output of a monitor on to video 
+tape? Any ideas? Please prescribe additional hardware and/or 
+software? (I'm just assuming an Intel/Windows environment).
+Thanks in advance. --Jerry
+-- 
+  ||=-=-=-=-=-=-=-=-=-=-|| Help Support DAM ||-=-=-=-=-=-=-=-=-=-=-=||
+  ||      Jerry W. Johnson       ||   Struggling CSCI Grad Student  || 
+  ||  jwjohn@ecst.csuchico.edu   ||    (Is There Any Other Kind?)   || 
+  ||=-=-=-=-=-=-=-=-|| Mothers Against Dyslexia ||-=-=-=-=-=-=-=-=-=||
+"
+5136,0,1,False,"Subject: Re: univesa driver
+From: djlewis@ualr.edu
+Organization: University of Arkansas at Little Rock
+Nntp-Posting-Host: athena.ualr.edu
+Lines: 13
+
+In article <13622@news.duke.edu>, seth@north13.acpub.duke.edu (Seth Wandersman) writes:
+> 
+> 	I got the univesa driver available over the net. I thought that finally
+> my 1-meg oak board would be able to show 680x1024 256 colors. Unfortunately a
+> program still says that I can't do this. Is it the fault of the program (fractint)
+> or is there something wrong with my card.
+> 	univesa- a free driver available over the net that makes many boards
+> vesa compatible. 
+WHATS THIS  680x1024 256 color mode? Asking a lot of your hardware ?
+
+Don Lewis
+<djlewis@ualr.edu>
+
+"
+5690,7,2,False,"From: mcole@spock (COLE)
+Subject: Disk drive read & write
+Organization: New Mexico State University
+Lines: 5
+NNTP-Posting-Host: spock.nmsu.edu
+
+I am working on a project and am in need of information regarding the  
+currents (at the head) needed to write to a hard drive and the currents  
+produced when reading.  If anyone has information it would be much  
+appreciated.
+mcole@nmsu.edu
+"
+22,8,0,False,"From: jim.zisfein@factory.com (Jim Zisfein) 
+Subject: Data of skull
+Distribution: world
+Organization: Invention Factory's BBS - New York City, NY - 212-274-8298v.32bis
+Reply-To: jim.zisfein@factory.com (Jim Zisfein) 
+Lines: 11
+
+GT> From: gary@concave.cs.wits.ac.za (Gary Taylor)
+GT> Hi, We are trying to develop a image reconstruction simulation for the skull
+
+You could do high resolution CT (computed tomographic) scanning of
+the skull.  Many CT scanners have an algorithm to do 3-D
+reconstructions in any plane you want.  If you did reconstructions
+every 2 degrees or so in all planes, you could use the resultant
+images to create user-controlled animation.
+---
+ . SLMR 2.1 . E-mail: jim.zisfein@factory.com (Jim Zisfein)
+                                                                                                                        
+"
+3508,3,4,False,"From: lofaso@tsd.arlut.utexas.edu (Bernie Lofaso)
+Subject: Re: Fast idle on 88 Ford Ranger
+Nntp-Posting-Host: zruty
+Organization: Applied Research Labs, University of Texas at Austin
+Lines: 22
+
+ljbartel@naomi.b23b.ingr.com (Les Bartel) writes:
+
+>It did it again.  This morning, my 88 Ford Ranger was idling at 10,000 RPM.
+>Ok, so I exaggerated a little, but it was idling very fast.  It has a 2
+>liter carburated engine in it, and no blipping of the throttle would
+>cause the idle to drop back to normal (I don't think the linkage is stuck).
+>What can I do to fix this problem?  This has been a problem from time to
+>time, but has straightened itself out - until now.  I don't have a tach,
+>but by gauging by the sound of the engine, it is idling about twice as fast
+>as it should be.  This is down from what it was idling at when I pulled up
+>at a stop light.
+
+Sometimes a bad choke pull-off diaphram will cause a car to fast idle. The
+pull-off, which is vacuum actuated, provides a necessary pull in non-cold
+weather conditions to get the idle off the the fast idle cam. Locate the
+fast idle cam on your vehicle and see if you can rotate it to produce a
+normal idle. If so, locate the diaphram and test it. If you can't apply
+suction (via a good piece of rubber vacuum hose) with your mouth that will
+cause the diaphram to retract, then it's bad and should be replaced.
+
+Bernie Lofaso
+Applied Research Labs
+"
+7194,3,5,False,"From: sjp@hpuerca.atl.hp.com (Steve Phillips)
+Subject: Re: SUPER MEGA AUTOMOBILE SIGHTING(s)!!!!! Exotics together!
+Organization: Hewlett-Packard NARC Atlanta
+X-Newsreader: Tin 1.1.3 PL5
+Lines: 8
+
+Give out the address, I'll drive by and take a look myself, then post.
+
+
+--
+Stephen Phillips
+Atlanta Response Center
+Atlanta, Ga.
+Home of the Braves!
+"
+2256,3,0,False,"From: woobin@dance.ee.washington.edu (Woobin Lee)
+Subject: Re: .Extensions
+Organization: Image Computing Systems Lab, University of Washington
+Lines: 28
+NNTP-Posting-Host: dance.ee.washington.edu
+
+In article <1993Apr22.114401.7152@ericsson.se> etxmst@sta.ericsson.se writes:
+>I was wondering what the country extension are.
+>Sometimes I just don't have a clue from where
+>some people are writing.
+>
+>These are the extensions I know of
+>
+>ch   Switzerland
+>se   Sweden
+>fi   Finland
+>uk   UK
+>Com  US?
+>Edu  US?     (are both com and edu US?) 
+>fr   France
+>
+>Please feel free to add to this list.
+>
+>/ Markus
+
+nz	New Zealand
+au	Australia
+jp	Japan
+kr	Korea
+-- 
+
+Woobin Lee -----------------------------------------------------------------
+				||
+Image Computing System Lab	||	woobin@u.washington.edu
+"
+1443,1,7,False,"From: brettw@matt.ksu.ksu.edu (Brett D. Watson)
+Subject: Which sound board to buy?
+Organization: Kansas State University
+Lines: 28
+Distribution: usa
+NNTP-Posting-Host: matt.ksu.ksu.edu
+
+  Well, I've come into some money and want to buy CD-ROM, sound board
+and speakers.  I have not kept up on any material relating to sound
+boards and CD-ROM's because until now I never thought I'd have enough
+money.  
+
+  So can you guru's out there point me in the direction of a good
+package including CD-ROM, sound, and speakers (and software I
+suppose)... OR since I don't REALLY need the CD-ROM right now give me
+some good ideas for sound boards and speakers.  Those I could REALLY
+use now.  I have looked at SoundBlaster Pro, which costs about as much
+as I think I want to spend on a board (~$120), and I've looked at the
+Gravis Sound board, which is about $140 and I don't know the
+adv/disadv of either of these boards.  
+
+  Right now I want to use it with any games that support sound, and to
+use in Windows 3.1 to utilize sound capabilities there.  So any
+concise info on sound boards, complete multimedia packages, etc would
+be greatly appreciated.  If anyone else is interested in this info I
+would be glad to summarize responses and post.  
+
+  And if this is some type of FAQ please point me in the right
+direction and don't bother taking up a lot of bandwidth.  Thanks!
+
+-=- Brett
+-- 
+Brett Watson, Database/System Administrator
+Kansas Supreme Court - Topeka, KS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"
+4339,3,4,False,"From: ak296@yfn.ysu.edu (John R. Daker)
+Subject: Re: Isuzu Amigo Opinions sought
+Organization: St. Elizabeth Hospital, Youngstown, OH
+Lines: 16
+Reply-To: ak296@yfn.ysu.edu (John R. Daker)
+NNTP-Posting-Host: yfn.ysu.edu
+
+
+In a previous article, sdexter@shl.com (Scott Dexter) says:
+
+
+>I like the Amigo; I would like some feedback...
+>
+>Any and all feedback appreciated-
+
+
+Yet another Jeep wannabe designed for yuppies who will never take it off road but want
+to look ""outdoorsey"".
+-- 
+DoD #650<----------------------------------------------------------->DarkMan
+   The significant problems we face cannot be solved at the same level of
+      thinking we were at when we created them.   - Albert Einstein
+         ___________________The Eternal Champion_________________
+"
+3653,7,2,False,"From: Kirk_Cowen@panam.wimsey.bc.ca (Kirk Cowen)
+Subject: references...
+Distribution: world
+Organization: Commodore Computer Club / PaNorAmA
+Lines: 12
+
+I've got the same problem; I can't dig up any info on the jumper settings
+on the hd 3.5"" drives.
+
+Can anyone recommend a reference book(s) on the subject, rather than a
+""quick fix"" type answer??  I was going to start hooking up things and
+logging the results, but the prospect of a ten second smoke test deters
+me...
+
+Thanks, Kirk Cowen.
+
+-- Via DLG Pro v0.995
+
+"
+3745,7,2,False,"From: buhrow@moria.nfbcal.org (Brian Buhrow)
+Subject: NEED HELP FINDING DIP SWITCH SETTINGS AND JUMPER SETTINGS FOR 386SX MOTHERBOARD
+Keywords: JUMPER SETTINGS DIP-SWITCH SETTINGS, HELP, COMPUTER 386SX
+Organization: National Federation of the Blind of California
+Lines: 14
+
+
+Hello net.  I have a 386sx motherboard with the Phoenix BIOS, an on-board
+IDE controller port, and two on-board serial ports.  Unfortunately, I don't
+have a manual for this beast and I would like to be able to disable the IDE
+controller in order to use the MFM controller I have.
+The board says it is made in Korea and it uses the Chips Chipset.  If
+anyone can give me a clue as to how to go about configuring the board so as
+not to use the IDE controller, or how to go about finding out how to do it,
+their help would be greatly appreciated.  
+	Thank you in advance for your assistance.
+Please mail buhrow@nfbcal.org with your responses as my news feed is rather
+tenuous.
+Thank you very much!
+-Brian <buhrow@nfbcal.org>
+"
+2239,7,6,False,"From: LLBGB@utxdp.dp.utexas.edu
+Subject: chip / chipset for code 39 barcode?
+Organization: UTexas Mail-to-News Gateway
+Lines: 15
+NNTP-Posting-Host: cs.utexas.edu
+
+Distribution: usa
+Reply-To: lihan@ccwf.cc.utexas.edu
+
+While I'm on the net bugging everyone, is there such a thing as a chip
+or chipset to decode Code 39 barcode?  I ask for a couple of reasons --
+mainly I want a reasonably compact encoding scheme to write information
+on magstripe cards and Code 39 appears to be about right.  (If the 'right'
+way to do it is something else, and it's reasonably easy, can someone let
+me know?)
+
+I might not get a chance to reply too quickly to this or my earlier post,
+but I'll get to them within a couple days, I think ..
+
+thanx everyone!  <BGB>  lihan@ccwf.cc.utexas.edu
+
+"
+5085,7,1,False,"From: pyeatt@Texaco.com (Larry D. Pyeatt)
+Subject: Membrane keypad with custom legend.
+Nntp-Posting-Host: 211.2.1.197
+Organization: Texaco
+Lines: 16
+
+I had a catalog with membrane keypads, but I dunno what
+happened to it, and it was so long ago that I forget the
+name of the company.  Anyway, you could make your own
+legend and slip it behind the bezel.  Really nice and 
+reasonably priced.  Can anyone tell me where to get some
+more of these critters?  I've tried several places, but
+none of them seem to have keypads which allow you to use
+your own legend.
+
+Any suggestion would be appreciated.
+
+-- 
+Larry D. Pyeatt                 The views expressed here are not
+Internet : pyeatt@texaco.com    those of my employer or of anyone
+Voice    : (713) 975-4056       that I know of with the possible
+                                exception of myself.
+"
+1950,7,1,False,"From: cph@dmu.ac.uk (Chris Hand)
+Subject: Re: PC Based Layout Program
+Organization: De Montfort University, Leicester, UK
+Lines: 26
+X-Newsreader: TIN [version 1.1 PL8]
+
+Frank Hielscher (hielsche@aragorn.CSEE.Lehigh.Edu) wrote:
+: The PADS*.ZIP files contain subdirectories, and have to be unzipped
+: via ""pkunzip -d"". Then an xcopy /s to three floppies creates the disks
+: needed to do the install.
+
+I'm still not sure how this is supposed to work, since the .ZIP files
+took up about 2.5Mb, so it must be a tight squeeze on those floppies...
+
+However, I managed to install PADS and I'm pretty impressed.  I created
+a couple of schematics without problem, but whenever I try to 
+create a PCB layout from one of *my* circuits (rather than the demos)
+it doesn't work.  I'm wondering if maybe a file isn't where it should
+be...
+
+Can anyone who has a printed manual comment on whether the registration
+fee is worth paying?
+
+
+Chris
+
+
+-- 
+Chris Hand, Lecturer                Internet mail: cph@dmu.ac.uk
+Dept of Computing Science,          Voice: +44 533 551551 x8476
+De Montfort University, The Gateway,  Fax: +44 533 541891  FIDOnet: 2:440/32.50
+LEICESTER, UK   LE1 9BH             >> Linux: *free* unix for IBM PCs! <<
+"
+7089,2,0,False,"From: thia@sce.carleton.ca (Yong Thia)
+Subject: VESA LOCAL BUS
+Summary: VESA
+Keywords: VESA
+Organization: Carleton University
+Distribution: na
+Lines: 9
+
+Hi! I was wondering if anyone out there could point me to where I can
+get the VESA specifications or any relevant books on this subject.
+
+Regards
+Jimmy
+
+--
+"
+3560,6,0,False,"From: jed@pollux.usc.edu (Jonathan DeMarrais)
+Subject: Crypto Conference
+Organization: University of Southern California, Los Angeles, CA
+Lines: 11
+Distribution: usa
+NNTP-Posting-Host: pollux.usc.edu
+
+I need to know the following information about the upcoming
+Crypto Conference; The address to submit articles, and the
+number of copies needed.  Thanks,
+				Jonathan DeMarrais 
+				jed@pollux.usc.edu
+
+-- 
+--- Jay      jed@pollux.usc.edu          (University of Southern California)
+
+What a depressingly stupid machine.
+                                     Marvin
+"
+5600,1,2,False,"From: kolodzie@uni-duesseldorf.de (Stefan Kolodzie)
+Subject: WINWORD and QUATTRO-PRO-Problems on a notebook
+Organization: Psychologisches Institut I, Heinrich-Heine-Universitaet Duesseldorf
+Lines: 19
+NNTP-Posting-Host: 134.99.100.6
+
+Hello,
+
+I have a 386sx25 notebook with windows 3.1 running fine. WINWORD 2.0 and 
+QUATTRO-PRO for windows also work fine when no virtual memory is used. 
+Switching on the virtual memory option these programs (probably others too) 
+don't work, the system crashes. The same programs work well with arbitrary 
+virtual memory on two other desktop PC's. What am I doing wrong?
+
+If you can help, please mail to me directly, if possible.
+
+Thank you very much in advance.
+
+Stefan
+
+/---------------------------------------------------------------------------\
+| Stefan K. Kolodzie                              Heinrich-Heine-University |
+| Institute for General Psychology                     Duesseldorf, Germany |
+|                  e-mail: kolodzie@ze8.rz.uni-duesseldorf.de               |
+\---------------------------------------------------------------------------/
+"
+4107,0,1,False,"From: egret@wet.UUCP (thomas helke)
+Subject: How Can I Download Files/Graphics?
+Organization: Wetware Diversions, San Francisco
+Lines: 21
+
+How can I find these files and graphics that people
+are downloading from their Unix systems? Then, how
+do I download them? I am a complete beginner in
+this (obviously), so please baby-step me through
+the process. First of all, I don't see amongst
+these newsgroups where there is anything remotely
+like a GIF, TIF, or compiled shareware program?
+
+Thanks in advance for any information you can
+give me. (I know there is a Unix command, ""ftp,""
+that will allow me to do this, but first I
+need to know where to go to find the file
+I want download via ftp, etc.
+
+Thomas Helke
+egret@wet.UUCP 
+
+//
+::wq!
+/
+
+"
+5706,2,7,False,"From: chrstie@ccu.umanitoba.ca (William John M. Christie)
+Subject: Re: Joystick suggestions?
+Nntp-Posting-Host: varley.cc.umanitoba.ca
+Organization: University of Manitoba, Winnipeg, Canada
+Lines: 31
+
+
+It depends on what you'd like your joystick for.  I've seen Gravis
+joysticks at Radio Shack.  They seemed flimsy and didn't fit well in my
+hand.  I have heard on c.s.i.p.games that they don't last well (less than
+a year) on flightsims.  One redeeming feature does seem to be the ability
+to adjust the tension of the stick.
+
+I recently purchased a CH Flightstick.  There aren't any suction cups and
+no tension adjusters but otherwise it seems to be an excellent joystick. 
+I'm currently using it for the Wing Commander series and Red Baron.  Works
+quite well.  The large base does not require a steadying hand and so
+leaves it free.  The buttons provide good tactile response (you can hear
+and feel them well).  There are other models made by CH that can go up or
+down in features.
+
+For price comparison Gravis analogue joysticks sell for ~$35.00 here
+compared to the $45.00 I paid for a CH Flightstick.  I think the extra
+$10.00 is worth it just in feel.  Best thing to do is to ask a salesperson
+to let you try them out or at least feel it before you buy.
+
+Just another note, analogue joysticks are best for flightsims or something
+that needs sensitive touch.  If you're only playing games such as Castle
+Wolfenstein or some other game that only uses digital input (ie. only up,
+down, left, etc. instead of 'how much right') you might want to look into
+a Gravis gamepad.  They look like a Nintendo control pad but I don't know
+much beyond that.
+-- 
+     Will Christie       |    AATCHOO!      | PHILOSOPHY: the principles and 
+ University of Manitoba  |    Uh-oh...      |  science of thought and reality
+  Winnipeg, MB, Canada   |   I'm leaking    | PHILOSOPHER: someone who thinks
+chrstie@ccu.UManitoba.CA | brain lubricant. |  they're useful to society
+"
+6818,0,7,False,"From: rajsnr@IASTATE.EDU (S N Rajesh)
+Subject: Looking for a job as a Software Engineer
+Keywords: C & C++, GUI, XVT, Operating Systems, Computer Networking.
+Reply-To: rajsnr@IASTATE.EDU (S N Rajesh)
+Organization: Iowa State University
+Lines: 194
+
+I am not sure that I am supposed to post this mail here. However
+during the last year, while I was involved in developing graphical user
+interface (GUI) applications, I have enjoyed being personally part of this
+news group wherin I got some interesting information which helped me in my
+work. I am posting my resuming hoping that people working in my area would
+make time to look at it.
+________________________________________________________________________________
+_
+						304A WestGate Hall,
+						ISU, Ames, IA 50011.
+						(515) 294 1525
+						April 29, 1992.
+
+Dear Prospective Employer:
+
+I am seeking employment as a software engineer with interests in software
+design and development, in which I can utilize my experience in hardware, 
+C & C++ programming, graphical user interface (GUI), operating systems and
+computer networking.
+
+I received my Bachelors of Engineering (BE) degree in Electronics
+Engineering in 1990 and a M.S. degree in Electrical Engineering in Dec 1992 
+from Iowa State University. Currently I am enrolled in a M.S. in Computer
+Engineering at Iowa State University.
+
+During my Masters program, as a research assistant since Jan 1991, I have
+published three papers including one in the IEEE Transactions on Magnetics.
+These papers are a reflection of the quality of my research and my ability
+to learn new concepts quickly.
+
+I have been involved in many projects involving software developments and
+have extensive experience programming in C, C++, Fortran and Assembly Level. 
+I am also familiar with operating systems like Unix, Ultrix and MS-DOS.
+I am familiar with Motif/X programming and currently, as a research assistant,
+am involved in graphical user interface (GUI) design using the multiplatform 
+GUI toolkit XVT++. My experiences also include areas such as operating systems
+and computer networks, through course work and projects. I was involved in the
+study of the design and development of the internals of the XINU operating
+system. I have also been involved in many TCP/IP programming projects in
+computer networking.
+
+While in college I learnt the importance of clear and concise communication.
+I have also learned a lot about time management. In my M.S. program I
+have maintained a 3.70 grade average, worked 20 hours per week and
+have enjoyed being involved in many other extra curricular activities.
+
+My software experiences along with my hardware background (Electronics
+Engineering) would be very helpful in my career goals as a software engineer.
+I request that my qualifications may kindly be reviewed. I would like to
+have an interview to discuss your employment needs and my career goals. 
+I am eager to hear from you soon.
+
+
+Sincerely
+
+S.N. Rajesh (rajsnr@iastate.edu)
+
+...........................................................................
+				RESUME
+...........................................................................
+
+			     S. N. RAJESH
+		          __________________
+
+    Work		                             Residence
+305 Coover ISU,					304A WestGate hall, ISU
+Ames, IA 50011    				Ames, IA 50011
+               					(515) 294-1525
+
+        	      E-mail: rajsnr@iastate.edu
+
+OBJECTIVE	To obtain a challenging position as a Software Engineer 
+		involving software design and development, in which I can
+		utilize my experience in hardware, C & C++ programming, 
+		graphical user interface (GUI), operating systems and 
+		computer networking.
+
+EDUCATION	Currently enrolled in a M.S. in Computer Engineering, Iowa state
+		University, Ames, Iowa 50011.	
+
+		M.S. in Electrical Engineering, Iowa State University, Ames, 
+		Iowa 50011 (Dec 1992)   	GPA	Major: 3.8/4.0
+							Overall: 3.7/4.0.	
+		Thesis: Probability of Detection (POD) Models for Eddy Current
+		Nondestructive Evaluation (NDE) Methods. 
+		(Project Funded by Federal Aviation Administration (FAA))
+
+		B.E. in Electronics Engineering, Bangalore University,
+ 		Bangalore, India (Jan 1990).
+
+PUBLICATIONS	S. N. Rajesh, L. Udpa and S. S. Udpa, ""Numerical Model Based
+		Approach for Estimating Probability of Detection in NDE 
+		applications"", IEEE Transactions on Magnetics, Vol. 29,
+		No. 2, March 1993. 
+
+		S. N. Rajesh, L. Udpa and S. S. Udpa, ""Estimation of 
+                Eddy Current Probability  of Detection using 3D Finite Element
+		Model"", presented at the 19th Annual review of Progress in
+		Quantitative Nondestructive Evaluation Conferance, San Diego,
+		California (Jul 1992)
+
+		S. N. Rajesh, L. Udpa, S. S. Udpa and N. Nakagawa, ""Probability
+                of Detection Models for Eddy Current NDE Methods"", Presented at
+                the 18th Annual Review of Progress in Quantitative
+                Nondestructive Evaluation Conferance, Brunswick, ME (Jul 1991)
+
+RELEVANT * Implemention of Operating Systems * Electronic Devices and Circuits
+COURSE     * Computer Network Architecture     * Pulse and Digital Circuits
+WORK       * Advanced Computer Communications  * Artificial Neural Networks
+           * Introduction to Supercomputing    * Pattern Recognition
+           * Microprocessors and Computer      * Digital Image Processing
+	     Organization                      * Digital Signal Processing
+           * Computer Technology and           * Integrated Circuits and Design
+	     Programming
+
+PROJECTS	* Implementation of the fork system call on the Xinu operating
+		  system. Also involved in the implementation of a CPU
+		  scheduling algorithm taking into consideration the aging
+		  of processes. This project involved the study of the design
+		  and development of the internals of the Xinu operating system.
+		* Design and development of an interrupt driven keyboard driver.
+		  This project involved a thorough understanding of device 
+		  drivers.
+		* Design and development of a Unix like tree structured 
+		  directory which allows the creation of subdirectories and
+		  organization of files accordingly. This project included the
+		  implementation of routines such as mkdir, rmdir, cd, ls and
+		  rm to support the directory structure.
+		* Analysis of methods of congestion control in computer
+                  networks.
+                * Implementation of the Bellman-Ford routing algorithm for a
+                  distributed network. The communication between network nodes
+                  was based on UDP. This project involved programming in C++.
+		* Simulation of the various digital logic functional units 
+		  starting from the basic gates to registers, counters, adders,
+		  multipliers, arithmetic logic unit (ALU) and so on. The
+		  project involved extensive C programming in an Unix
+		  environment.
+
+WORK		Research Assistant, Center for NDE, Iowa State University, Ames,
+EXPERIENCE	IA 50011 (Aug 1992-Present)
+                * Work involves development of applications using graphical
+                  user interface (GUI) toolkits. Familiar with programming in
+                  a Motif/X environment. More recent work involves development
+                  of multiplatform GUI applications, in C++, using the portable
+		  GUI toolkit XVT++.
+                  (This project is supported by NIST (National Institute of
+                   Standards and Technology)).
+
+		Research Assistant, Center for NDE, Iowa State University, Ames,
+		IA 50011 (Jan 1991-Aug 1992)
+		* Work involved developing software for modeling electromagnetic
+		  NDE techniques such as the eddy current method. It also
+		  involved optimization of the code on the parallel computer
+		  Cray YMP.
+		  (This project was supported by FAA and involved working in
+		   close contact with the aircraft industry (Boeing)).
+
+		Trainee Engineer, Indian Telephone Industries, Bangalore India.
+		* Work involved design and development of a microprocessor
+		  (8085) based programmable telephone dialler used in cordless 
+		  telephones. Involved programming of a 8085 microprocessor 
+		  to control the pulsing actions of the relays in a telephone 
+		  circuit (Jan-Nov 1989).
+
+COMPUTER	Languages: C, C++, Fortran, Assembly Level.
+SKILLS		Software: Motif/X, XVT, Computer Graphics (Hoops), TCP/IP 
+			  programming, Image Processing Utilities, SDRC-Ideas, 		  		  Autocad.
+		Operating Systems: Unix, Stellix, Ultrix, MS-DOS.
+		Systems: DEC Series, HP and Sun Workstations, Macintosh, 
+			 Stellar.
+		Parallel Systems: Cray YMP, IBM 3090J, MasPar, N-Cube.
+
+HONOURS AND 	* Iowa State University Graduate College Scholarship 
+ACTIVITIES     	  (Jan 1991-Present)
+		* Ranked 42 out of over 20,000 students in Bachelors of
+		  Engineering Entrance Examination ensuring full
+		  scholarship, from the state, to pursue my Bachelors's degree.
+		* Current member of IEEE
+
+REFERENCES	Available upon request.
+	
+
+
+		
+
+
+
+
+
+
+ 
+
+
+"
+6580,2,1,False,"From: lepper@logopolis.mct.anl.gov (Matt Lepper 2-5950)
+Subject: Help with 3C503 and NCSA Telnet
+Organization: Argonne National Laboratory, Argonne, Illinois
+X-Newsreader: TIN [version 1.1 PL9]
+Lines: 8
+
+Help!
+  I'm trying to configure NCSA Telnet v2.3.05 to work with a 3C503 ethernet
+board.  I can use FTP fine, but whenever I attempt to use Telnet, the
+machine hangs with a blank screen and a blinking green cursor.  Any ideas?
+
+Please e-mail:
+	lepper@maat.mct.anl.gov
+	mjlepper@mtu.edu
+"
+7077,4,3,False,"From: wcd82671@uxa.cso.uiuc.edu (daniel warren c)
+Subject: Splitfire Plugs...  Kinda Offical...
+Summary: Supposed ""Higher power output"".
+Distribution: rec.motorcycles
+Keywords: Using Splitfire plugs for performance.
+Organization: University of Illinois at Urbana
+Lines: 54
+
+
+Yo, Whaz up!!!
+
+Earlier, I was reading on the net about using Splitfire plugs.  One
+guy was thinking about it and almost everybody shot him to hell.  Well,
+I saw one think that someone said about ""Show me a team that used Split-
+fires....""  Well, here's some additional insight and some theories
+about splitfire plugs and how they boost us as oppossed to cages.
+
+Splitfires were originally made to burn fuel more efficiently and
+increased power for the 4x4 cages.  Well, for these guys, splitfires
+increased performance by increasing TORQUE.  They weren't focusing
+on horsepower numbers.
+
+Now how does this related to us high performance pilots?  Well, that
+depends.  Do you pilot a high performance 2- or 4-cylinder machine?
+In the case of 4-cylinders, splitfires would increase overall torque,
+but 4's make more top end horsepower with its torque packed down low.
+So for 4's, splitfires would not significantly increase power.
+
+But what about twins?...  Many of you 4 guys laugh at some of us twins,
+but many times we carry less weight which sometimes can make up for
+the hp loss (see Doug Polen vs. Scott Russell, Daytona 1992).  However,
+twins make more torque thoughout their powerbands.   So how does this
+translate?  Increased torque should ""theoretically"" help twins make
+more power.  Splitfire claims that there should be not extra mods
+or anything made, just stick 'em in.
+
+Now I don't know about all of this (and I'm trying to catch up with
+somebody about it now), but Splitfires should help twins more than
+4's.        
+
+As far as racing teams....  Ducati team ""Fast by Ferraci"" used
+splitfires in the 1989 season (this is when they had Jamie James
+running for em), but I don't know why they stopped since then.
+Also, somebody check to see if they had them in 88.....
+
+Peace.
+
+Warren
+wcd82671@uxa.cso.uiuc.edu
+""Have Suzuki, will travel...""
+
+At a local ""fix-er-up-er"" shop, the bike repairest looked at a
+dumped ZX-7.  Then he asked the guy...
+
+""What happened...""   ""I dumped the clutch...""
+""How fast...""        ""Pretty fast...""
+""Insurance...""       ""Nope.""
+
+The fixer smiled.....
+
+""What do you know about bikes?""   ""Not much.....""
+ 
+"
+67,2,1,False,"Subject: Re: DOS 6.0
+From: venable@faculty.coe.wvu.edu (Wallace Venable)
+Organization: WVU College of Engineering
+Nntp-Posting-Host: 157.182.80.85
+Lines: 10
+
+
+>I know of two people who have horrer stories about the DOS 6.0.
+>That's 100% of the people I know with DOS 6.0. Both have
+>had to reformat their disks and start over.
+
+	I used the standard installation program to put MS-DOS 6.0 on my
+machine with Stacker 3.0 already installed.  No problems.  I kept Stacker,
+rather than switch.
+	I am very pleased with the memory I gained since I did not have a
+memory manager.  I also like the multiple boot feature.
+"
+380,4,7,False,"From: buffalo@wam.umd.edu (Duncan D. Sterling)
+Subject: Re: '93 Wing Ding?
+Nntp-Posting-Host: rac1.wam.umd.edu
+Organization: University of Maryland, College Park
+Lines: 9
+
+Wing ding XV will take place in Louisville, Kentucky from 15 June-18 June.
+For more info, or to register, contact GWWRA, P.O.Box 14350, Phoenix, AZ,
+85017, Tel. (602) 269-1403.
+
+-- 
+-----------------------------------------------------------------------------
+Duncan Sterling          buffalo@wam.umd.edu   GT750L, KH500A8, CA175K3
+University of Maryland    ""Yeeehaaa!"" - Slim Pickens in ""Dr. Strangelove""   
+College Park, Md.         ""2 strokes are quicker than 4"" - anonymous 
+"
+1470,3,4,False,"From: hhm@cbnewsd.cb.att.com (herschel.h.mayo)
+Subject: Re: BRAINDEAD Drivers Who Don't Look Ahead--
+Organization: Chicago Home for the Morally Challenged
+Distribution: usa
+Keywords: bad drivers
+Lines: 29
+
+In article <zdem0a.734809554@hgo7>, zdem0a@hgo7.hou.amoco.com (Donna Martz) writes:
+
+> >So, I block the would-be passers. Not only for my own good , 
+>      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> >but theirs as well even though they are often too stupid to realize it.
+>  !!! ^^^^^^^^^^^^^^ !!!
+> >As a rule of philosophy, I don't feel particularly sorry when somebody gets 
+> >offed by his own stupidity, but It does worry me when some idiot is in a 
+> >position to cash in my chips, too.
+> >                                                           H.H. Mayo
+> 
+> Well, Aren't we just Mr. Altruism himself!!   Just what the world needs,
+> another frustrated self appointed traffic cop.
+
+
+Well, if you want to stick the nose of your car up the ass of a 50 foot semi, I
+suppose it's your neck, however, I'm not going to let you kill me in the bargain.
+If you get frustrated by somebody delaying your inevitable death due to less that
+wise driving practices, then TOUGH!!!
+
+
+
+
+
+""Thank God for the Fourth of July, for it yearly rids the earth of a considerable
+load of fools""
+
+                                                              Mark Twain
+
+"
+4005,6,0,False,"From: schinagl@fstgds15.tu-graz.ac.at (Hermann Schinagl)
+Subject: Need source of FEAL encrytion algorithm
+Organization: Technical University of Graz, Austria
+Lines: 12
+NNTP-Posting-Host: fstgds15.tu-graz.ac.at
+X-Newsreader: TIN [version 1.1 PL9]
+
+Hi !
+
+I am interested in the source of FEAL encryption algorithm.
+Does someone of you know where I can get the source from, or
+where I can find documentation about FEAL.
+
+Thanks in advance
+
+
+Ciao Hermann
+
+Please email me !!!
+"
+4666,9,0,False,"From: oyalcin@iastate.edu (Onur Yalcin)
+Subject: Re: ARMENIA SAYS IT COULD SHOOT DOWN TURKISH PLANES
+Organization: Iowa State University, Ames, IA
+Lines: 28
+
+In article <1993Apr20.214322.8698@kpc.com> henrik@quayle.kpc.com  writes:
+>In article <1993Apr20.131336@IASTATE.EDU>, oyalcin@IASTATE.EDU (Onur Yalcin) writes:
+>OY] ...[deleted]...
+>OY] 
+>OY] If you are really interested, I can provide you with a number of references
+>OY] on the issue.  Just send me EMail for that.  
+>
+>	You think I am that STUPID to ask you for REFERENCES !  NOT !
+>	I have many GREEK friends that I could ask for the INFO if I
+>	needed. I have already read many articles and DO NOT need
+>	your help. Boy, how generous !!
+>
+
+There is a very narrow margin of stupidity between accepting my references and
+those of the Greeks, and you just said you'd rather do the latter! That's fine
+with me. I was sincere in my offer, but this saves me the effort. It doesn't
+take a half-brained man to go to any library and check out a bunch of sources
+of decent objectivity. Just ask a good friend for help. !:-)
+
+
+""Stay on these roads,""
+
+Onur Yalcin
+-- 
+Onur Yalcin 
+oyalcin@iastate.edu
+
+""Un punto in piu`""
+"
+3227,2,1,False,"From: jre@zeos.com (Jim Erickson)
+Subject: Bye
+Organization: Zeos International, Ltd
+Distribution: comp.sys.ibm.pc.hardware, biz.zeos.general, biz.zeos.announce
+Lines: 17
+
+   As of today I will no longer be a contact for Zeos International on the net.
+This responsibility has been taken over by another tech (davidm@zeos.com) and I
+am moving up and on (mo money, mo money :)).  I just wanted to thank all of the
+netters who have supported and encouraged the participation of Zeos on the net.
+I personally feel it is important for companies such as Zeos to provide their
+customers with as easy access as possible when they have questions/problems and
+being on the net is an big step in the right direction.  I hope that other
+companies will follow suit (as Weitek and others have done). Again, thanks.
+
+---JRE---
+
+-- 
+Jim Erickson             ZZZZ EEEE  OO   SSSS   ZEOS International, Ltd.  
+support@zeos.com   INET     Z E    O  O S       Technical Support Dept.
+uunet!zeos!support UUCP    Z  EE   O  O  SSS    1301 Industrial Blvd. N.E.
+Any opinions expressed    Z   E    O  O     S   Minneapolis, MN 55413
+herein are my own!       ZZZZ EEEE  OO  SSSS    FAX         612-633-4607
+"
+4021,2,1,False,"From: alee@mnemosyne.cs.du.edu (Alec Lee)
+Subject: Scan Rate vs. Font Size
+Summary: Which is more important?
+Organization: University of Denver, Dept. of Math & Comp. Sci.
+Lines: 10
+
+This past winter I found myself spending a ridiculous amout of time in front
+of my computer.  Since my eyes were going berserk, I decided to shell out
+some serious money to upgrade from a 14"" to a 17"" monitor.  I'm running
+800x600 at 72 Hz.  My eyes are very grateful.  However, I find myself using
+a smaller font with less eye strain.  Has anyone else had this kind of 
+experience?  I thought that small fonts were the culprit but it seems that
+flicker was my real problem.  Any comments?
+
+Alec Lee
+alee@cs.du.edu
+"
+1272,2,1,False,"Subject: help with internet!!!
+From: dfmorgan@acs.harding.edu
+Reply-To: dfmorgan@acs.harding.edu
+Organization: Harding University
+Nntp-Posting-Host: acs.harding.edu
+Lines: 10
+
+I know this isn't the EXACT right place to put this, but im desperate!
+
+I'll be going home for the summer, and wont have direct access to my
+VAX account....My problem is, i need a service that doesn't charge body
+parts, vital organs, or my first born son, that allows me access to the
+internet!  All i really need is to be able to TELNET to my school account,
+and from there I can do anything I need to do.   ANY HELP WILL BE GREATLY
+APPRECIATED!!!!!!!!!!!
+
+Please! E-MAIL to DFMORGAN@acs.harding.edu
+"
+6157,8,7,False,"Subject: Why isolate it?
+From: chinsz@eis.calstate.edu (Christopher Hinsz)
+Organization: Calif State Univ/Electronic Information Services
+Lines: 13
+
+	Does anyone on this newsgroup happen to know WHY morphine was
+first isolated from opium?  If you know why, or have an idea for where I
+could look to find this info, please mail me.
+	CSH
+any suggestionas would be greatly appreciated
+
+--
+ ""Kilimanjaro is a pretty tricky climb. Most of it's up, until you reach
+the very, very top, and then it tends to slope away rather sharply.""
+					Sir George Head, OBE (JC)
+------------------------------------------------------------------------------
+LOGIC: ""The point is frozen, the beast is dead, what is the difference?""
+					Gavin Millarrrrrrrrrr (JC)
+"
+937,2,1,False,"From: ted@isgtec.com (Ted Richards)
+Subject: Re: pc-X
+Distribution: usa
+Organization: ISG Technologies Inc. Mississauga Ont. Canada
+Lines: 43
+X-Newsreader: TIN [version 1.1 PL9]
+
+To following up my own note:
+Ted Richards (ted@isgtec.com) wrote:
+: Al DeVilbiss (al@col.hp.com) wrote:
+: :
+: : It looks like everything works as advertised but I am disappointed
+: : with the speed.  I'm using an Intel 400 internal 14.4k modem in the PC
+: : with Telebit 14.4k on the Unix end, which are currently limited to
+: : 19.2Kbits by the Unix com link. To get a quantitative comparison, I
+: : did 'cat file' where ""file"" is 20 kbyte uncompressed ascii text, and
+: : it took 75 seconds to scroll through an X window over the modem link,
+: : 270 chars/sec.  Using the identical hardware and Procomm+FW the same
+: : ""cat file' takes 11 seconds, 1820 chars/sec.  BTW, I use NCD PC XView
+: : on my PC at work (HP) every day for the same Unix access from a PC over
+: : a LAN and like that just fine.  The same 'cat file' scrolls by in
+: : ~2 seconds on the LAN connection.
+
+I just tried a few experiments. I cat'd a 20261-byte file (471 lines)
+under various scenarios:
+
+PC-Xview for DOS in a full-screen OS/2 window (1024x768x16):    18 sec
+Telix (DOS) in an OS/2 window (1024xs768x256):                  107 sec!
+Telix (DOS) is a full-screen OS/2 window (standard VGA):        11 sec
+Telix (DOS) in a Windows 3.1 window (1024x768x256):             30 sec
+UW/WIN in a seamless OS/2 window (1024x768x256):        gave up after 4 min!
+UW/WIN in Windows 3.1 (1024x768x256):           faster, but gave up after 2 min
+UW/WIN in a seamless OS/2 window using pg       30 sec, could have been a
+                                                little faster (I had to keep
+                                                hitting the space bar)
+
+I was using an ATI Wonder XL video card, by the way.
+
+So PC-Xview for DOS looks pretty good (and the line-by-line scrolling
+in OS/2 desktop looks pathetic, although full-page redraws are pretty
+good).
+
+I tried it under PC-Xview using my normal (9x15bold or 10x20) font,
+and with a very small font, and there was no difference in the times.
+The modem receive light was on pretty solidly, so it looks like the
+bottleneck was the 9600-baud modem, not the screen drawing.
+
+--
+Ted Richards            ted@isgtec.com             [...!uunet.ca!isgtec!ted]
+ISG Technologies Inc.   6509 Airport Rd., Mississauga  Ont.  Canada   L4V 1S7
+"
+3624,1,2,False,"From: Christian.Robert@etudiants.unine.ch
+Subject: DIAMOND 24-WINDOWS 3.1 CONFLICT
+Organization: University of Neuchatel, Switzerland
+Lines: 10
+
+HELLO,
+I HAVE SOME PROBLEMS WITH MY DIAMOND STEALTH LOCAL BUS GRAPHIC CARD.
+WHEN I TRY TO START WINDOWS MY SYSTEM STOP AND DISPLAY:
+""NO FREE FILES HANDLES,CANNOT LOAD COMMAND,SYSTEM HALTED""
+IT'S PERHAPS A BIOS SETUP PROBLEM BUT I'M NOT USED TO MY AMI-BIOS SETUP
+IF SOMEBODY CAN EXPLAIN ME;HOW TO SETUP SHADOW VIDEO ROM, OTHERS 
+SHADOW ROM ,AND ALSO HOW TO CONFIG THE TWO ""ADVENCED ... SETUP""
+FOR A BEST UTILISATION OF MY GRAPHIC CARD.
+THANKS FOR ANY ANSWER.
+CH.ROBERT
+"
+230,6,8,False,"From: skt@dcs.glasgow.ac.uk (Simon K Train)
+Subject: Help me please!
+Organization: Glasgow University Computing Science Dept.
+Distribution: net
+Lines: 7
+
+I am a PhD student.
+Can I get the sci.crypt group posted directly to me???
+Also I would like some feed-back on the encryption schemes that my research in
+finite fields can be applied to. Any takers
+Reply to gamv25@udcf.gla.ac.uk
+Thanks yours
+Gavin.
+"
+2196,2,1,False,"From: brnj_ltd@uhura.cc.rochester.edu (Bernard C. Jain)
+Subject: Any STB-POWERGRAPH users out there that know about it!?
+Summary: powergraph
+Keywords: sbt poergraph powergraph
+Nntp-Posting-Host: uhura.cc.rochester.edu
+Organization: University of Rochester - Rochester, New York
+Lines: 17
+
+
+
+HELP!  I am trying to view .JPG files with my 386SX, 20MHz machine
+.  I have a STB-POWERGRAPH graphics card with 1024 X 768 by 256 colors,
+with 1Meg RAM on it.
+
+I have tried CVIEW097 (with windows-- EXTREMELY SLOW), and DVPEG24.
+DVPEG24 doesn't work!  Even if I pick a lot of the ""modes"" that are
+supported by POWERGRAPH (so it says in the manual), it doesn't work
+when I try to view a picture... it only buzzes.
+
+Anyone out there that can help me; give me suggestions?
+
+I would really appreciate it!
+
+Thanks!
+
+"
+404,6,0,False,"From: schneier@chinet.chi.il.us (Bruce Schneier)
+Subject: ISSA '93 Conference
+Organization: Chinet - Public Access UNIX
+Distribution: usa
+Lines: 4
+
+If there is anyone attending the ISSA conference in Arlington, VA next
+week, I would appreciate them getting in touch with me.
+
+Bruce
+"
+3069,7,2,False,"From: heinboke@tnt.uni-hannover.de (Andreas Heinbokel)
+Subject: LOOKING for AD PC-Board
+Reply-To: heinboke@tnt.uni-hannover.de
+Organization: Universitaet Hannover, Theoretische Nachrichtentechnik
+Lines: 41
+
+This is for a friend of mine. Please send answers directly to him (E-Mail
+adress see below )!
+
+
+HIGHSPEED  ANALOG-DIGITAL PC-BOARD
+
+Hello LAdies and Gentleman !
+
+I am looking for a highspeed A/D PC-Board with a sampling rate above 250 MHz an a
+resolution of 8-bit. The sampling rate can be arranged by an interleave mode where
+the time equivalent sampling yields 2, 4 or 8 times higher sampling rate than
+the A/D-Converter uses in non interleave mode.
+
+The board must content an A/D-Converter similar to Analog Devices AD 9028 or 
+AD 9038 or if available a faster on.
+
+If you a PC-Board (16-bit slot, ISA) with this specification or better, please
+send me an EMail
+
+hansch@cdc2.ikph.uni-hannover.dbp.de
+
+or a Telefax to: ++49 / 511 / 7629353
+
+
+Thanks in advance for your help !
+
+Sincerely
+
+     Matthias Hansch
+     IKPH, University of Hannover, Germany
+
+
+
+---
+
+Andreas Heinbokel
+
+heinboke@tnt.uni-hannover.de
+
+*** ... all wisdom is print on t-shirts ***
+
+"
+4738,9,6,False,"From: cccdavid@othello.ucdavis.edu (The Gentleman Loser)
+Subject: illegal postings from szljubi at ucdavis
+Summary: Apology from real account holder
+Originator: cccdavid@othello.ucdavis.edu
+Organization: University of California, Davis
+Lines: 38
+
+
+To all the readers of talk.politics.mideast,alt.flame,alt.stupidity
+
+I am posting this message on behalf of a staff member at UCDavis whose 
+account had been broken into and used to post offensive messages to
+all these groups.
+
+	--Dave
+
+----begin included message from szljubi@othello.ucdavis.edu
+
+
+Please be advised that the person(s) sending to you the inflammatory
+remarks you have been receiving have been doing so by ILLEGALLY accessing
+my account.
+
+Our campus Information Technology security group has cut off my account's
+access to this hacker, and every effort is being made to track down this
+person.
+
+I apologize profusely that you have been subjected to the derogatory
+comments made by this person and I detest that my name was attached to
+them.
+
+Thank you to those of you who alerted our campus security about the nature
+of this problem.
+
+Sincerely,
+P. Ljubi
+
+
+				  '''
+                                 (o o)
+/----------------------------oOO--(_)--OOo------------------------------------\
+|    David Zavatson     |Mein Schatz, es ist soweit.  Unsere Liebe ist vorbei.|
+|dhzavatson@ucdavis.edu |Ich kann nicht von Dir gehen. Zwei Gefuehle bleiben  |
+|UCD News Administrator | stehen: Liebe und Hass, sind sich doch so nah.  -ECO|
+\-----------------------------------------------------------------------------/
+"
+320,2,1,False,"From: swh@capella.cup.hp.com (Steve Harrold)
+Subject: Re: Need Info on Diamond Viper Video Card
+Organization: Hewlett Packard, Cupertino
+Lines: 46
+
+Experiences with Diamond Viper VLB video card
+
+Several problems:
+
+1) The ad specified 16.7 million colors at 640x480 resolution with 1MB
+   of VRAM, which is what I have. This color depth is NOT SUPPORTED
+   with video BIOS version 1.00 and drivers version 1.01. A max of 65K
+   colors are supported at 640x800 and 800x600 resolutions with 1MB
+   VRAM.
+
+2) With the 65K color choice I notice two minor irritations:
+
+   a) Under NDW, when an entry in a list is highlighted (such as in an
+      Open menu) and then is deselected, a faint vertical line often
+      remains where the left edge of the highlighted rectangle used to
+      be.
+
+   b) With Word for Windows, when you use shading in a table, the
+      display shows the INVERSE of the shading; for example, if you
+      shade the cell as 10%, the display is 90% (the printout is OK).
+
+3) The big killer bug is using the Borland C++ Integrated Development
+   Environment. The problem occurs when you click on the Turbo Debugger
+   icon (or use the Debugger option in the Run command), and the
+   debugger application goes to VGA character mode (as it is designed
+   to do). The screen goes haywire, and is largely unreadable. The
+   Turbo Debugger display is all garbled.
+
+   Through trial and error, I have found that when the disrupted screen
+   is displayed you should do [Alt-Spacebar] followed by the letter
+   ""R"". This instructs Turbo Debugger to refresh the screen, and it
+   does this satisfactorily. I wish I didn't have to do this.
+
+   The bug is more than with the Diamond drivers. The same disruptive
+   behavior happens with the standard VGA driver that comes with
+   Windows. There must be something in the video card that mishandles
+   the VGA mode.
+   
+   The problem is not my monitor. The same bug shows up when I use
+   another monitor in place of my usual one.
+
+I still like this video card, and am hoping its problems will be
+remedied (they do offer a 5 year warranty).
+
+---
+swh, 20apr93
+"
+4799,4,7,False,"From: der10@cus.cam.ac.uk (David Rourke)
+Subject: xs1100 timing
+Organization: U of Cambridge, England
+Lines: 4
+Nntp-Posting-Host: bootes.cus.cam.ac.uk
+
+Could some kind soul tell me the advance timing/revs for a 1981 xs1100 special
+(bought in Canada).
+
+thanks.
+"
+1613,7,2,False,"From: horne@cs.utexas.edu (Patrick J. Horne)
+Subject: Thermal fuse supplier wanted
+Organization: CS Dept, University of Texas at Austin
+Lines: 21
+NNTP-Posting-Host: im4u.cs.utexas.edu
+Keywords: MITI
+
+I have a thermal fuse from a Apple Laserwriter II power supply (Made
+by Cannon) that I need to replace.  The fuse is not the standard
+tubular thermal fuse like those found in hair driers etc, but is a 
+rectangular plastic package, much like a transistor or diode.  It
+is about 0.2""x0.2""x0.1"", with both leads coming out of one of the
+0.1""x0.1"" sides.  I have been told that it was made by MITI, a asian
+company, but I can find no information as to a supplier.  This fuse
+is rated at 1A, 130C.  Does anyone have a source for this fuse?  I
+only need 5 or so, which means that the manufacturer wouldn't even want
+to talk to me, let alone, deal with me.
+
+Please advise via E-mail.
+
+Thanks,
+Pat
+
+-- 
+---  I like boats and bicycles, they're healthier than Valium  ---
+Pat Horne, Network Manager, Shop Supervisor, Hardware Guru 
+CS Dept, University of Texas, Austin, Tx. 78712 USA 
+voice (512)471-9517, fax (512)471-8885, UUCP:cs.utexas.edu!horne
+"
+1082,8,0,False,"Subject: hypodermic needle
+From: bolsen@eis.calstate.edu (Becky Olsen)
+Organization: Calif State Univ/Electronic Information Services
+Lines: 7
+
+Hi, I am doing a term paper on the syringe and I have found some
+information.  It is said that Charles Pravaz has invented the hypodermic
+needle, but then I have also found that Alexander Wood has invented it. 
+Does anyone know which one it is, of if it was anyone else?  If there is
+anymore information that is out there could you please send it to me.
+Thank you very much.
+Becky Olsen
+"
+2211,7,4,False,"From: lihan@ccwf.cc.utexas.edu (Bruce G. Bostwick)
+Subject: Re: Membrane keypad with custom legend.
+Organization: The University of Texas at Austin, Austin TX
+Lines: 21
+Distribution: usa
+NNTP-Posting-Host: doc.cc.utexas.edu
+
+In article <1993Apr21.125530.18387@texhrc.uucp> pyeatt@Texaco.com (Larry D. Pyeatt) writes:
+>I had a catalog with membrane keypads, but I dunno what
+>happened to it, and it was so long ago that I forget the
+>name of the company.  Anyway, you could make your own
+>legend and slip it behind the bezel.  Really nice and 
+>reasonably priced.  Can anyone tell me where to get some
+>more of these critters?
+
+For some reason the name Grayhill springs to mind -- saw something
+like that in a Grayhill catalog, along with options for custom printed
+overlays and a neat little electroluuminescent backing that would make
+the whole shebang glow a nice shade of green ..
+
+mighty handy if you're trying to key a door combination in the dark
+and don't want to TURN ON THE &%#$!! LIGHT ..
+
+-- 
+<BGB>
+lihan@ccwf.cc.utexas.edu        /   The only reason the world hasn't
+(really Bruce Bostwick)        /   dissolved into total chaos is that
+from the great state of TEXAS /   Murphy's Law also applies to Murphy.
+"
+1240,8,0,False,"From: twong@civil.ubc.ca (Thomas Wong)
+Subject: Image processing software for PC
+Organization: Dept. of Civil Engineering, U.B.C., Vancouver, B.C., Canada
+Lines: 27
+Distribution: world
+NNTP-Posting-Host: sam.civil.ubc.ca
+
+
+
+I am posting the following for my brother. Please post your replies or
+send him email to his address at the end of his message. Thank you.
+____________________________________________________________________
+
+My supervisor is looking for a image analysis software for
+MS DOS. We need something to measure lengths and areas on
+micrographs. Sometime in the future, we may expand to do
+some densitometry for gels, etc. We've found lots of ads and
+info for the Jandel Scientific products: SigmaScan and Java.
+
+But we have not been able to find any competing products. We
+would appreciate any comments on these products and
+
+suggestions / comments on other products we should consider.
+Thanks.
+
+ 
+
+Donald
+
+UserDONO@MTSG.UBC.CA
+
+
+
+
+"
+4478,1,2,False,"From: martijn@cs.vu.nl (Lemmens ML)
+Subject: Workgroups for Windows
+Organization: Fac. Wiskunde & Informatica, VU, Amsterdam
+Lines: 22
+
+Hello,
+
+I want a little network for 3 users. All users want to run Windows.
+The most important things I want for the network are: file-sharing,
+mail utility, two printers on one of the computers and a fax/modem
+card on one of the computers. We all want to use each others harddisk.
+
+My idea was to buy three computers (one 486DX and two 386DX). All
+three have a 40Mb local harddisk, the 486 also has a very large
+harddisk. All three also have a network card. The 486 is connected to
+the printers and contains the fax/modem card. And last but not least:
+Workgroups for Windows.
+
+My questions:
+- Is this possible?
+- What exactly are the possibilities and advantages of Workgroups
+  for Windows?
+- Will all the computers be fast enough? Behind all three, someone
+  is working.
+
+Thanks,
+Martijn
+"
+4740,3,4,False,"From: hacker@cco.caltech.edu (Jonathan Bruce Hacker)
+Subject: Re: Was ""Re: Safety"": From how far can you see a car ?
+Article-I.D.: gap.1psle4INNkm2
+Distribution: na
+Organization: California Institute of Technology, Pasadena
+Lines: 105
+NNTP-Posting-Host: sandman.caltech.edu
+
+ssave@ole.cdac.com (The Devil Reincarnate) writes:
+
+
+>>.... These
+>>lit up cars make non-illuminated things LESS visible (like pedistrians and
+>>bikes). Hopefully we're not going to mandate DRL's for people and bikes 
+>>too.
+
+Well, DRL's are already mandatory for motorcycles...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+Jon Hacker                         |  Get the OS/2 2.1 March Beta CD-ROM 
+Caltech, Pasadena CA               |  for $15 
+hacker@tumbler-ridge.caltech.edu   |  Call 1-800-3-IBM-OS2
+"
+5041,5,0,False,"From:  (Sean Garrison)
+Subject: Re: Fenway Gif
+Nntp-Posting-Host: berkeley-kstar-node.net.yale.edu
+Organization: Yale University
+Lines: 11
+
+I'd love to see a Shea Stadium gif.
+
+
+                                    -Sean
+
+
+
+*******************************************************************************
+  ""Behind the bag!""
+            - Vin Scully
+*******************************************************************************
+"
+6702,1,2,False,"From: mb4008@ehibm6.cen.uiuc.edu (Morgan J Bullard)
+Subject: Hard drive compression ie, stacker.superstor etc.
+Summary: looking for comparsions between the various hard drive compression utilitys
+Keywords: stacker superstor doubledisk doublespace
+Article-I.D.: news.C5w8r9.EBu
+Distribution: comp.os.ms-windows comp.os.ms-windows.apps
+Organization: University of Illinois at Urbana
+Lines: 6
+
+
+I was wondering if any one knew how the various hard drive compression utilities work.  My hard
+drive is getting full and I don't want to have to buy a new one.  What I'm intrested in is speed
+,ease of use, amount of compression, and any other aspect you think might be important as I've never
+use one of these things before. thanks  Morgan Bullard mb4008@coewl.cen.uiuc.edu
+						or     mjbb@uxa.cso.uiuc.edu
+"
+3406,6,8,False,"From: C445585@mizzou1.missouri.edu (John Kelsey)
+Subject: ""Rubber-hose cryptanalysis""
+Nntp-Posting-Host: mizzou1.missouri.edu
+Organization: University of Missouri
+Lines: 7
+
+   Some sick part of me really liked that phrase....
+ 
+   Actually, merely the threat of a *long* prison sentence, even without
+a beating, can get most people to give in.  Especially if it's also
+punctuated with a trip to the county jail, where one just happens to get
+locked up with all the drunk/stoned/crazy folks that are too violent to be
+left in cells with other people....
+"
+2769,0,2,False,"From: abig@netcom.com (Access Bus Industry Gp)
+Subject: ACCESS.bus (Re: ACCESS.bus Software Creator's Contest)
+Organization: NETCOM On-line Communication Services (408 241-9760 guest)
+Lines: 92
+
+	Intro to ACCESS.bus (RE: the ACCESS.bus Software Creator's 
+	Contest Announcement)
+
+WHAT IS ACCESS.bus?
+
+ACCESS.bus is a new open industry standard for computer 
+peripheral connectivity.  ACCESS.bus is a serial protocol that 
+uses simple, low-cost I2C technology to link multiple devices to 
+a single PC port.  Peripheral devices such as keyboards or 
+keypads, locators (Mice, Trackballs, Joysticks), printers, VR 
+gloves, digitizers, sensors, actuators or data transmitters and 
+others can be easily daisy chained to the host PC.  Applications 
+such as CAD/CAM, Data Acquisition, Simulation, Virtual Reality, 
+Multiple-Player/Single PC Games, Education and many, many more 
+can now take advantage of ACCESS.bus, the technology that puts 
+Plug and Play on every PC.
+
+The ACCESS.bus offers advantages to end-users and developers of 
+systems and peripherals.  Multiple devices connect to the host 
+computer with only one port.  Common communication methods for a 
+number of device types lead to simplified hardware and software 
+development.  As an open standard, ACCESS.bus enables cross-
+platform use of the same device.
+
+ACCESS.bus TECHNOLOGICAL DESCRIPTION:
+=====================================
+
+ACCESS.bus technology is an open specification, enabling anyone 
+to implement it on host systems or in peripheral devices without 
+fee or royalty.
+ACCESS.bus has a bus topology architecture.  That is, a single 
+host can accommodate up to 125 peripheral devices.  ACCESS.bus 
+data rate is 100 Kbits/sec.
+
+ACCESS.bus Physical Layer
+^^^^^^^^^^^^^^^^^^^^^^^^^
+ACCESS.bus is a serial bus architecture, based on I2C hardware 
+protocol, with one data line and one clock line.
+Standard low-cost I2C microcontrollers handle bit-level 
+handshaking, including automatic arbitration and clock 
+synchronization.  
+
+ACCESS.bus Software Protocols
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The ACCESS.bus communication protocol is composed of three 
+levels: I2C Protocol, Base Protocol, and Application Protocol.
+
+I2C PROTOCOL: This simple and efficient protocol defines 
+arbitration among contending masters without losing data.  I2C 
+provides for cooperative synchronization of bus partners with 
+different clock rates.  Bus transactions include addressing, 
+framing of bits into bytes, and byte acknowledgment by the 
+receiver.  
+
+BASE PROTOCOL: Establishes the asymmetrical interconnect between 
+a host computer and multiple peripherals.  The host becomes the 
+ACCESS.bus manager.  The Base Protocol defines the format of an 
+ACCESS.bus message envelope, which is an I2C bus transaction with 
+additional semantics, including checksum.
+Unique features of the Base Protocol are auto-addressing and hot 
+plugging.  Auto-addressing assigns devices with unique bus 
+addresses, without the need for setting jumpers or switches.  Hot 
+plugging is the ability to attach and detach devices while the 
+system is running, without rebooting.
+
+APPLICATION PROTOCOL: This is the highest level of the ACCESS.bus 
+protocol which defines message semantics specific to particular 
+types of devices.  Each type requires a different Application 
+Protocol.  Three broad device types have been identified: 
+keyboards, locators, and text devices.
+
+ACCESS.bus support on the PC
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+All three levels of the ACCESS.bus protocol are supported on the 
+PC.  An add-on card implements the physical layer and uses the 
+base protocol to communicate with physical ACCESS.bus devices.  
+An ACCESS.bus Manager - TSR under DOS and a DLL under Windows 3.1 
+- controls the operation of the physical layer and interacts with 
+the ACCESS.bus device drivers.  Drivers are available for 
+multiple ACCESS.bus keyboards, locators and printers for DOS and 
+Windows 3.1.  Also available are C language source code examples 
+of the interface from applications to the device drivers.
+
+
+To Contact ABIG (the ACCESS.bus Industry Group):
+------------------------------------------------
+Postal Address:
+370 Altair Way, Suite 215, Sunnyvale, CA 94086
+Internet Email:  abig@netcom.com
+Fax: (408) 991-3773
+Voice: (408) 991-3517
+
+"
+2714,3,8,False,"Subject: curious about you
+From: Maria Alice Ruth <MAO111@psuvm.psu.edu>
+Organization: Penn State University
+Lines: 20
+
+Please satisfy my curiosity. I'm interested in finding out who is using the
+e-mail system. Please do not flood me with mail after April 21st. Thanks!
+Maria Alice Ruth  mao111@psuvm.bitnet or @psuvm.psu.edu
+
+1. Are you male or female?
+
+2. How long have you been using the e-mail system?
+
+3. How do you have access (at work, at school, etc)?
+
+4. Who taught you how to use the system? Is that person male or female?
+
+5. Have you helped anyone to learn the system? Was that person(s) male or
+   female?
+
+6. Which net did you find my questions on?
+
+7. Which other nets are you interested in?
+
+8. How often do you read/post to the system?
+"
+798,2,7,False,"From: vixie@pa.dec.com (Paul A Vixie)
+Subject: Re: 17"" monitor with RGB/sync to VGA ??
+Organization: DEC Network Systems Lab
+Lines: 15
+Distribution: usa
+NNTP-Posting-Host: cognition.pa.dec.com
+In-reply-to: rash@access.digex.com's message of 18 Apr 1993 18:46:08 -0400
+
+Yes, but what if my monitor only has 3 BNC's on it, and is expecting
+to get a composite sync signal on the ""green""?  There ought to be a
+little black box that takes the VGA signalling (which has horiz, vert,
+and composite sync on different pins, plus the R, G, and B pairs) and
+merges the green and composite sync together in the output.  It's all
+1V analog, as far as I know.  I can build this with op-amps but I don't
+think I can get the shielding done well enough to handle the frequencies
+involved without lots of shadows and junk on the screen.
+
+Does anyone know of a VGA->RGB(composite sync on green) converter?
+--
+Paul Vixie, DEC Network Systems Lab	
+Palo Alto, California, USA         	""Don't be a rebel, or a conformist;
+<vixie@pa.dec.com> decwrl!vixie		they're the same thing, anyway.  Find
+<paul@vix.com>     vixie!paul		your own path, and stay on it.""  -me
+"
+7158,0,1,False,"From: ccgwt@trentu.ca (Grant Totten)
+Subject: MS-Windows screen grabber?
+Keywords: windows screen grab document graphics
+Lines: 20
+Reply-To: ccgwt@trentu.ca (Grant Totten)
+Organization: Trent University
+
+
+Howdy all,
+
+Where could I find a screen-grabber program for MS-Windows?  I'm 
+writing up some documentation and it would be VERY helpful to include
+sample screens into the document.
+
+Please e-mail as I don't usualy follow this group.
+
+Thanks a lot,
+
+Grant
+
+--
+Grant Totten, Programmer/Analyst, Trent University, Peterborough Ontario
+GTotten@TrentU.CA            Phone: (705) 748-1653   FAX: (705) 748-1246
+========================================================================
+""The human brain is like an enormous fish -- it is flat and slimy and
+has gills through which it can see.""
+		-- Monty Python
+"
+6754,2,7,False,"From: ""Calvin D. Swartzentruber"" <cs6t+@andrew.cmu.edu>
+Subject: ATTN: Ken Smith
+Organization: Freshman, Electrical and Computer Engineering, Carnegie Mellon, Pittsburgh, PA
+Lines: 9
+NNTP-Posting-Host: po3.andrew.cmu.edu
+In-Reply-To: <9304051540.AA03922@gumby.Altos.COM>
+
+It is model number #7033D, a 14"" interlaced .28dp.  BTW, if you have a
+number to contact the company, that would really be helpful to.  Thanks
+for replying.  I was beginning to believe that I was never going to get
+a reply.  I posted this on the netnews bboard because the first message
+I sent to you was returned, and I didn't know if my second message would
+get to you.
+
+Calvin
+
+"
+2942,5,8,False,"From: hagins@avlin8.us.dg.com (Jody Hagins)
+Subject: Bitmaps of team logos
+Reply-To: hagins@avlin8.us.dg.com
+Organization: Data General Corporation, Linthicum, MD
+Lines: 13
+
+
+I heard they were posted somewhere, but I can not find them.
+
+Please e-mail location.
+
+Thanks,
+	-Jody
+
+-- 
+Jody Hagins -- hagins@avlin8.us.dg.com
+Data General Corporation, Linthicum, MD
+
+Rock, River, Tree, Mastodon.
+"
+3986,7,2,False,"From: oscar@oscar.austin.ibm.com (Oscar R. Mitchell)
+Subject: Development tools for 65C816?
+Organization: IBM, Austin
+Lines: 37
+
+In article <1ree36INNdmp@darkstar.UCSC.EDU> speth@cats.ucsc.edu (James Gustave) writes:
+>
+>Could someone point me toward a source (FTP/BBS/whatever) for development
+>tools for the 8051 microprocessor.  I specifically am looking for a Macintosh
+>cross-assembler/disassembler.  Also, is there a mailing-list dedicated to
+>discussing the 8051?  Thanks.
+>
+>-- 
+>________________________________________________________________________________
+>james speth       email for pgp compatible public-key        speth@cats.ucsc.edu
+
+I have the same question for any tools for the 6502 derivative processor
+the 65C816 processor (designed by Western Design Center).
+
+Thanks,
+Oscar.
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+ Oscar R. Mitchell
+  IBM Advanced Workstations and Systems Division
+   RISC System/6000(tm) - Future Systems Hardware Architecture and Design Group
+   Mail Stop: ZIP 9461
+   11400 Burnet Road
+   Austin, Texas   78758                               USA Phone: (512)823-0000
+   IBM Tieline:  678-8513                              USA ""FAX"": (512)838-8561
+
+   IBM VNet: OSCAR at AUSVM6
+   IBM InterNet: oscar@oscar.austin.ibm.com
+
+     USA InterNet: oscar@austin.ibm.com
+
+#include <standard.disclaimer>   /* I DO NOT speak for IBM, only for MYSELF */
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+-- 
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+ IBM Corporation - Advanced Workstations and Systems Division
+ RISC System/6000(tm) - Future Systems Hardware Architecture and Design Group
+                  USA InterNet: oscar@austin.ibm.com
+"
+2391,7,0,False,"From: sean@dip1.ee.uct.ac.za (Sean Borman)
+Subject: INFO WANTED : Graphics LCD displays
+Organization: University of Cape Town
+X-Newsreader: TIN [version 1.1 PL8]
+Lines: 15
+
+
+Hi there
+
+Does anyone know how to get hold of data as well as stock of the
+LCD displays used in the NINTENDO GAMEBOY handheld TV game machines?
+
+Any information wouold be MOST appreciated.
+
+Please e-mail any replies to 
+
+arawstorne@eleceng.uct.ac.za
+
+thanks
+
+Alex
+"
+2889,2,1,False,"From: sextonm@univrs.decnet.lockheed.com
+Subject: Re: Can't get 1280x1024 to work w/2M ATI Ultra Pro
+Lines: 25
+Nntp-Posting-Host: univrs.rdd.lmsc.lockheed.com
+Organization: Lockheed Palo Alto Research Labs
+
+In article <1993Apr19.144814.17736@aio.jsc.nasa.gov>, mancus@sweetpea.jsc.nasa.gov (Keith Mancus) writes:
+>   I am unable to get my Gateway 486DX2/66 to run Windows
+> in 1280x1024.  I ordered a 2M ATI Ultra Pro, and I'm pretty
+> sure the 2M is really there because I *can* select
+> 1024x768x65536.   But no matter what I do with the Flex program
+> in the ATI's program group, 1280x1024 remains ghosted out.
+> I have Windows 3.1, build 59 of the drivers, DOS 5.0.  The
+> drivers were installed by Gateway, not by me, so perhaps there's
+> a file missing from the hard drive.  It runs 1024x768 just fine.
+>   I did go into the Desktop window and select 1280x1024.  Sometimes
+> it refuses (ghosted out), other time it accepts it, but when I hit
+> OK and re-enter Desktop, it's back to 1024x768.  At no time does
+> it unghost 1280x1024 in the main Flex window.  Help!
+> 
+> -- 
+Keith,
+
+I had a problem getting 256 colors (I was stuck with 16) even though
+the flex-stuff said I was at 1024-256.  I solved it by entering
+the 'advanced' window on the flex program pannel and changing the
+'color palette'.  Sorry for the vaugeness, I hope it helps some.
+
+BTW, I have a GW2000-66V and 1M ATI GUP.
+
+Matt Sexton    SEXTON@CLAES.SPACE.LOCKHEED.COM
+"
+1160,7,2,False,"From: dzenc@hal.gnu.ai.mit.edu (Dan Zenchelsky)
+Subject: VIdeotext/teletext descrambler
+Article-I.D.: hal.1psvcg$1auv
+Distribution: world
+Organization: dis
+Lines: 9
+NNTP-Posting-Host: hal.ai.mit.edu
+
+Hi,
+
+I am looking for a PC card which does european videotext/teletext
+descrambling (PAL). Does anyone in the US sell such a card? I once
+saw an article about a card with the same functionallity in a
+european Elektor magazine, but I wasn't able to track it down.
+
+Thanx in advance,
+Dan
+"
+923,0,6,False,"From: lightwave-admin@bobsbox.rent.com (LightWave 3D Mail List Administrator)
+Subject: Monthly LightWave mailing list FAQ
+Lines: 130
+
+
+----------------------   LightWave3D Mail-List   ----------------------
+
+-- WHAT IS LightWave? --
+
+LightWave3D is part of a suite of programs that come bundled with a
+device called the ""Toaster"" (from NewTek, Inc.) that operates on an
+Amiga platform.  The LightWave software (LightWave=LightWave3D and
+LightWave Modeler) allows and artist to create three dimensional
+photo-realistic images for a variety of purposes.
+
+-- WHY ARE WE DOING THIS? --
+
+This mailing list is for those interested in the LightWave software, how
+it operates and in ideas on how to obtain the best quality images
+available to them.  The list is for those who own the Toaster and
+LightWave as well as those just interested in what can be done with the
+package.  We hope to share information, tips, procedures and to bond as
+a group.
+
+-- WHAT ARE THE RULES? --
+
+Since LightWave/Modeler are just a part of the Newtek Video Toaster
+software, I'm sure we will discuss a few items related to the operation
+of the Toaster.  However, we will strive to keep the subject revolving
+specifically around the 3D software, related tools and products.
+
+You do NOT have to own a Toaster to join this list!
+
+-- OK! HOW DO I JOIN? --
+
+To become a member of the LightWave3D mailing list you must send a mail
+message to the address:
+
+        lightwave-request@bobsbox.rent.com
+
+In the body of the message enter:
+
+subscribe lightwave-l your.name@your.site.domain
+
+Or just ask to be signed up and I will sign you up to the list.  At this
+point in time the process is manual but I hope to get an automated
+script based system in place soon.  There shouldn't be too much of a
+delay in joining.  Expect a ""welcome"" message within 5 days after you
+send your request.  Then, expect the mail to start flowing in!
+
+-- HOW DO I POST TO THE LIST? --
+
+Contributing to the list is simple.  Just mail your articles to the
+following address:
+
+        lightwave@bobsbox.rent.com
+
+Your article will be processed by the system and distributed to all
+others joined to the list.  Your articles will also be sent to you so
+you know that your article has made it to the list.  However, those
+addresses that are either no good or no longer active will bounce back
+to you.  So, if you post an article and another members address is no
+longer valid, your original article will be returned to you.  This
+doesn't mean it hasn't been posted to the list.  In fact, just the
+opposite is true. It means that your article WAS posted and that it
+couldn't be sent to one or more of the members of the list due to a bad
+address.
+
+NOTE: I hope to have a fix for this behavior soon.
+
+-- HOW DO I QUIT THE LIST? --
+
+Simply mail a request to be removed from the list to the same address
+you used to sign up:
+
+        lightwave-request@bobsbox.rent.com
+
+In the body of the message enter:
+
+unsubscribe LightWave-l your.name@your.site.domain
+
+I will remove your name from the list of members.  PLEASE, if you join
+the list and your account is going to be closed or if you will not be
+able to receive mail for a while, send a request to be removed from the
+list!  If you are just going to lose access for a short while still send
+a request for a suspension of your membership and I will suspend
+forwarding of the articles to you.
+
+
+-- WHAT ABOUT OLD ARTICLES? --
+
+I am currently archiving all the articles posted to the list at the
+originating site (bobsbox).  However, I can not continue to do this due
+to lack of disk space.  What we need is a volunteer that will maintain a
+compendium of articles sent to the list.  They can compress and store
+them in archives on their system.  They can then periodically post an
+index of the contents of the compendium and any other information that
+relates.
+
+If there are no volunteers then maybe someone can donate a large SCSI
+hard drive to me for archival purposes. <grin>
+
+I have setup a mail-based file server so that anyone interested in the
+list can obtain information as well as the entire archive of past
+articles, the membership listing and other information pertaining to
+the LightWave3D mailing list. For information on this service, please
+send a mail message to:
+
+        fileserver@bobsbox.rent.com
+
+The first command to the server must be ""HELP"" or ""USER name <passwd>"".
+
+Use HELP to request a current copy of the helpfile.
+Use USER name [passwd] to connect to the service.
+Use ?    to get a short listing of all available commands.
+
+
+
+-- NOW WHAT DO I DO? --
+
+Well, sit back and enjoy the pouring out of information.  If you have
+something to offer, please feel free to contribute that information to
+the list.  Every little bit helps.  Questions are welcomed!  It makes
+some of us feel important when we can answer them. <grin>
+
+If you have any questions or comments regarding the list, please contact
+me at the address:
+
+        lightwave-admin@bobsbox.rent.com
+
+Cheers,
+
+
+Bob Lindabury
+"
+4805,8,4,False,"From: ls8139@albnyvms.bitnet (larry silverberg)
+Subject: Re: H E L P   M E   ---> desperate with some VD
+Reply-To: ls8139@albnyvms.bitnet
+Organization: University of Albany, SUNY
+Lines: 17
+
+>I can probably buy the 
+>tools and this solution somewhere but I DON'T KNOW HOW TO DO INJECTION BY
+>MYSELF
+
+You may also want to buy a 'self injector' or something like that.
+My friend is diabetic.  You load the hyperdermic, put it in a plastic case
+and set a spring to automatically push the needle into the skin and depress
+the plunger.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Live From New York, It's SATURDAY NIGHT...
+
+Tonight's special guest:
+Lawrence Silverberg from The State University of New York @ Albany
+aka:ls8139@gemini.Albany.edu
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"
+5867,4,3,False,"From: revco@sfsuvax1.sfsu.edu (John Boockholdt)
+Subject: Re: Lane Sharing in CA
+Organization: California State University, Sacramento
+Lines: 11
+
+In three years of riding in the cities of San Jose,
+Santa Clara, and Sunnyvale I never came into any
+conflict with the local police over my lane splitting
+habits (all three of these cities were listed earlier
+as being anti-splitting in one way or another).  I
+can't say whether this was due to luck, police
+kindness, or there not actually being any ordinances
+against it in these cities, so I continue.....
+
+RevCo
+
+"
+2096,6,2,False,"From: eldar@fraser.sfu.ca (Danny Eldar)
+Subject: Need help !!
+Keywords: Firewall gateway model, Kerberos
+Organization: Simon Fraser University, Burnaby, B.C., Canada
+Lines: 14
+
+I am currently writing a paper on computer protocols security. I would 
+appreciate your help.  I currently have no insight into these topics except
+that they relate to security in multilevel security network.  Please semd me
+any references, books, FAQs or contact persons names and Internet addresses.
+The topics I am interested in:
+1.  The ""firewall gateway model"" as implemented in Internet gateways.
+2.  Kerberos Authentication Service
+
+Please send me a private e-mail at eldar@sfu.ca and/or post it on the board.
+
+Thanks a lot,
+
+      Danny 
+
+"
+2413,7,3,False,"From: klg@mookie.mc.duke.edu (Kim Greer)
+Subject: Re: electronic odometers (was: Used BMW Question ..... ???)
+Organization: Duke Medical Center - Radiology
+Lines: 27
+Nntp-Posting-Host: mookie.mc.duke.edu
+
+In article <1993Apr15.044636.29924@slcs.slb.com> dcd@se.houston.geoquest.slb.com (Dan Day) writes:
+>That's scary -- if there's a way to set an arbitrary mileage figure
+>into the odometer, you can't trust *any* odometer reading, even
+>if you can prove that the odometer itself is the same one that
+>came on the car originally.
+
+  I was wondering if anyone can shed any light on just how it is that these
+electronic odometers remember the total elapsed mileage?  What kind of
+memory is stable/reliable enough, non-volatile enough and independent enough
+(of outside battery power) to last say, 10 years or more, in the life of a
+vehicle?  I'm amazed that anything like this could be expected to work for
+this length of time (especially in light of all the gizmos I work with that
+are doing good to work for 2 months without breaking down somehow).
+
+Side question:  how about the legal ramifications of selling a used car with
+a replaced odometer that starts over at 0 miles, after say 100/200/300K
+actual miles.  Looks like fraud would be fairly easy - for the price of a
+new odometer, you can say it has however many miles you want to tell the
+buyer it has.
+
+Thanks for any insight.
+
+
+Kim Greer                       
+Duke University Medical Center		 klg@orion.mc.duke.edu
+Div. Nuclear Medicine  POB 3949		 voice: 919-681-5894
+Durham, NC 27710  		         fax: 919-681-5636
+"
+406,7,0,False,"From: victor@inqmind.bison.mb.ca (Victor Laking)
+Subject: Re: Info on NEC 3D Multisync monitor
+Organization: The Inquiring Mind BBS  1 204 488-1607
+Lines: 43
+
+myers@hpfcso.FC.HP.COM (Bob Myers) writes:
+
+> > I am looking for any info I can get on the NEC 3D monitor.
+> > I know that it is a multisync but that is about all.
+> > I plan on buying one second-hand in a while depending on its specs.
+> > 
+> > Does anyone know the min/max frequencies, whether it is interlaced, 
+> > non-interlaced, or both, video compatability, etc?
+> > I have seen a reference to it being .28 pitch with 1024 X 720 resolution 
+> > and that it supports SVGA from one source and that it doesn't support 
+> > SVGA from another source.  (Neither source seemed to have much reliable 
+> > info so I don't want to take a guess.)
+> 
+> I'm at home right now, and so am away from my monitor files; the following
+> is off the top of my head, subject to revision, worth-what-ya-pay-for-it
+> sort of info.  If you don't hear from anyone who has spec sheet in hand,
+> e-mail me and I'll look it up.
+> 
+> If I'm remembering correctly, the 3D is a 14"" 0.28 mm pitch multisync that
+> covers at least VGA (31.5 kHz horizontal, 60 Hz vertical) to 1024 x 768 
+> 60 Hz (which is going to be about 48 kHz horizontal).  It may go somewhat
+> higher than that on the horizontal, but you won't be happy with anything
+> beyond 1024 x 768 on a 14"" 0.28 tube; you probably won't be too thrilled
+> with the 1024 x 768 on this tube, but it *will* sync up and display it.
+> (I prefer at least a 16"" 0.28 for this resolution.)  Since SVGA is 800x600,
+> it'll do that too.  The horizontal range probably goes lower than 31.5, but
+> I don't know if it goes all the way down to straight NTSC-rate TV (which need
+> about 15.75 kHz sweep).  As far as ""video compatibility"" (if I'm reading
+> the question right: it won't take anything but analog RGB inputs.  In other
+> words, it has no way to decode NTSC or Y/C video inputs.  You would need
+> some sort of board to to this conversion - like the sorts of things that 
+> let you display NTSC on a VGA display.
+> 
+> Hopefully, now, I'll see this response of mine, and it'll remind me to
+> look this stuff up and confirm it.  (Or force me to post a hasty retraction!)
+
+Ok, I was under the impression that it accepted digital input.
+
+I still don't know for sure if it accepts BOTH interlaced and 
+non-interlaced as I have gotten conflicting info.
+
+victor@inqmind.bison.mb.ca
+The Inquiring Mind BBS, Winnipeg, Manitoba  204 488-1607
+"
+2152,2,0,False,"From: jon@umcc.umcc.umich.edu (Jon Zeeff)
+Subject: S3 video card at different address
+Organization: UMCC, Ann Arbor, MI
+Lines: 7
+Distribution: usa
+NNTP-Posting-Host: umcc.umcc.umich.edu
+
+I'd like to add a second S3 based video card to my system.  Does anyone
+know of a company that sells a card that can coexist with another one?
+All I really need is color text on one monitor and fast color graphics
+on the other.
+
+Probably just a configurable address would do it.
+
+"
+888,0,2,False,"From: bbs.mirage@tsoft.net (Jerry Lee)
+Subject: Cobra 2.0 1-b-1 Video card HELP ME!!!!
+Organization: The TSoft BBS and Public Access Unix, +1 415 969 8238
+Lines: 22
+
+Does ANYONE out there in Net-land have any information on the Cobra 2.20 
+card?  The sticker on the end of the card reads
+        Model: Cobra 1-B-1
+        Bios:  Cobra v2.20
+
+I Havn't been able to find anything about it from anyone!  If you have 
+any information on how to get a hold of the company which produces the 
+card or know where any drivers are for it, PLEASE let me know!
+
+As far as I can tell, it's a CGA card that is taking up 2 of my 16-bit 
+ISA slots but when I enable the test patterns, it displays much more than 
+the usualy 4 CGA colors... At least 16 from what I can count.. Thanks!
+
+              .------------------------------------------.
+              : Internet: jele@eis.calstate.edu          :
+              :           bbs.mirage@gilligan.tsoft.net  :
+              :           bbs.mirage@tsoft.sf-bay.org    :
+              :           mirage@thetech.com             :
+              : UUCP    : apple.com!tsoft!bbs.mirage     :
+              `------------------------------------------'
+ 
+                    Computer and Video Imaging Major
+"
+1796,2,1,False,"From: rmm@cbnewsg.cb.att.com (richard.m.maniscalco)
+Subject: Re: Share your optimization tips
+Organization: AT&T
+Lines: 33
+
+In article <1pm61pINNp45@geraldo.cc.utexas.edu> jbodnar@ccwf.cc.utexas.edu (John Bodnar) writes:
+>According to e_p@unl.edu (edgar pearlstein):
+>>        Here's another one:
+>>
+>>        5.  My computer arrived with the following statement in its
+>>            config.sys file:  STACKS = 9,256.  I changed it to
+>>            STACKS = 8,128 and saved 1296 bytes.  Maybe it could be
+>>            lowered even more, but I haven't tried it. 
+>
+>Exactly.
+>
+>Regardless of what Microsoft says, I have set STACKS=0,0 on every single
+>computer I have installed Windows on from a simple 386SX-16 up to 486DX-50
+>with EISA motherboards, NDI Volante TIGA adapters, Intel Ethernet Express
+>cards, and caching SCSI controllers from DPT and DTC.
+>
+>Not a problem yet, and the extra 2K+ gained means a lot with conventional
+>memory gobbling programs like OrCAD and Tango PCB.
+>-- 
+>John Bodnar                          : ""While we liked developing Windows
+>The University of Texas at Austin    :  applications, we never inhaled.""
+>Internet: jbodnar@ccwf.cc.utexas.edu : 
+>UUCP: ....!cs.utexas!ut-ccwf!jbodnar :       -- Borland CEO Philippe Kahn
+
+
+
+I remember reading somewhere (QEMM manual, I think) that 
+STACK=9,256 is needed only for the Windows SETUP program.  
+Otherwise, use STACK=0,0.
+
+	Rich
+
+
+"
+7275,1,0,False,"From: popineau@prunel.ese-metz.fr (Fabrice Popineau)
+Subject: Chameleon NFS & NE2100 card
+Organization: Ecole Superieure d'Electricite, Etablissement de Metz, France.
+X-Posted-From: prunel.ese-metz.fr
+NNTP-Posting-Host: sol.ctr.columbia.edu
+Lines: 21
+
+
+Hi,
+
+I got a NE2100 compatible ethernet card, and I just received my copy
+of Chameleon NFS. Unfortunately, it is not compatible with the NE2100
+(only NE2000 or NE1000). What is the latest version number for Chameleon
+NFS ? Did soemone tackle this problem ?
+
+Thanks for help,
+
+F. Popineau
+
+--
+e-mail: popineau@ese-metz.fr
+	popineau@loria.fr
+voice-mail: (+33) 87-74-99-38                
+surface-mail: 	Ecole Superieure d'Electricite
+	      	2 rue Edouard Belin           
+		F-57078 Metz Cedex 3	      
+		FRANCE			      
+
+"
+1671,9,2,False,"From: eldar@fraser.sfu.ca (Danny Eldar)
+Subject: PBS Frontline documentary : ""Memory of the camps""
+Organization: Simon Fraser University, Burnaby, B.C., Canada
+Lines: 13
+
+Yesterday, I watched an outstanding documentary on PBS prepared for Frontline
+by the documentary consortia.  It is called ""Memory of the camps"" and shows some
+""un-censored"" pictures taken immediately after the liberation of Bergen-Belsen
+and other death camps.
+  
+I recommend it to everybody.  Check with your PBS station for re-broadcast.
+IT IS A MUST SEE documentary.  
+   
+In the Seatle, Vancouver area KSTS-9 will re-broadcast the documentary
+on Monday 01:30 am.
+You can also order a copy from PBS Video 1-800-3287271.  The cost is $59.95.
+
+Danny
+"
+6795,7,2,False,"From: little@nuts2u.enet.dec.com (My name is...)
+Subject: FOR SALE: OMTI 3527 : ST-506 RLL to SCSI adapters
+Organization: Digital Equipment Corporation
+Lines: 14
+
+
+I have 2 OMTI 3527 SCSI adapters for sale.  These make an ST-506 RLL drive
+look like a SCSI disk drive.  Each adapter will support two RLL drives.  I
+have used this model OMTI adapter with my Amiga A500 and a C-Ltd SCSI host
+adapter without problems. I'm selling these because I got them about the
+same time I decided to sell instead of expand my Amiga so I have never even
+used them.  I can't guarantee they will work with every SCSI host adapter.
+
+They are essentially new in box. I paid $150/ea, make me an offer.
+
+Regards,
+Todd
+(708) 202-1030
+little@pecan.enet.dec.com
+"
+6550,2,3,False,"From: al885@cleveland.Freenet.Edu (Gerard Pinzone)
+Subject: CD SPEEDWAY - any good?
+Organization: Case Western Reserve University, Cleveland, OH (USA)
+Lines: 12
+Reply-To: al885@cleveland.Freenet.Edu (Gerard Pinzone)
+NNTP-Posting-Host: hela.ins.cwru.edu
+
+
+Anybody use CD Speedway out there?  Is it as good as they say?  I hate
+waiting around for my CD to finish loading the next level in WC and the
+such.
+
+How much memory does it eat up?
+
+-- 
+   _______   ________   ________   ""Small nose, loose girls, no nipples, (.|.)
+  /   ___/  /  _____/  /  __   /   Iczer curls!""  -=-  Gerard Pinzone     ).(
+ /   ___/  /  /____   /  __   /           gpinzone@tasha.poly.edu        ( v )
+/______/  /_______/  /__/ /__/       Join the ECA Wehrmacht! Kill CM!     \|/
+"
+3171,2,1,False,"From: mark@CS.MsState.EDU (Mark Rauschkolb)
+Subject: dos 4.0 -> dos 5.0 - need new mouse driver?
+Nntp-Posting-Host: walt.cs.msstate.edu
+Reply-To: mark@CS.MsState.EDU
+Organization: Mississippi State Univ., CS Dept.
+Lines: 15
+
+     I recently installed dos 5.0 on a few machines, and the users 
+claim that when they use the mouse often, the screen will blank, and
+the machine will lock up.
+
+There are no viruses, they are not running any TSR's.
+(the mouse is a logitec 2 button)
+
+Anybody got any ideas?
+
+thanks
+
+Mark
+mark@cs.msstate.edu
+
+
+"
+6429,2,1,False,"From: idler@cs.tu-berlin.de (Andreas Kuehnel)
+Subject: Delayed-Write-Caches
+Organization: Technical University of Berlin, Germany
+Lines: 8
+Distribution: world
+NNTP-Posting-Host: bohus.cs.tu-berlin.de
+Mime-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+I'm using Norton Cache 5.0, which is really nice but horrible incompatible.
+Some games won't work it, my streamer software won't work with it and Windows
+doesn't like it at all. But when copying or deleting lots of small files, only
+NCACHE is really fast. You see, to write a file the FAT must be changed. But to
+write 1000 files the FAT must be changed only once. Is there any cache program
+out there which is smart enough to do the same and good enough to run with all my
+applications? Any help is really appreciated.
+ 
+"
+5672,6,7,False,"From: pose-rh@ee.up.ac.za (R H W Poser - 9155430 - Chemies)
+Subject: Re: How to make this illuminating thing?
+Distribution: usa
+Organization: Electrical and Computer Engineering, University of Pretoria
+Lines: 30
+NNTP-Posting-Host: 137.215.124.105
+
+In article <1rn458INNguj@dns1.NMSU.Edu> jcho@dante.nmsu.edu (CHO) writes:
+
+>My father having worked for American Cyanamid for sometime did mention
+>that the ""recipe"" is a secret... Neither of us know of just how toxic
+>the stuff is...but you can synthesize a simliar substance that is
+>available to just about any organic lab...called Luminol.  You can usually
+>find this in an organic lab book or something similiar... 
+
+These substances are normally not the secret, but how to get at them. The 
+method of preperation is normally patented, which means that no-one else can 
+make the chemical in the same way, without undergoing an agreement with 
+American Cyanamid. (But I guess you knew what a patent is :-) )
+
+If you know what substance is used, you'll also know its toxicity.
+
+>Rumor has it that luminol is some base form for the stuff used in the 
+>light sticks...
+
+The Luminol reaction has the disadvantage of not lasting as long as the 
+commercial version.
+
+Remember that cyano compounds are found in nature, and not all are poisonous.
+
+Regards,
+
+(--------------------------------------------------------------------)
+( R.H.W. Poser          Chem.Eng. III         University of Pretoria )
+(Fidonet : 5:7101/22.23  or : Rolf.Poser@p23.f22.n7101.z5.fidonet.org)
+(   Fastest : pose-rh@babel.ee.up.ac.za        Tel.: +27-12-451528   )
+(--------------------------------------------------------------------)
+"
+7320,2,0,False,"From: silvera@ghost.dsi.unimi.it (paolo silvera)
+Subject: What SVGA ?
+Organization: Computer Science Dep. - Milan University
+Lines: 21
+
+Excuse me to every one.
+I am an Amiga owner and tired to have the same graphic modes.
+So I saw on nn there was a little bridgeboard that made the
+Amiga's PC slots communicate with the stanndard Amiga's slot.
+The building mother house of this little gadget assure me
+that using this thing I can use all the pc boards included
+the SVGA cards.
+I am interested in computer graphics and I do not know many
+things about pc in general.
+So, what is the best (ISA slot) card on the market ?
+I'd like to reach resolutions like 1280x1024 with 256
+colors or 800x600 with 24 bitplanes.
+
+Any suggestion ??
+
+thankyou in advance
+
+Paolo Silvera -- Certified Commodore Amiga developer
+
+silvera@ghost.sm.dsi.unimi.it
+
+"
+2236,1,2,False,"From: flash@aragorn.CSEE.Lehigh.Edu (Stephen Corbesero)
+Subject: Driver for Chips & Technologies Video Board Needed
+Organization: Lehigh University
+Lines: 14
+Nntp-Posting-Host: aragorn.csee.lehigh.edu
+
+I would like to find a Windows 3.x driver for a video board that is
+based on the Chips & Technologies chipset.  The actual board is a
+Scorpion Framegrabber made by Univision.  It is based on the C&T
+chipset, but only barely supports the graphics mode.  I am hoping that
+any C&T driver could be used in the 640x480x256 mode.
+
+Thanks.
+
+
+--
+Stephen Corbesero                     Systems Manager and Adjucnt Lecturer
+19 Memorial Drive West                corbesero@eecs.lehigh.edu
+EECS Dept, Lehigh University          sgc0@lehigh.edu
+Bethlehem, PA 18015                   Voice: 215/758-5001  Fax: 215/758-6279
+"
+2030,6,2,False,"From: jhupp@shockwave.win.net (Jeff Hupp)
+Subject: STU-III - General Question
+Reply-To: jhupp@shockwave.win.net (Jeff Hupp)
+Lines: 10
+
+Why are people willing to trust the STU-III?
+Because the government does?
+
+
+_____________________________________________________________________
+\Jeff Hupp                      |Internet: jhupp@shockwave.win.net   \
+|9797 Medowglen, Apt. 1807      |Ad:    Contract Programming, Novell |
+|Houston, Texas  77042          |       Network Design and Support.  |
+|Voice: (713) 780 - 9419        |""The best govenment doesn't"" -- me. |
+\_____________________________________________________________________\ 
+"
+3330,9,6,False,"From: oaf@zurich.ai.mit.edu (Oded Feingold)
+Subject: Re: Freeman
+Organization: M.I.T. Artificial Intelligence Lab.
+Lines: 10
+Reply-To: oaf@zurich.ai.mit.edu
+NNTP-Posting-Host: klosters.ai.mit.edu
+In-reply-to: cosmo@pro-angmar.alfalfa.com's message of 23 Apr 1993 03:25:18 -0500
+
+Frank Benson:
+>	Watch your language ASSHOLE!!!!
+
+Another spelling flame?
+
+Aren't you the guy who threatens people on talk.politics.guns?  2nd
+amendment yea, 1st amendment nay.
+
+How'd you arrive on TPM?  In a fruit basket??
+
+"
+7279,2,1,False,"From: balog@eniac.seas.upenn.edu (Eric J Balog)
+Subject: Re: Diamond Stealth 24 giving 9.4 Winmarks?
+Organization: University of Pennsylvania
+Lines: 9
+Nntp-Posting-Host: eniac.seas.upenn.edu
+
+Hi!
+
+When posting Winmark results, it is a good idea to give the version of 
+WinBench that you used to obtain the scores, as well as the resolution that
+you tested and the version of the drivers.
+
+Eric Balog
+balog@eniac.seas.upenn.edu
+
+"

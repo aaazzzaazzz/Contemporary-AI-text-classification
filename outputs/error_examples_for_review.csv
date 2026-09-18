@@ -1,0 +1,233 @@
+﻿row_id,true_target,predicted_target,correct,text
+67,2,1,False,"Subject: Re: DOS 6.0
+From: venable@faculty.coe.wvu.edu (Wallace Venable)
+Organization: WVU College of Engineering
+Nntp-Posting-Host: 157.182.80.85
+Lines: 10
+
+
+>I know of two people who have horrer stories about the DOS 6.0.
+>That's 100% of the people I know with DOS 6.0. Both have
+>had to reformat their disks and start over.
+
+	I used the standard installation program to put MS-DOS 6.0 on my
+machine with Stacker 3.0 already installed.  No problems.  I kept Stacker,
+rather than switch.
+	I am very pleased with the memory I gained since I did not have a
+memory manager.  I also like the multiple boot feature.
+"
+1160,7,2,False,"From: dzenc@hal.gnu.ai.mit.edu (Dan Zenchelsky)
+Subject: VIdeotext/teletext descrambler
+Article-I.D.: hal.1psvcg$1auv
+Distribution: world
+Organization: dis
+Lines: 9
+NNTP-Posting-Host: hal.ai.mit.edu
+
+Hi,
+
+I am looking for a PC card which does european videotext/teletext
+descrambling (PAL). Does anyone in the US sell such a card? I once
+saw an article about a card with the same functionallity in a
+european Elektor magazine, but I wasn't able to track it down.
+
+Thanx in advance,
+Dan
+"
+798,2,7,False,"From: vixie@pa.dec.com (Paul A Vixie)
+Subject: Re: 17"" monitor with RGB/sync to VGA ??
+Organization: DEC Network Systems Lab
+Lines: 15
+Distribution: usa
+NNTP-Posting-Host: cognition.pa.dec.com
+In-reply-to: rash@access.digex.com's message of 18 Apr 1993 18:46:08 -0400
+
+Yes, but what if my monitor only has 3 BNC's on it, and is expecting
+to get a composite sync signal on the ""green""?  There ought to be a
+little black box that takes the VGA signalling (which has horiz, vert,
+and composite sync on different pins, plus the R, G, and B pairs) and
+merges the green and composite sync together in the output.  It's all
+1V analog, as far as I know.  I can build this with op-amps but I don't
+think I can get the shielding done well enough to handle the frequencies
+involved without lots of shadows and junk on the screen.
+
+Does anyone know of a VGA->RGB(composite sync on green) converter?
+--
+Paul Vixie, DEC Network Systems Lab	
+Palo Alto, California, USA         	""Don't be a rebel, or a conformist;
+<vixie@pa.dec.com> decwrl!vixie		they're the same thing, anyway.  Find
+<paul@vix.com>     vixie!paul		your own path, and stay on it.""  -me
+"
+2375,0,1,False,"From: pest@konech.UUCP (Wolfgang Pest)
+Subject: Speedstar 24 - how to program the TrueColor mode ?
+Distribution: world
+Organization: Kontron Elektronik GmbH Eching, Germany
+Lines: 17
+
+Hello,
+I purchased my new 486 with a NoName graphics card installed which is obviously 
+Speedstar 24 compatible. Its name is ""VGA 4000 TrueColor"".
+It is accompanied with some drivers and the utilities VMODE, XMODE and
+at least one more MODE, as well as some drivers for Lotus, Windows, etc.
+Only one of the drivers is told to provide the TrueColor mode, namely
+the Windows 3.1 driver.
+Nowhere else, except in the ad, is any pointer to the TrueColor mode.
+Some articles in this group about the Speedstar 24 and some other facts
+made me believe that my card is compatible to that one.
+
+Does anybody out there know how this mode can be adjusted? How can I write
+a driver which allows me to have 16.7 millions of colors with a resolution
+of 640 x 480 with 45 Hz interlaced ?
+
+Greetings,
+    Wolfgang
+"
+2236,1,2,False,"From: flash@aragorn.CSEE.Lehigh.Edu (Stephen Corbesero)
+Subject: Driver for Chips & Technologies Video Board Needed
+Organization: Lehigh University
+Lines: 14
+Nntp-Posting-Host: aragorn.csee.lehigh.edu
+
+I would like to find a Windows 3.x driver for a video board that is
+based on the Chips & Technologies chipset.  The actual board is a
+Scorpion Framegrabber made by Univision.  It is based on the C&T
+chipset, but only barely supports the graphics mode.  I am hoping that
+any C&T driver could be used in the 640x480x256 mode.
+
+Thanks.
+
+
+--
+Stephen Corbesero                     Systems Manager and Adjucnt Lecturer
+19 Memorial Drive West                corbesero@eecs.lehigh.edu
+EECS Dept, Lehigh University          sgc0@lehigh.edu
+Bethlehem, PA 18015                   Voice: 215/758-5001  Fax: 215/758-6279
+"
+3474,1,0,False,"From: pjsinc@phoenix.oulu.fi (Petri Salonen)
+Subject: Re: What does the .bmp format mean?
+Organization: University of Oulu, Finland
+X-Newsreader: TIN [version 1.1 PL9]
+Lines: 30
+
+Michael Panayiotakis (louray@seas.gwu.edu) wrote:
+: In article <robertsa.735922084@unix2.tcd.ie> robertsa@unix2.tcd.ie (Andrew L. Roberts) writes:
+: >What exactly does the windows bitmap format look like? I mean, how is
+: >the data stored: width, height, no. of colours, bitmap data? I couldn't
+: >find anything in ths user manual, is there any other reference material
+: >which would give me this information?
+
+: Well, this is *only* a guess:  If it goes by the ""true"" meaning of ""bit
+: map"", then it holds (x,y,c) where x pixel number in th ex-direction, y:
+: pixel-number in the y-dir, c: colour.
+
+Come on fellows! The format is quite plainly explained in the manuals.
+It's in the ""Programmer's Reference, Volume 3: Messages, Structures,
+and Macros"" (MSC-Dev.kit for 3.1, should be also in the Borland's
+manuals) pages 232-241 (depending what you need).
+
+First there is the BITMAPFILEHEADER-struct then the BITMAPINFO which
+contains the BITMAPINFOHEADER and the RGBQUAD and then the bitmap
+data. AND there is also a example among the example files (MS_SDK).
+Hope this helps....
+
+-----------------------------------------------------------------------------
+    ########################## | Yes, I do have some prior knowledge in this.
+   ##########################  | There is nothing dangerous in these dragons,
+  ####   / ///   /             | they are totally harmless... But my opinion
+ ####   /  /    / /// ///      | is that kicking them might not be the right
+#### /// ///   / / / /// /     | way to test it. So shut up and RUN!
+-----------------------------------------------------------------------------
+pjsinc@sunrise.oulu.fi  pjsinc@phoenix.oulu.fi  pjsinc@tolsun.oulu.fi
+If it's possible that there are some opinions above, they must be all MINE.
+"
+1470,3,4,False,"From: hhm@cbnewsd.cb.att.com (herschel.h.mayo)
+Subject: Re: BRAINDEAD Drivers Who Don't Look Ahead--
+Organization: Chicago Home for the Morally Challenged
+Distribution: usa
+Keywords: bad drivers
+Lines: 29
+
+In article <zdem0a.734809554@hgo7>, zdem0a@hgo7.hou.amoco.com (Donna Martz) writes:
+
+> >So, I block the would-be passers. Not only for my own good , 
+>      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> >but theirs as well even though they are often too stupid to realize it.
+>  !!! ^^^^^^^^^^^^^^ !!!
+> >As a rule of philosophy, I don't feel particularly sorry when somebody gets 
+> >offed by his own stupidity, but It does worry me when some idiot is in a 
+> >position to cash in my chips, too.
+> >                                                           H.H. Mayo
+> 
+> Well, Aren't we just Mr. Altruism himself!!   Just what the world needs,
+> another frustrated self appointed traffic cop.
+
+
+Well, if you want to stick the nose of your car up the ass of a 50 foot semi, I
+suppose it's your neck, however, I'm not going to let you kill me in the bargain.
+If you get frustrated by somebody delaying your inevitable death due to less that
+wise driving practices, then TOUGH!!!
+
+
+
+
+
+""Thank God for the Fourth of July, for it yearly rids the earth of a considerable
+load of fools""
+
+                                                              Mark Twain
+
+"
+404,6,0,False,"From: schneier@chinet.chi.il.us (Bruce Schneier)
+Subject: ISSA '93 Conference
+Organization: Chinet - Public Access UNIX
+Distribution: usa
+Lines: 4
+
+If there is anyone attending the ISSA conference in Arlington, VA next
+week, I would appreciate them getting in touch with me.
+
+Bruce
+"
+888,0,2,False,"From: bbs.mirage@tsoft.net (Jerry Lee)
+Subject: Cobra 2.0 1-b-1 Video card HELP ME!!!!
+Organization: The TSoft BBS and Public Access Unix, +1 415 969 8238
+Lines: 22
+
+Does ANYONE out there in Net-land have any information on the Cobra 2.20 
+card?  The sticker on the end of the card reads
+        Model: Cobra 1-B-1
+        Bios:  Cobra v2.20
+
+I Havn't been able to find anything about it from anyone!  If you have 
+any information on how to get a hold of the company which produces the 
+card or know where any drivers are for it, PLEASE let me know!
+
+As far as I can tell, it's a CGA card that is taking up 2 of my 16-bit 
+ISA slots but when I enable the test patterns, it displays much more than 
+the usualy 4 CGA colors... At least 16 from what I can count.. Thanks!
+
+              .------------------------------------------.
+              : Internet: jele@eis.calstate.edu          :
+              :           bbs.mirage@gilligan.tsoft.net  :
+              :           bbs.mirage@tsoft.sf-bay.org    :
+              :           mirage@thetech.com             :
+              : UUCP    : apple.com!tsoft!bbs.mirage     :
+              `------------------------------------------'
+ 
+                    Computer and Video Imaging Major
+"
+2152,2,0,False,"From: jon@umcc.umcc.umich.edu (Jon Zeeff)
+Subject: S3 video card at different address
+Organization: UMCC, Ann Arbor, MI
+Lines: 7
+Distribution: usa
+NNTP-Posting-Host: umcc.umcc.umich.edu
+
+I'd like to add a second S3 based video card to my system.  Does anyone
+know of a company that sells a card that can coexist with another one?
+All I really need is color text on one monitor and fast color graphics
+on the other.
+
+Probably just a configurable address would do it.
+
+"

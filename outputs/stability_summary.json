@@ -1,0 +1,42 @@
+[
+  {
+    "fixed_config_name": "LR_raw_uni",
+    "n_splits": 3,
+    "accuracy_mean": 0.9145183175033921,
+    "accuracy_std": 0.004236769334055891,
+    "macro_f1_mean": 0.914843787093535,
+    "macro_f1_std": 0.004094187854840879
+  },
+  {
+    "fixed_config_name": "MLP_clean_uni",
+    "n_splits": 3,
+    "accuracy_mean": 0.9244685662596109,
+    "accuracy_std": 0.00651901189751225,
+    "macro_f1_mean": 0.9248442559270411,
+    "macro_f1_std": 0.006564964324247566
+  },
+  {
+    "fixed_config_name": "MLP_raw_uni",
+    "n_splits": 3,
+    "accuracy_mean": 0.9192672998643148,
+    "accuracy_std": 0.0,
+    "macro_f1_mean": 0.9197731691824487,
+    "macro_f1_std": 7.671196554694474e-05
+  },
+  {
+    "fixed_config_name": "NB_raw_uni",
+    "n_splits": 3,
+    "accuracy_mean": 0.8923563998190863,
+    "accuracy_std": 0.001566757853974554,
+    "macro_f1_mean": 0.8933975852039238,
+    "macro_f1_std": 0.0016299005237413624
+  },
+  {
+    "fixed_config_name": "SVM_raw_uni",
+    "n_splits": 3,
+    "accuracy_mean": 0.9077340569877883,
+    "accuracy_std": 0.004070556309362261,
+    "macro_f1_mean": 0.908429062594506,
+    "macro_f1_std": 0.0037243274464270454
+  }
+]

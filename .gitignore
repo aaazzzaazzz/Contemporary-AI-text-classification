@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.venv/
+
+# 大体积训练产物（可重新生成，不上传）
+outputs/runs/
+outputs/smoke/
+outputs/*.joblib
+
+# 旧结果备份（与新结果已验证一致，不影响提交）
+outputs_backup/
+
+# 老师的示例与备份（非你的提交内容）
+predictions_example.csv
+teacher_draft_main.py.txt
+
+# 交付说明文件（非课程作业内容）
+START_HERE.txt
+PACKAGE_CHECK.md
+WINDOWS_RUN.bat
+
+.DS_Store

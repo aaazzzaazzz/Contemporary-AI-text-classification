@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-09-18T11:05:03+00:00",
+  "test_rows": 2457,
+  "prediction_rows": 2457,
+  "prediction_columns": 1,
+  "header": false,
+  "index": false,
+  "original_test_row_order_preserved": true,
+  "predicted_labels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "missing_test_texts_filled_with_empty_string": 0,
+  "test_sha256": "4882c04b008c055f351f1c9b25c45d601a454077af37e79375601f2465b41615",
+  "prediction_sha256": "06c400cb0612ccc9f04abb3a5567948296588a0182f21c509a12586df210a1c3",
+  "selected_run_id": "MLP_clean_uni_s42_eb0844e20456",
+  "fit_called_during_prediction": false,
+  "test_accuracy": "unavailable: test has no ground-truth labels",
+  "example_predictions_used_as_labels": false
+}
