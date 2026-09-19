@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-09-18T12:21:10+00:00",
+  "created_utc": "2026-09-19T13:03:52+00:00",
   "test_rows": 2457,
   "prediction_rows": 2457,
   "prediction_columns": 1,
@@ -20,8 +20,8 @@
   ],
   "missing_test_texts_filled_with_empty_string": 0,
   "test_sha256": "4882c04b008c055f351f1c9b25c45d601a454077af37e79375601f2465b41615",
-  "prediction_sha256": "06c400cb0612ccc9f04abb3a5567948296588a0182f21c509a12586df210a1c3",
-  "selected_run_id": "MLP_clean_uni_s42_759fb6050df1",
+  "prediction_sha256": "ab90d0e0f1da7d70407d45f523ad75fb045d6e96243cf67bca6c670823b12f2c",
+  "selected_run_id": "MLP_clean_uni_s42_f1e54f33da7a",
   "fit_called_during_prediction": false,
   "test_accuracy": "unavailable: test has no ground-truth labels",
   "example_predictions_used_as_labels": false

@@ -1,17 +1,14 @@
 # -*- coding: utf-8 -*-
-"""实验一：新闻文本分类。训练与调参全程不读取测试文件。
-
-建议阅读顺序：main -> Study -> read_training / split_rows -> features
-              -> run_one / train_mlp -> tune / ablation / stability -> predict。
+"""实验一：新闻文本分类。
 
 常用命令（在本文件所在文件夹运行）：
     python draft_main.py audit       # 检查数据与主划分，无拟合
-    python draft_main.py selftest    # 小型自动测试，不读取正式测试集
+    python draft_main.py selftest    # 小型自动测试
     python draft_main.py smoke       # 1200 条样本试跑，仅检查程序
     python draft_main.py baseline    # 80/20 划分，4 个基础模型
     python draft_main.py all         # 16 组调参 + 4 组消融 + 3 个划分种子；不读取测试集
     python plot_results.py           # 将真实 CSV 结果绘制成图
-    python draft_main.py predict     # 完整实验结束后，加载已锁定模型；只预测，不拟合
+    python draft_main.py predict     # 完整实验结束后，加载已锁定模型
 
 损失口径：NB/LR 拟合后输出交叉熵；SVC 输出单独命名的间隔评价损失；
 MLP 每轮输出内部优化损失及同一定义的训练/验证交叉熵。
@@ -65,7 +62,7 @@ BASE_PARAMS = {
     "SVM": {"C": 1.0},
     "MLP": {"hidden_layer_sizes": [100], "alpha": 0.0001},
 }
-# 16 组起步搜索；并未穷尽 TUNING.md 中的全部候选值。
+# 16 组起步搜索；未穷尽 TUNING.md 中的全部候选值。
 GRID = {
     "NB": [{"alpha": x} for x in (0.1, 0.5, 1.0, 2.0)],
     "LR": [{"C": x} for x in (0.1, 1.0, 10.0)],
@@ -116,7 +113,6 @@ def load_json(path: Path) -> Any:
 def save_csv(path: Path, frame: pd.DataFrame, *, header: bool = True) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_name(path.name + ".tmp")
-    # 实验分析 CSV 带 UTF-8 BOM，方便 Windows Excel；最终提交 CSV 单独保存为 UTF-8。
     frame.to_csv(tmp, index=False, header=header, encoding="utf-8-sig")
     tmp.replace(path)
 
@@ -135,7 +131,6 @@ def versions() -> dict[str, str]:
 
 
 def read_training(data_dir: Path) -> pd.DataFrame:
-    """仅打开 train_data.csv。切勿在此函数内加载测试 CSV 或示例预测。"""
     path = data_dir / "train_data.csv"
     if not path.is_file():
         raise FileNotFoundError(f"找不到训练文件：{path}")
@@ -149,7 +144,7 @@ def read_training(data_dir: Path) -> pd.DataFrame:
     if set(df["target"].unique()) != set(range(10)):
         raise ValueError("此程序针对已提供的 0..9 十分类数据；标签集合发生变化。")
     df["text"] = df["text"].astype(str)
-    df["row_id"] = np.arange(len(df), dtype=int)  # 原训练 CSV 中的数据行号，从 0 开始
+    df["row_id"] = np.arange(len(df), dtype=int)  # 原训练CSV中的数据行号，从0开始
     return df
 
 
@@ -163,11 +158,7 @@ def split_rows(df: pd.DataFrame, seed: int, ratio: float) -> tuple[np.ndarray, n
 
 
 def subject_and_body(text: str) -> str:
-    """确定性清洗：仅去掉起始邮件头的其他字段，保留 Subject 和原正文。
-
-    不做词干化、停用词移除、引文删除、签名删除或样本删除。
-    无可识别邮件头/分隔符的文本原样保留，避免误把正文当邮件头。
-    """
+    """确定性清洗：仅去掉起始邮件头的其他字段，保留 Subject 和原正文。"""
     normal = text.replace("\r\n", "\n").replace("\r", "\n")
     head, sep, body = normal.partition("\n\n")
     looks_like_headers = re.search(
@@ -259,7 +250,7 @@ def train_mlp(model: Any, Xt: Any, yt: np.ndarray, Xv: Any, yv: np.ndarray,
         if key > best_key:
             best_key = key
             best_epoch = epoch
-            best_model = copy.deepcopy(model)  # 不可只记 best_epoch 却最后保存最后一轮
+            best_model = copy.deepcopy(model) 
         if mv["accuracy"] > best_accuracy + 1e-12:
             best_accuracy = mv["accuracy"]
             stale = 0
@@ -290,7 +281,6 @@ def train_mlp(model: Any, Xt: Any, yt: np.ndarray, Xv: Any, yv: np.ndarray,
 
 
 class Study:
-    """实验控制器。构造时只读取训练文件，输出路径全部相对工程根目录。"""
     def __init__(self, args: argparse.Namespace, *, smoke: bool = False):
         self.args = args
         self.data_dir = args.data_dir.resolve()
@@ -386,7 +376,7 @@ class Study:
 
     def features(self, seed: int, feature: str) -> tuple[Any, Any, Any, Any, Any, dict[str, Any]]:
         """生成指定特征方案下的训练/验证矩阵。词表与 IDF 只在训练子集上拟合，
-        验证集仅做 transform——这是防止验证信息提前泄漏的关键位置。结果按 (seed, feature) 缓存。"""
+        验证集仅做 transform——防止验证信息提前泄漏。结果按 (seed, feature) 缓存。"""
         key = (seed, feature)
         if key not in self.feature_cache:
             tr, va = self.split(seed)
@@ -421,7 +411,7 @@ class Study:
 
     def run_one(self, name: str, params: dict[str, Any], feature: str = BASE_FEATURE,
                 seed: int | None = None) -> dict[str, Any]:
-        """训练一个配置并保存全部产物。result.json 最后才写，作为"成功完成"标志；
+        """训练一个配置并保存全部产物。result.json 最后写作为"成功完成"标志；
         已完成的配置直接复用，中断的配置下次从头重训，不伪称续训。"""
         seed = self.args.split_seed if seed is None else seed
         spec = {"model": name, "params": params, "feature": feature, "split_seed": seed}
@@ -580,8 +570,7 @@ class Study:
         return rows
 
     def lock_and_analyze(self) -> dict[str, Any]:
-        """在主验证集上按预先固定的规则锁定最终模型，复制其产物到 outputs 顶层，
-        导出错误样本与混淆对，并生成 RESULTS_SUMMARY.md。锁定后不再改动方案。"""
+        """在主验证集上按预先固定的规则锁定最终模型，复制其产物到 outputs 顶层"""
         if self.smoke:
             raise RuntimeError("smoke 只能查程序，禁止锁定提交模型。")
         tp, ap, sp = [self.out / f"{x}.json" for x in
@@ -619,30 +608,6 @@ class Study:
                        (errors.predicted_target == p.predicted_target)].sort_values("row_id").iloc[0]
             examples.append(e.to_dict())
         save_csv(self.out / "error_examples_for_review.csv", pd.DataFrame(examples))
-        lines = ["# 运行结果摘要（程序从真实日志生成）", "",
-                 f"主训练/验证：{selected['n_train']} / {selected['n_validation']}；标签 0..9。",
-                 f"主选择：{selected['model']}，特征 {selected['feature']}，参数 {selected['params_json']}。",
-                 f"验证 Accuracy = {selected['val_accuracy']:.6f}，Macro-F1 = {selected['val_macro_f1']:.6f}。",
-                 "测试集无标签；上述为验证集指标，不是测试准确率。", "",
-                 "## 四种模型各自最优基础特征配置", "",
-                 "|模型|参数|验证 Accuracy|验证 Macro-F1|拟合秒数|",
-                 "|---|---|---:|---:|---:|"]
-        for r in load_json(self.out / "best_by_model.json"):
-            lines.append(f"|{r['model']}|`{r['params_json']}`|{r['val_accuracy']:.6f}|"
-                         f"{r['val_macro_f1']:.6f}|{r['fit_seconds']:.3f}|")
-        lines += ["", "## 解释边界", "",
-                  "1. 调参、选择与消融使用同一主验证集，报告需说明选择偏差。",
-                  "2. 3 个划分的样本有重叠，标准差只是划分敏感性，不是独立测试置信区间。",
-                  "3. 未提供类别名称/线程分组；不能自行猜测名称，随机分层不能排除相关讨论串。",
-                  "4. 词表上限始终为同一预算；bigram 与 unigram 会竞争词表名额。",
-                  "5. SVM 间隔评价损失不与交叉熵比大小。MLP 图用同一定义的训练/验证交叉熵。",
-                  "6. 验证集只用于选择与评价，测试集从未加入拟合。",
-                  "7. 训练耗时与逐轮评价耗时分开；单次预测耗时受机器与缓存影响。",
-                  "8. 清洗后的重复、零向量记录保留；不自动删验证样本。", "",
-                  "## 下一步", "",
-                  "阅读真实错误样本，结合表格解释现象；用 plot_results.py 出图；报告不超过 5 页。",
-                  "完整流程已结束时，可执行 predict 加载锁定模型，生成无表头单列提交 CSV。"]
-        (self.out / "RESULTS_SUMMARY.md").write_text("\n".join(lines), encoding="utf-8")
         print(f"[方案已锁定] {selected['run_id']}，尚未读取测试集。", flush=True)
         return selected
 

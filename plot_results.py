@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""只读取已保存的真实结果画图，不训练、不读取测试集。
-
-    python plot_results.py
-    python plot_results.py --output outputs_run2
-
-每个图单独保存为 PNG/SVG。图中使用英文标签，避免未安装中文字体时出现方框。
-"""
 from __future__ import annotations
 import argparse
 import json
@@ -188,14 +180,6 @@ def plot_all(out: Path):
     finish(fig, figures / "11_performance_vs_fit_time")
 
     files = sorted(p.name for p in figures.glob("*.png"))
-    (figures / "FIGURE_GUIDE.md").write_text(
-        "# 图表说明\n\n所有数字来自结果文件；图中没有测试准确率。\n\n"
-        "01：训练/验证类别分布。02：各模型最佳基础特征配置。03—05：参数比较。\n"
-        "06：MLP 结构/正则化。07：逐轮训练与验证交叉熵；虚线为保存轮。\n"
-        "07b：逐轮准确率。08：消融；09：划分敏感性；10：按真实类别归一化的混淆矩阵。\n"
-        "11：性能与模型拟合耗时（不含 TF-IDF 和评价时间）。\n\n"
-        "主报告最多5页，不必将所有图放入正文；选择能支持实际结论的图。\n\n"
-        + "\n".join(files), encoding="utf-8")
     print(f"Generated {len(files)} PNG figures and matching SVG files in: {figures}")
     return figures
 

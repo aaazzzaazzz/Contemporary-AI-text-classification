@@ -10,18 +10,18 @@
   {
     "fixed_config_name": "MLP_clean_uni",
     "n_splits": 3,
-    "accuracy_mean": 0.9244685662596109,
-    "accuracy_std": 0.00651901189751225,
-    "macro_f1_mean": 0.9248442559270411,
-    "macro_f1_std": 0.006564964324247566
+    "accuracy_mean": 0.9249208502939846,
+    "accuracy_std": 0.006829339154473736,
+    "macro_f1_mean": 0.9252767891072802,
+    "macro_f1_std": 0.006875787375594779
   },
   {
     "fixed_config_name": "MLP_raw_uni",
     "n_splits": 3,
-    "accuracy_mean": 0.9192672998643148,
-    "accuracy_std": 0.0,
-    "macro_f1_mean": 0.9197731691824487,
-    "macro_f1_std": 7.671196554694474e-05
+    "accuracy_mean": 0.9194934418815016,
+    "accuracy_std": 0.00039168946349367055,
+    "macro_f1_mean": 0.9200316105338086,
+    "macro_f1_std": 0.00042160443759854725
   },
   {
     "fixed_config_name": "NB_raw_uni",
